@@ -1,0 +1,82 @@
+---
+---
+
+.home-header{
+    padding: 64px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    
+    .nav{
+        margin-left: auto;
+        display: inline-flex;
+    }
+
+    .nav-item{
+        margin-left: 32px;
+        font-weight: 700;
+        color: #000;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover{
+            opacity: 0.6;
+        }
+    }
+
+    .menu-button, .close-menu{
+        margin-left: auto;
+        display: none;
+    }
+
+    .menu-button .fas{
+        margin-right: 6px;
+    }
+}
+
+@media (max-width: 1200px){
+    .home-header{
+        .nav{
+            position: fixed;
+            z-index: 5;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            top: 0;
+            right: -300px;
+            transition: right 0.15s ease;
+            width: 300px;
+            height: 100%;
+            background-color: #fff;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+            &.active{
+                right: 0;
+            }
+
+            .nav-item{
+                margin-bottom: 32px;
+                margin-right: 32px;
+                margin-left: 0;
+                text-align: right;
+            }
+        }
+
+        .menu-button, .close-menu{
+            display: block;
+        }
+
+        .close-menu{
+            position: absolute;
+            right: 0;
+            top: 96px;
+            z-index: 6;
+        }
+    }
+}
+
+.name{
+    font-family: 'DM Serif Display';
+    text-transform: lowercase;
+    font-size: 56px;
+    line-height: 0.75;
+}

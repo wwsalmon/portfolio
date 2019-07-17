@@ -1,38 +1,14 @@
 ---
 ---
 
+@import url("homeheader.css");
+
 $gutter: 48px;
 
 body{
     margin: 0;
     font-size: 20px;
     font-family: 'DM Sans';
-}
-
-.home-header{
-    padding: 64px 0;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    .nav-item{
-        margin-left: 32px;
-        font-weight: 700;
-        color: #000;
-        text-decoration: none;
-        &:first-of-type{
-            margin-left: auto;
-        }
-        &:hover{
-            opacity: 0.6;
-        }
-    }
-}
-
-.name{
-    font-family: 'DM Serif Display';
-    text-transform: lowercase;
-    font-size: 56px;
-    line-height: 0.75;
 }
 
 .container{
