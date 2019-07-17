@@ -2,6 +2,22 @@
 layout: default
 ---
 
-<div class='container'>
-    
+<div class='container photo-container'>
+{% for photo in site.data.photo %}
+    <div class='photo'>
+        <img src='{{ site.baseurl }}/img/photo/{{ photo.filename }}.jpg'>
+    </div>
+{% endfor %}
 </div>
+
+<script>
+var $grid = $('.photo-container').masonry({
+    itemSelector: '.photo',
+    columnWidth: '.photo',
+    gutter: 40
+});
+
+$grid.imagesLoaded().progress(function () {
+$grid.masonry('layout');
+});
+</script>

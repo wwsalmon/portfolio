@@ -1,0 +1,22 @@
+---
+---
+
+body{
+    margin: 0;
+    font-size: 20px;
+    font-family: 'DM Sans';
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.photo{
+    width: calc(50% - 20px);
+    margin-bottom: 40px;
+    img{
+        width: 100%;
+        display: block;
+    }
+}

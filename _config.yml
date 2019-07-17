@@ -13,4 +13,7 @@ twitter:
   username: wwsalmon
   card: summary
 
+sass:
+  style: compressed
+
 logo: favicon.png
