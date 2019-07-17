@@ -1,0 +1,20 @@
+<div class='photo-container'>
+    {% for photo in include.data %}
+    <div class='photo'>
+        <img src='{{ site.baseurl }}/img/photo/{{ photo }}.jpg'>
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+    var $grid = $('.photo-container').masonry({
+        itemSelector: '.photo',
+        columnWidth: '.photo:not(:first-of-type)',
+        gutter: 48,
+        transitionDuration: 0
+    });
+
+    $grid.imagesLoaded().progress(function () {
+        $grid.masonry('layout');
+    });
+</script>

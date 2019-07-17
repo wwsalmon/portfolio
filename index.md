@@ -4,3 +4,5 @@
 
 layout: photo
 ---
+
+{% include photosect.html data=site.data.photo.featured %}

@@ -1,0 +1,48 @@
+{
+    "cycling": [
+        "cycling1",
+        "cycling2",
+        "cycling3",
+        "cycling4",
+        "cycling5",
+        "cycling6"
+    ],
+    "musicals": [
+        "heights1",
+        "mus2",
+        "heights5",
+        "mus4",
+        "mus1",
+        "mus3",
+        "heights6",
+        "mus5",
+        "heights2",
+        "heights3",
+        "heights4"
+    ],
+    "march": [
+        "march6",
+        "march11",
+        "march10",
+        "march8",
+        "march1",
+        "march7",
+        "march3",
+        "march4"
+    ],
+    "featured": [
+        "heights1",
+        "arno1",
+        "css1",
+        "sw-6",
+        "march7",
+        "march10",
+        "kadi",
+        "heights5",
+        "mus2",
+        "cycling2",
+        "cycling4",
+        "cycling5",
+        "cycling1"
+    ]
+}
