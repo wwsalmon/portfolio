@@ -1,5 +1,6 @@
 <div class='photo-container'>
     {% for photo in include.data %}
+    <div class='photo-gutter'></div>
     <div class='photo'>
         <img src='{{ site.baseurl }}/img/photo/{{ photo }}.jpg'>
     </div>
@@ -10,7 +11,7 @@
     var $grid = $('.photo-container').masonry({
         itemSelector: '.photo',
         columnWidth: '.photo:not(:first-of-type)',
-        gutter: 48,
+        gutter: '.photo-gutter',
         transitionDuration: 0
     });
 

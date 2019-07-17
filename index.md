@@ -5,4 +5,6 @@
 layout: photo
 ---
 
+{% include homeheader.html %}
+
 {% include photosect.html data=site.data.photo.featured %}
