@@ -27,14 +27,14 @@ nodes = [
 ];
 
 const width = $("svg").width();
-const height = 600;
+const height = $("svg").height();
 const svg = d3.select('svg')
     .attr("height",height);
 if ($(window).width() < 900){
     forceStrength = -60;
 }
 else{
-    forceStrength = -100;
+    forceStrength = -160;
 }
 const simulation = d3.forceSimulation()
     .force('charge', d3.forceManyBody().strength(forceStrength))
@@ -58,8 +58,8 @@ const textElements = svg.append('g')
 
 simulation.nodes(nodes).on('tick', () => {
     nodeElements
-        .attr('cx', node => node.x)
-        .attr('cy', node => node.y)
+        .attr('cx', function(d){return d.x = Math.max(100, Math.min(width-100, d.x));})
+        .attr('cy', function(d){return d.y = Math.max(60, Math.min(height-30, d.y));})
     textElements
         .attr('x', node => node.x)
         .attr('y', node => node.y)
@@ -114,7 +114,7 @@ $(".thing-label").on("click",function(){
     windowHeight = $(window).height();
 
     $([document.documentElement, document.body]).animate({
-        scrollTop: $(".thing-text").offset().top - windowHeight / 2
-    }, 400);
+        scrollTop: $(".thing-text").offset().top - windowHeight * 2 / 3
+    }, 200);
 })
 </script>

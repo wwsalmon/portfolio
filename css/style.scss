@@ -126,6 +126,7 @@ p{
     }
     
     svg{
+        height: 600px;
         width: 100%;
 
         circle{
@@ -134,14 +135,14 @@ p{
 
         .thing-label{
             font-weight: 700;
-            font-size: 64px;
+            font-size: 80px;
             opacity: 0.5;
             cursor: pointer;
             font-family: 'DM Serif Text';
             transition: all 0.2s ease;
 
             &.selected{
-                font-size: 72px;
+                font-size: 84px;
             }
 
             &:hover, &.selected{
@@ -175,11 +176,15 @@ p{
 }
 
 @media (max-width: 600px){
-    .about-container svg .thing-label{
-        font-size: 36px;
+    .about-container svg{
+        height: 400px;
 
-        &.selected{
-            font-size: 42px;
+        .thing-label{
+            font-size: 36px;
+
+            &.selected{
+                font-size: 42px;
+            }
         }
     }
 }

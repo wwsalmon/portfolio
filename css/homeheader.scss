@@ -98,6 +98,15 @@
     text-transform: lowercase;
     font-size: 56px;
     line-height: 0.75;
+
+    a{
+        color: #000;
+        text-decoration: none;
+
+        &:hover{
+            color: rgba(0,0,0,0.6);
+        }
+    }
 }
 
 .name-small{
