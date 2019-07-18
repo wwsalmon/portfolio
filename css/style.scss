@@ -109,10 +109,14 @@ p{
 .about-container{
 
     .divider{
-        width: 48px;
+        width: 56px;
         height: 4px;
         background-color: #000;
         margin: 48px 0;
+
+        &.small{
+            width: 24px;
+        }
     }
 
     p{

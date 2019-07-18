@@ -103,7 +103,9 @@ function ticked(){
                 thingText = "I haven't written descript yet lol";
             }
 
-            $(".thing-text").text(thingText);
+            thingText = "<b>" + thingID + "</b><br/>" + thingText;
+
+            $(".thing-text").html(thingText);
 
             windowHeight = $(window).height();
 
