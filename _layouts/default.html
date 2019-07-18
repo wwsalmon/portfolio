@@ -14,6 +14,10 @@
         <script src='{{ site.baseurl }}/js/imagesloaded.pkgd.min.js'></script>
     </head>
     <body>
-        {{ content }}
+        {% include homeheader.html %}
+        <div class='container'>
+            {{ content }}
+        </div>
+        {% include footer.html %}
     </body>
 </html>

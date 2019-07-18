@@ -10,7 +10,7 @@
 }
 
 .home-header-spacer{
-    height: 200px;
+    height: 240px;
 }
 
 .home-header .container{
@@ -102,11 +102,25 @@
 
 .name-small{
     display: none;
+    font-size: 36px;
 }
 
 @media (max-width: 600px){
     .name{
-        font-size: 32px;
+        font-size: 44px;
+    }
+
+    .name-small{
+        font-size: 28px;
+    }
+}
+
+.footer{
+    padding: 24px 0;
+    text-align: right;
+
+    b{
+        font-family: 'DM Serif Text';
     }
 }
 

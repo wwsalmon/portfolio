@@ -86,3 +86,36 @@ body{
         display: block;
     }
 }
+
+p{
+    max-width: 700px;
+    line-height: 1.5;
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 36px;
+
+    .divider{
+        width: 48px;
+        height: 4px;
+        background-color: #000;
+        margin: 48px 0;
+    }
+
+    p{
+        margin: 24px 36px 24px 0;
+
+        &:first-of-type{
+            margin-top: -4px;
+            font-size: 36px;
+            line-height: 1.4;
+        }
+    }
+
+    img{
+        width: 100%;
+        display: block;
+    }
+}
