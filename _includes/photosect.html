@@ -1,11 +1,16 @@
 <div class='photo-container'>
-    {% for photo in include.data %}
     <div class='photo-gutter'></div>
+    {% for photo in include.data %}
     <div class='photo'>
+        <img id='{{ photo }}' src='{{ site.baseurl }}/img/photo/{{ photo }}.jpg'>
+    </div>
+    <div class='lightbox' id='{{ photo }}-lightbox'>
         <img src='{{ site.baseurl }}/img/photo/{{ photo }}.jpg'>
     </div>
     {% endfor %}
 </div>
+
+
 
 <script>
     var $grid = $('.photo-container').masonry({
@@ -17,5 +22,17 @@
 
     $grid.imagesLoaded().progress(function () {
         $grid.masonry('layout');
+    });
+
+    $(".photo img").on('click', function(){
+        imageID = $(this).attr('id');
+        lightboxID = "#" + imageID + "-lightbox";
+        $(lightboxID).addClass("active");
+    })
+
+    $(".lightbox").on('click', function(){
+        $(this).removeClass("active");
+    }).chidlren().click(function(e){
+        return false;
     });
 </script>
