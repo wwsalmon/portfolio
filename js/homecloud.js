@@ -49,7 +49,6 @@ function ticked(){
         .each(function(d){
             d.width = this.getBBox().width;
             d.height = this.getBBox().height;
-            console.log(d.width, d.height);
         })
         .merge(u)
         .attr('x', function (d) {
@@ -59,7 +58,6 @@ function ticked(){
             return Math.max(55, Math.min(height - 55, d.y));
         })
         .on("click", function () {
-            console.log("click");
             thingID = $(this).attr("id");
             if (thingID == selectedID) {
                 return;
@@ -115,58 +113,3 @@ function ticked(){
         })
     u.exit().remove();
 }
-
-// $(".thing-label").on("click", function () {
-//     console.log("click");
-//     thingID = $(this).attr("id");
-//     if (thingID == selectedID) {
-//         return;
-//     }
-//     $(".thing-label").removeClass("selected");
-//     $(this).addClass("selected");
-
-//     if (thingID == 'Filmmaking') {
-//         thingText = `
-//                 I grew up in Niskayuna, a small town in upstate New York. One day, I was at my friend’s house, and we found a strobelight in a room in his basement. Every flash would last a tiny fraction of a second, and in between flashes everything was completely black. It was like seeing the world one freeze frame at a time. All motion seemed choppy and the world felt completely surreal.
-//                 `
-//     }
-
-//     else if (thingID == 'Management') {
-//         thingText = "Harness people's individual talents and skills to get a collective task done; how to do this best for each individual and for the whole.";
-//     }
-
-//     else if (thingID == 'Running') {
-//         thingText = "Running is sick!";
-//     }
-
-//     else if (thingID == 'Photography') {
-//         thingText = "Photography is sick!";
-//     }
-
-//     else if (thingID == 'Engineering') {
-//         thingText = "Make a real, direct impact on the world and humanity. Solve problems.";
-//     }
-
-//     else if (thingID == 'Journalism') {
-//         thingText = "Storytelling held to a higher bar of accuracy, thoroughness, and imapct. Also plip";
-//     }
-
-//     else if (thingID == 'UX Design') {
-//         thingText = "UX Design is cool";
-//     }
-
-//     else if (thingID == 'Piano') {
-//         thingText = "Expressiveness. I like romantic pieces best";
-//     }
-//     else {
-//         thingText = "I haven't written descript yet lol";
-//     }
-
-//     $(".thing-text").text(thingText);
-
-//     windowHeight = $(window).height();
-
-//     $([document.documentElement, document.body]).animate({
-//         scrollTop: $(".thing-text").offset().top - windowHeight * 2 / 3
-//     }, 200);
-// })
