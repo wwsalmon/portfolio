@@ -141,6 +141,10 @@ p{
             font-family: 'DM Serif Text';
             transition: all 0.2s ease;
 
+            &.thing-skill{
+                fill: #0026FF;
+            }
+
             &.selected{
                 font-size: 84px;
             }
