@@ -32,7 +32,7 @@ body{
     width: calc(33.33% - #{$gutter * 2 / 3});
     margin-bottom: $gutter * 3 / 2;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: transform 0.3s ease, shadow 0.3s ease;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
     cursor: pointer;
     img{
         width: 100%;
@@ -157,10 +157,6 @@ p{
                 transform: translate(4px,4px);
             }
         }
-    }
-
-    .thing-text{
-        margin-bottom: 50vh;
     }
 }
 
