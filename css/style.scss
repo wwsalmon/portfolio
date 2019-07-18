@@ -92,10 +92,15 @@ p{
     line-height: 1.5;
 }
 
+@media(min-width: 1400px){
+    .about-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 36px;
+    }
+}
+
 .about-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 36px;
 
     .divider{
         width: 48px;
