@@ -38,6 +38,17 @@ a{
   height: 100%;
 }
 
+.divider{
+    width: 56px;
+    height: 4px;
+    background-color: #000;
+    margin: 48px 0;
+
+    &.small{
+        width: 24px;
+    }
+}
+
 @media (max-width: 1000px){
     .container{
         padding: 0 24px;
@@ -63,17 +74,6 @@ p, ul{
 }
 
 .about-container{
-
-    .divider{
-        width: 56px;
-        height: 4px;
-        background-color: #000;
-        margin: 48px 0;
-
-        &.small{
-            width: 24px;
-        }
-    }
 
     p{
         margin: 24px 36px 24px 0;
@@ -117,6 +117,20 @@ p.home-links{
 }
 
 .portfolio-container > p:first-of-type{
-        @include hero-text;
-        @include bold-serif;
+    @include hero-text;
+    @include bold-serif;
+}
+
+.backhome{
+    font-size: 20px;
+    font-weight: 700;
+
+    i{
+        font-size: 16px;
+        margin-right: 4px;
+    }
+
+    &:hover{
+        color: #000;
+    }
 }
