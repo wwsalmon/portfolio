@@ -6,18 +6,12 @@ layout: default
     <div>
         <img src='{{ site.baseurl }}/img/about.jpg'>
     </div>
-    <div>
+    <div class='home-hero-section'>
         <div class='divider'></div>
 
         <p class='home-hero'>Hi, my name is Samson Zhang. I'm a senior at Phillips Academy. I love building things and telling stories.</p>
-        <p class='home-links'>
-            <a target="_blank" href='{{ site.baseurl }}/assets/szhang-resume.pdf'>Resume</a>
-            <a target="_blank"href='mailto:samsonzhang@wwsalmon.com'>Say Hi</i></a>
-            <a target="_blank"href='https://www.youtube.com/channel/UCNyoJQcV6NCHiRCeqcCxJag'><i class="fab fa-youtube"></i></a>
-            <a target="_blank"href='https://www.linkedin.com/in/samsonzhangthesalmon/'><i class="fab fa-linkedin-in"></i></a>
-            <a target="_blank"href='https://github.com/wwsalmon'><i class="fab fa-github"></i></a>
-        </p>
-        <div class='divider small'></div>
+        <!-- {% include home-links.html %}
+        <div class='divider small'></div> -->
 
         <p>Things that I love and am fascinated by:</p>
         
@@ -29,6 +23,14 @@ layout: default
         
     </div>
     <div class='work-experience'>
-        <h2>The Phillipian</h2>
+        <div class='work-item'>
+            <div class='orgname'><span>The Phillipian</span></div>
+            <div class='posname'><span>Executive Digital Editor</span></div>
+            <div class='worktime'><span>January 2019 - January 2020</span></div>
+            <p>The Phillipian is Phillips Academy's weekly, uncensored, student-run school paper, with a board of 80+ students. As Exec. Digital Editor, I serve as one of six Upper Management members, directly managing 20+ students of the digital board, including developers, designers, & videographers, & lead digital projects like SOTA, Plip Live, & more.</p>
+        </div>
+    </div>
+    <div class='work-section'>
+        {% include youtube-gen.html id='WplYyJehtOw' %}
     </div>
 </div>
