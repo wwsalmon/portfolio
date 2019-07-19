@@ -1,10 +1,10 @@
 nodes = [
-    { "id": "Filmmaking", "skill": true },
-    { "id": "Photography", "skill": true },
-    { "id": "Motion Graphics", "background": true },
-    { "id": "Graphic Design", "background": true },
-    { "id": "Web Dev", "skill": true },
-    { "id": "UI/UX & Branding", "skill": true },
+    { "id": "Filmmaking", "url": "/film" },
+    { "id": "Testing", "url": "/photo" },
+    { "id": "Motion Graphics", "url": "/film" },
+    { "id": "Graphic Design", "url": "/projects" },
+    { "id": "Web Dev" },
+    { "id": "UI/UX & Branding" },
     { "id": "Piano" },
     { "id": "Running" }
 ];
@@ -38,13 +38,18 @@ function ticked(){
         .append('text')
         .classed('thing-label',true)
         .classed('thing-skill',function(d){
-            return d.skill;
+            if (d.url) return true;
+            return false;
         })
         .attr('id', function(d){
             return d.id;
         })
-        .text(function(d){
-            return d.id;
+        .html(function(d){
+            thingLabel = d.id;
+            if (d.url){
+                thingLabel = "<a xlink:href='" + d.url + "'>" + d.id + "</a>";
+            }
+            return thingLabel;
         })
         .each(function(d){
             d.width = this.getBBox().width;
@@ -57,11 +62,9 @@ function ticked(){
         .attr('y', function (d) {
             return Math.max(55, Math.min(height - 55, d.y));
         })
-        .on("click", function () {
+        .on("click", function (d) {
             thingID = $(this).attr("id");
-            if (thingID == selectedID) {
-                return;
-            }
+            if (thingID == selectedID || d.url) return;
             selectedID = thingID;
             $(".thing-label").removeClass("selected");
             $(this).addClass("selected");
