@@ -5,6 +5,7 @@
         <img id='{{ photo.name }}' src='{{ site.baseurl }}/img/photo/{{ photo.name }}.jpg'>
     </div>
     <div class='lightbox' id='{{ photo.name }}-lightbox'>
+        <div class='lightbox-close'><i class="fas fa-times"></i></div>
         <img src='{{ site.baseurl }}/img/photo/{{ photo.name }}.jpg'>
         <div class='caption'>
             <div class='controls container'>
@@ -41,15 +42,19 @@
         imageID = $(this).attr('id');
         lightbox = $("#" + imageID + "-lightbox");
         lightbox.addClass("active");
-        console.log(lightbox.find(".caption"));
         lightbox.find(".caption").css("bottom",0);
         lightbox.find(".close").removeClass("hidden");
         lightbox.find(".open").addClass("hidden");
     })
 
+    $(".lightbox-close").on('click', function(){
+        $(this).parent().removeClass("active");
+    })
+
     $(".lightbox").on('click', function(){
         $(this).removeClass("active");
-    }).children().click(function(e){
+    })
+    .children().click(function(e){
         return false;
     });
 
