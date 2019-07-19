@@ -1,6 +1,6 @@
 nodes = [
     { "id": "Filmmaking", "url": "/film" },
-    { "id": "Testing", "url": "/photo" },
+    { "id": "Photography", "url": "/photo" },
     { "id": "Motion Graphics", "url": "/film" },
     { "id": "Graphic Design", "url": "/projects" },
     { "id": "Web Dev" },
@@ -37,10 +37,6 @@ function ticked(){
     u.enter()
         .append('text')
         .classed('thing-label',true)
-        .classed('thing-skill',function(d){
-            if (d.url) return true;
-            return false;
-        })
         .attr('id', function(d){
             return d.id;
         })

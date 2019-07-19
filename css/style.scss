@@ -63,6 +63,21 @@ p, ul{
     }
 }
 
+@mixin hero-text{
+    font-size: 42px;
+    line-height: 1.4;
+
+    @media (max-width: 600px){
+        font-size: 32px;
+    }
+}
+
+@mixin bold-serif{
+    b, strong{
+        font-family: 'DM Serif Text';
+    }
+}
+
 .about-container{
 
     .divider{
@@ -81,13 +96,14 @@ p, ul{
 
         &.home-hero{
             margin-top: -4px;
-            font-size: 42px;
-            line-height: 1.4;
+            @include hero-text;
+
+            @media(max-width: 600px){
+                margin-bottom: 64px;
+            }
         }
  
-        b{
-            font-family: 'DM Serif Text';
-        }
+        @include bold-serif;
     }
 
     img{
@@ -119,3 +135,9 @@ p.home-links{
     }
 }
 
+.portfolio-container{
+    p:first-of-type{
+        @include hero-text;
+        @include bold-serif;
+    }
+}

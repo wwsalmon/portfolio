@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 ---
 
 **Photography:** snapshots of people and their stories. Portraits, event coverage, documentary photography.

@@ -12,6 +12,10 @@
 
 .home-header-spacer{
     height: 240px;
+
+    @media(max-width: 600px){
+        height: 194px;
+    }
 }
 
 .home-header .container{

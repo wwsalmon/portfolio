@@ -5,8 +5,8 @@
     height: 600px;
     width: 100%;
 
-    circle{
-        display: none;
+    a{
+        fill: #0026FF;
     }
 
     .thing-label{
@@ -17,10 +17,6 @@
         font-family: 'DM Serif Text';
         transition: all 0.2s ease;
         user-select: none;
-
-        &.thing-skill{
-            fill: #0026FF;
-        }
 
         &.selected{
             font-size: 84px;
