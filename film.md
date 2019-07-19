@@ -3,4 +3,6 @@ title: Filmmaking
 layout: portfolio
 ---
 
-**Filmmaking:** some cool description idk
+**Filmmaking:** cinematography, direction, editing, motion graphics, across narrative, documentary, promotional, and other forms of filmmaking.
+
+{% include youtube-gen.html id='WplYyJehtOw' %}
