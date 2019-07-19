@@ -2,10 +2,10 @@
     <div class='photo-gutter'></div>
     {% for photo in include.data %}
     <div class='photo'>
-        <img id='{{ photo }}' src='{{ site.baseurl }}/img/photo/{{ photo }}.jpg'>
+        <img id='{{ photo.name }}' src='{{ site.baseurl }}/img/photo/{{ photo.name }}.jpg'>
     </div>
-    <div class='lightbox' id='{{ photo }}-lightbox'>
-        <img src='{{ site.baseurl }}/img/photo/{{ photo }}.jpg'>
+    <div class='lightbox' id='{{ photo.name }}-lightbox'>
+        <img src='{{ site.baseurl }}/img/photo/{{ photo.name }}.jpg'>
         <div class='caption'>
             <div class='controls container'>
                 <div>
@@ -15,7 +15,7 @@
             </div>
             <div class='caption-inner'>
                 <div class='container'>
-                    <p>June 2019 | This is a test caption.</p>
+                    <p>{{ photo.date }} | {{ photo.caption }}</p>
                 </div>
             </div>
         </div>
