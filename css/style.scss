@@ -45,9 +45,10 @@ a{
     }
 }
 
-p{
+p, ul{
     max-width: 700px;
     line-height: 1.5;
+    box-sizing: border-box;
 }
 
 .home-hero-section{
@@ -58,7 +59,7 @@ p{
     .about-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-column-gap: 36px;
+        grid-column-gap: 64px;
     }
 }
 
@@ -83,12 +84,21 @@ p{
             font-size: 42px;
             line-height: 1.4;
         }
+ 
+        b{
+            font-family: 'DM Serif Text';
+        }
     }
 
     img{
         width: 100%;
         display: block;
         user-select: none;
+    }
+
+    h1{
+        font-family: 'DM Serif Text';
+        font-size: 56px; 
     }
 }
 
