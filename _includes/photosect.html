@@ -6,6 +6,19 @@
     </div>
     <div class='lightbox' id='{{ photo }}-lightbox'>
         <img src='{{ site.baseurl }}/img/photo/{{ photo }}.jpg'>
+        <div class='caption'>
+            <div class='controls container'>
+                <div>
+                    <div class='close'>Hide Caption <i class="fas fa-chevron-down"></i></div>
+                    <div class='open hidden'>Show Caption <i class="fas fa-chevron-up"></i></div>
+                </div>
+            </div>
+            <div class='caption-inner'>
+                <div class='container'>
+                    <p>June 2019 | This is a test caption.</p>
+                </div>
+            </div>
+        </div>
     </div>
     {% endfor %}
 </div>
@@ -26,13 +39,30 @@
 
     $(".photo img").on('click', function(){
         imageID = $(this).attr('id');
-        lightboxID = "#" + imageID + "-lightbox";
-        $(lightboxID).addClass("active");
+        lightbox = $("#" + imageID + "-lightbox");
+        lightbox.addClass("active");
+        console.log(lightbox.find(".caption"));
+        lightbox.find(".caption").css("bottom",0);
+        lightbox.find(".close").removeClass("hidden");
+        lightbox.find(".open").addClass("hidden");
     })
 
     $(".lightbox").on('click', function(){
         $(this).removeClass("active");
-    }).chidlren().click(function(e){
+    }).children().click(function(e){
         return false;
+    });
+
+    $(".caption .close, .caption .open").on("click",function(){
+        $(this).addClass("hidden");
+        $(this).siblings().removeClass("hidden");
+        captionInner = $(this).parents().eq(1).siblings();
+        if ($(this).hasClass("close")){
+            captionInnerHeight = captionInner.height();
+            captionInner.parent().css("bottom",-captionInnerHeight);
+        }
+        else{
+            captionInner.parent().css("bottom",0);
+        }
     });
 </script>

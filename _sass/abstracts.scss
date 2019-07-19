@@ -1,0 +1,23 @@
+$gutter: 48px;
+
+@mixin uppercase-style{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+@mixin hero-text{
+    font-size: 42px;
+    line-height: 1.4;
+
+    @media (max-width: 600px){
+        font-size: 32px;
+    }
+}
+
+@mixin bold-serif{
+    b, strong{
+        font-family: 'DM Serif Text';
+    }
+}
