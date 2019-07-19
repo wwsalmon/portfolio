@@ -37,6 +37,10 @@ function ticked(){
     u.enter()
         .append('text')
         .classed('thing-label',true)
+        .classed('thing-link',function(d){
+            if (d.url) return true;
+            return false;
+        })
         .attr('id', function(d){
             return d.id;
         })

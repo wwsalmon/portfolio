@@ -11,23 +11,27 @@
 
     .thing-label{
         font-weight: 700;
-        font-size: 80px;
+        font-size: 72px;
         opacity: 0.5;
-        cursor: pointer;
         font-family: 'DM Serif Text';
         transition: all 0.2s ease;
         user-select: none;
 
         &.selected{
-            font-size: 84px;
+            font-size: 76px;
         }
 
         &:hover, &.selected{
             opacity: 1.0;
         }
 
-        &:hover{
-            transform: translate(4px,4px);
+        &.thing-link{
+            font-size: 80px;
+            cursor: pointer;
+
+            &:hover{
+                transform: translate(4px,4px);
+            }
         }
     }
 }
