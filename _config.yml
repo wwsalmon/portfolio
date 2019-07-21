@@ -18,3 +18,7 @@ sass:
   style: compressed
 
 logo: favicon.png
+
+collections:
+  portfolio:
+    output: true
