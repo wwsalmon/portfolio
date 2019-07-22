@@ -1,6 +1,6 @@
 <div class='photo-container'>
     <div class='photo-gutter'></div>
-    {% for photo in include.data %}
+    {% for photo in site.data.photo %}
     <div class='photo'>
         <img id='{{ photo.name }}' src='{{ site.baseurl }}/img/photo/{{ photo.name }}.jpg'>
     </div>

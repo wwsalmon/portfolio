@@ -4,4 +4,4 @@ title: Design & Building
 permalink: projects
 ---
 
-**Design & Building:** more cool stuff
+**Design & Building:** other things I've made, whether in Photoshop, Javascript, or a makerspace.

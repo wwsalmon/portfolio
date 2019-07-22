@@ -1,0 +1,35 @@
+@media (min-width: 1000px){
+    .video-container{
+        margin-top: 64px;
+
+        .video-item{
+            width: calc(50% - #{$videogutter / 2});
+            margin-bottom: $videogutter * 3 / 2;
+            float: left;
+            @include shadow-hover;
+
+            p{
+                font-size: 24px;
+                margin: 8px 0 24px 0;
+                @include bold-serif;
+            }
+
+            .video-info{
+                padding: 24px;
+            }
+
+            .video-images img{
+                width: calc(50% - 8px);
+                margin-bottom: 16px;
+            }
+
+            .clear{
+                clear: both;
+            }
+        }
+    }
+
+    .video-gutter{
+        width: $videogutter;
+    }
+}

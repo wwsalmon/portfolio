@@ -1,0 +1,45 @@
+<div class='video-container'>
+    <div class='video-gutter'></div>
+    {% for project in site.video %}
+    <div class='video-item'>
+        {% include youtube-gen.html id=project.ytid %}
+        <div class='video-info'>
+            <p><b>{{ project.name }}: </b>{{ project.content }}</p>
+            {% if project.images %}
+            <div class='video-images'>
+                {% for item in project.images %}
+                <img src='{{ site.baseurl }}/img/video/{{ project.id }}/{{ item }}'>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<script>
+    var $grid = $('.video-container').masonry({
+        itemSelector: '.video-item',
+        columnWidth: '.video-item',
+        gutter: '.video-gutter',
+        transitionDuration: 0
+    });
+
+    $grid.imagesLoaded().progress(function () {
+        $grid.masonry('layout');
+    });
+
+    $('.video-images').each(function(){
+        var $masonry = $(this).masonry({
+            itemSelector: '.video-images img',
+            columnWidth: '.video-images img',
+            gutter: 16,
+            transitionDuration: 0
+        });
+
+        $masonry.imagesLoaded().progress(function () {
+            $masonry.masonry('layout');
+        });
+    });
+
+    
+</script>

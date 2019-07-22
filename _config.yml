@@ -22,3 +22,5 @@ logo: favicon.png
 collections:
   portfolio:
     output: true
+  video:
+    output: true
