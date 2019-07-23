@@ -2,44 +2,67 @@
     <div class='video-gutter'></div>
     {% for project in site.video %}
     <div class='video-item'>
-        {% include youtube-gen.html id=project.ytid %}
+        <div class='video-slider'>
+            <div class='thumb'><img src='{{ site.baseurl }}/img/video/{{ project.id }}/thumb.jpg'></div>
+            <div class='slider-inner'>
+                {% assign count = 0 %}
+                {% for item in project.images %}
+                
+                <div class='slider-item {% if count == 0 %} selected {% assign count = 1 %}{% endif %}'>
+                    {% assign temp = item | split: '.' %}
+                    {% if temp.last == 'mp4' %}
+                    <video autoplay loop>
+                        <source src='{{ site.baseurl }}/img/video/{{ project.id }}/{{ item }}' type='video/mp4'>
+                    </video>
+                    {% else %}
+                    <img src='{{ site.baseurl }}/img/video/{{ project.id }}/{{ item }}'>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            <div class='slider-next'></div>
+            <div class='slider-prev'></div>
+        </div>
         <div class='video-info'>
             <p><b>{{ project.name }}: </b>{{ project.content }}</p>
             {% if project.images %}
-            <div class='video-images'>
-                {% for item in project.images %}
-                <img src='{{ site.baseurl }}/img/video/{{ project.id }}/{{ item }}'>
-                {% endfor %}
-            </div>
             {% endif %}
         </div>
     </div>
     {% endfor %}
 </div>
 <script>
-    var $grid = $('.video-container').masonry({
+    $('.video-container').masonry({
         itemSelector: '.video-item',
         columnWidth: '.video-item',
         gutter: '.video-gutter',
         transitionDuration: 0
     });
 
-    $grid.imagesLoaded().progress(function () {
-        $grid.masonry('layout');
-    });
+    $('.slider-next').on('click',function(){
+        thisSlider = $(this).parent();
+        selected = thisSlider.find('.selected');
+        selected.removeClass('selected');
+        if (selected.next().length != 0) {
+            selected.next().addClass('selected');
+        }
+        else {
+            thisSlider.find('.slider-item').first().addClass('selected');
+        }
+    })
 
-    $('.video-images').each(function(){
-        var $masonry = $(this).masonry({
-            itemSelector: '.video-images img',
-            columnWidth: '.video-images img',
-            gutter: 16,
-            transitionDuration: 0
-        });
-
-        $masonry.imagesLoaded().progress(function () {
-            $masonry.masonry('layout');
-        });
-    });
+    $('.slider-prev').on('click',function(){
+        thisSlider = $(this).parent();
+        selected = thisSlider.find('.selected');
+        selected.removeClass('selected');
+        console.log(selected);
+        if (selected.prev().length != 0) {
+            selected.prev().addClass('selected');
+        }
+        else {
+            thisSlider.find('.slider-item').last().addClass('selected');
+        }
+    })
 
     
 </script>
