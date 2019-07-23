@@ -72,12 +72,15 @@
         thisSlider = $(this).parent();
         selected = thisSlider.find('.selected');
         selected.removeClass('selected');
-        console.log(selected);
+        indexEl = thisSlider.find('.slider-index');
+        index = indexEl.text();
         if (selected.prev().length != 0) {
             selected.prev().addClass('selected');
+            indexEl.text(Number(index) - 1);
         }
         else {
             thisSlider.find('.slider-item').last().addClass('selected');
+            indexEl.text(thisSlider.find('.slider-item').length);
         }
     })
 
