@@ -51,7 +51,7 @@
                     position: relative;
 
                     &:not(.selected){
-                        display: none;
+                        visibility: hidden;
                     }
 
                     img, video{
