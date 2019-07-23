@@ -8,7 +8,8 @@
                 {% assign count = 0 %}
                 {% for item in project.images %}
                 
-                <div class='slider-item {% if count == 0 %} selected {% assign count = 1 %}{% endif %}'>
+                <div class='slider-item {% if count == 0 %} selected {% endif %}'>
+                    {% assign count = count | plus: 1 %}
                     {% assign temp = item | split: '.' %}
                     {% if temp.last == 'mp4' %}
                     <video autoplay loop>
@@ -24,14 +25,16 @@
                 <div class='slider-num'>
                     <span class='slider-index'>1</span>
                     <span> / </span>
-                    <span class='slider-total'></span>
+                    <span class='slider-total'>{{ count }}</span>
                 </div>
                 <div class='more'>
                     <a href='{{ site.baseurl }}/project.permalink'>Full Video & Story</a>
                 </div>
             </div>
+            {% if count != 1 %}
             <div class='slider-next'></div>
             <div class='slider-prev'></div>
+            {% endif %}
         </div>
         <div class='video-info'>
             <p><b>{{ project.name }}: </b>{{ project.content }}</p>
@@ -53,11 +56,15 @@
         thisSlider = $(this).parent();
         selected = thisSlider.find('.selected');
         selected.removeClass('selected');
+        indexEl = thisSlider.find('.slider-index');
+        index = indexEl.text();
         if (selected.next().length != 0) {
             selected.next().addClass('selected');
+            indexEl.text(Number(index) + 1);
         }
         else {
             thisSlider.find('.slider-item').first().addClass('selected');
+            indexEl.text("1");
         }
     })
 
