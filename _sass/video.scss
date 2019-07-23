@@ -48,10 +48,11 @@
                 .slider-item{
                     height: 100%;
                     width: 100%;
-                    position: relative;
+                    position: absolute;
+                    transition: opacity 0.6s ease;
 
                     &:not(.selected){
-                        visibility: hidden;
+                        opacity: 0;
                     }
 
                     img, video{
