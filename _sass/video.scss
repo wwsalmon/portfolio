@@ -109,6 +109,14 @@
                     .more{
                         @include uppercase-style;
                     }
+
+                    .fas{
+                        font-size: 14px;
+                    }
+
+                    .more:hover{
+                        color: rgba(0,0,0,0.6);
+                    }
                 }
             }
 

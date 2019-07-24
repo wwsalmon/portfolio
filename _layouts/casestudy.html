@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class='case-container'>
+    {% if page.collection == 'video' %}
+    {% assign type = 'film' %}
+    {% else %}
+    {% assign type = '(type not specified)' %}
+    {% endif %}
+
+    <div class='backhome'><a href='{{ site.baseurl }}/{{ type }}'><i class="fas fa-arrow-left"></i> Back to {{ type }} projects</a></div>
+    <div class='divider'></div>
+    {{ content }}
+</div>
