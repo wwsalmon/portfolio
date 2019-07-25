@@ -1,3 +1,15 @@
+.portfolio-container > .yt-container{
+    margin-top: 64px;
+}
+
+@media (max-width: 900px){
+    .portfolio-container > .yt-container{
+        width: calc(100% + 48px);
+        left: -24px;
+        padding-bottom: calc(56.25% + #{48px * 0.5625});
+    }
+}
+
 .video-container{
     margin-top: 64px;
 
