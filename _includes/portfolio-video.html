@@ -1,6 +1,6 @@
 <div class='video-container'>
     <div class='video-gutter'></div>
-    {% for project in site.video %}
+    {% for project in site.video reversed %}
     <div class='video-item'>
         <div class='video-slider'>
             <div class='thumb'><img src='{{ site.baseurl }}/img/video/{{ project.id }}/thumb.jpg'></div>
