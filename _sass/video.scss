@@ -103,16 +103,16 @@
             }
 
             .slider-num{
-                margin-right: 8px;
                 font-size: 16px;
+                padding: 0 8px;
+                background-color: #fff;
             }
 
             .slider-info{
                 height: 38px;
                 line-height: 38px;
                 box-sizing: border-box;
-                background-color: #fff;
-                padding: 0 8px;
+                background-color: rgba(255,255,255,0.85);
                 position: absolute;
                 z-index: 2;
                 bottom: 0;
@@ -121,15 +121,18 @@
                 display: flex;
 
                 .more{
+                    padding: 0 8px;
                     @include uppercase-style;
+                    transition: all 0.1s ease;
+
+                    &:hover{
+                        background-color: #000;
+                        color: #fff;
+                    }
                 }
 
                 .fas{
                     font-size: 14px;
-                }
-
-                .more:hover{
-                    color: rgba(0,0,0,0.6);
                 }
             }
         }

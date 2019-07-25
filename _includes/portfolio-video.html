@@ -12,7 +12,7 @@
                     {% assign count = count | plus: 1 %}
                     {% assign temp = item | split: '.' %}
                     {% if temp.last == 'mp4' %}
-                    <video autoplay loop>
+                    <video autoplay loop muted>
                         <source src='{{ site.baseurl }}/img/video/{{ project.id }}/{{ item }}' type='video/mp4'>
                     </video>
                     {% else %}
@@ -28,7 +28,7 @@
                     <span class='slider-total'>{{ count }}</span>
                 </div>
                 <div class='more'>
-                    <a href='{{ site.baseurl }}/{{ project.permalink }}'>Full Video & Story <i class="fas fa-arrow-right"></i></a>
+                    <a href='{{ site.baseurl }}/{{ project.permalink }}'><i class="fas fa-play-circle"></i> Full Video & Story</a>
                 </div>
             </div>
             {% if count != 1 %}
@@ -37,7 +37,7 @@
             {% endif %}
         </div>
         <div class='video-info'>
-            <p><b>{{ project.name }}: </b>{{ project.content }}</p>
+            <p><b>{{ project.name }}: </b>{{ project.descript }}</p>
             {% if project.images %}
             {% endif %}
         </div>
@@ -53,36 +53,46 @@
     });
 
     $('.slider-next').on('click',function(){
-        thisSlider = $(this).parent();
-        selected = thisSlider.find('.selected');
-        selected.removeClass('selected');
-        indexEl = thisSlider.find('.slider-index');
-        index = indexEl.text();
-        if (selected.next().length != 0) {
-            selected.next().addClass('selected');
-            indexEl.text(Number(index) + 1);
-        }
-        else {
-            thisSlider.find('.slider-item').first().addClass('selected');
-            indexEl.text("1");
-        }
+        changeSlide($(this).parent(),true);
     })
 
     $('.slider-prev').on('click',function(){
-        thisSlider = $(this).parent();
+        changeSlide($(this).parent(),false);
+    })
+
+    function changeSlide(thisSlider,forward){
         selected = thisSlider.find('.selected');
         selected.removeClass('selected');
         indexEl = thisSlider.find('.slider-index');
         index = indexEl.text();
-        if (selected.prev().length != 0) {
-            selected.prev().addClass('selected');
-            indexEl.text(Number(index) - 1);
+        if (forward){
+            toSlide = selected.next();
+            if (toSlide.length == 0){
+                toSlide = thisSlider.find('.slider-item').first();
+                num = 1;
+            }
+            else{
+                num = Number(index) + 1;
+            }
         }
-        else {
-            thisSlider.find('.slider-item').last().addClass('selected');
-            indexEl.text(thisSlider.find('.slider-item').length);
+        else{
+            toSlide = selected.prev();
+            if (toSlide.length == 0) {
+                toSlide = thisSlider.find('.slider-item').last();
+                num = thisSlider.find('.slider-item').length;
+            }
+            else {
+                num = Number(index) - 1;
+            }
         }
-    })
+        loadingVid = toSlide.find('video');
+        if (loadingVid.length != 0){
+            console.log(loadingVid);
+            loadingVid.get(0).currentTime = 0;
+        }
+        toSlide.addClass('selected');
+        indexEl.text(num);
+    }
 
     
 </script>
