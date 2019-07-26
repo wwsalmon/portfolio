@@ -75,35 +75,35 @@ function ticked(){
                 `
             }
 
-            else if (thingID == 'Management') {
-                thingText = "Harness people's individual talents and skills to get a collective task done; how to do this best for each individual and for the whole.";
-            }
+            // else if (thingID == 'Management') {
+            //     thingText = "Harness people's individual talents and skills to get a collective task done; how to do this best for each individual and for the whole.";
+            // }
 
-            else if (thingID == 'Running') {
-                thingText = "Running is sick!";
-            }
+            // else if (thingID == 'Running') {
+            //     thingText = "Running is sick!";
+            // }
 
-            else if (thingID == 'Photography') {
-                thingText = "Photography is sick!";
-            }
+            // else if (thingID == 'Photography') {
+            //     thingText = "Photography is sick!";
+            // }
 
-            else if (thingID == 'Engineering') {
-                thingText = "Make a real, direct impact on the world and humanity. Solve problems.";
-            }
+            // else if (thingID == 'Engineering') {
+            //     thingText = "Make a real, direct impact on the world and humanity. Solve problems.";
+            // }
 
-            else if (thingID == 'Journalism') {
-                thingText = "Storytelling held to a higher bar of accuracy, thoroughness, and imapct. Also plip";
-            }
+            // else if (thingID == 'Journalism') {
+            //     thingText = "Storytelling held to a higher bar of accuracy, thoroughness, and imapct. Also plip";
+            // }
 
-            else if (thingID == 'UX Design') {
-                thingText = "UX Design is cool";
-            }
+            // else if (thingID == 'UX Design') {
+            //     thingText = "UX Design is cool";
+            // }
 
-            else if (thingID == 'Piano') {
-                thingText = "Expressiveness. I like romantic pieces best";
-            }
+            // else if (thingID == 'Piano') {
+            //     thingText = "Expressiveness. I like romantic pieces best";
+            // }
             else {
-                thingText = "I haven't written descript yet lol";
+                thingText = "Working on content! Check out the other pages in the meantime.";
             }
 
             thingText = "<b>" + thingID + "</b><br/>" + thingText;

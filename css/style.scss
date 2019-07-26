@@ -121,6 +121,15 @@ p.home-links{
 .portfolio-container > p:first-of-type{
     @include hero-text;
     @include bold-serif;
+    a{
+        font-weight: 700;
+        border-bottom: 4px solid #000;
+
+        &:hover{
+            color: rgba(0,0,0,0.3);
+            border-color: rgba(0,0,0,0.3);
+        }
+    }
 }
 
 .portfolio-container > p{
