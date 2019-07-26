@@ -2,7 +2,7 @@ title: Samson Zhang
 email: samsonzhang@wwsalmon.com
 description: The portfolio and personal website of Samson Zhang, filmmaker, photographer, designer, and developer, among other things. Currently a student at Phillips Academy, class of 2020.
 baseurl: ""
-url: "https://www.wwsalmon.com"
+url: "https://www.samsonzhang.com/"
 
 markdown: kramdown
 plugins:
@@ -24,3 +24,6 @@ collections:
     output: true
   video:
     output: true
+
+include:
+- _redirects
