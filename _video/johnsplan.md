@@ -3,7 +3,7 @@ permalink: johnsplan
 layout: casestudy
 name: John's Plan / ANL 2018
 ytid: 1fGMSweCU5o
-descript: 8-minute YouTube video review of the Sound Intone P6 headphones.
+descript: Music video for parody of God's Plan for Under the Bed's annual show, Andover Night Live
 images:
     - clip1.mp4
     - clip2.mp4

@@ -1,6 +1,8 @@
 <div class='video-container'>
     <div class='video-gutter'></div>
     {% for project in site.video reversed %}
+    {% if project.id == page.id %}
+    {% else %}
     <div class='video-item'>
         <div class='video-slider'>
             <div class='thumb'><img src='{{ site.baseurl }}/img/video/{{ project.id }}/thumb.jpg'></div>
@@ -27,9 +29,9 @@
                     <span> / </span>
                     <span class='slider-total'>{{ count }}</span>
                 </div>
-                <div class='more'>
-                    <a href='{{ site.baseurl }}/{{ project.permalink }}'><i class="fas fa-play-circle"></i> Full Video & Story</a>
-                </div>
+                <a class='more' href='{{ site.baseurl }}/{{ project.permalink }}'>
+                    <i class="fas fa-play-circle"></i> Full Video & Story
+                </a>
             </div>
             {% if count != 1 %}
             <div class='slider-next'></div>
@@ -42,6 +44,7 @@
             {% endif %}
         </div>
     </div>
+    {% endif %}
     {% endfor %}
 </div>
 <script>

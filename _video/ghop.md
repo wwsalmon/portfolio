@@ -2,7 +2,7 @@
 permalink: ghop
 layout: casestudy
 name: The Stories of Grasshopper 2018
-ytid: GBd9evmgadg
+ytid: pzMooEU5R6s
 descript: 12-minute documentary about Andover's biggest and all-student-produced talent show.
 images:
     - clip.mp4

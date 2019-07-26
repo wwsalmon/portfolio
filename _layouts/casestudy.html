@@ -11,5 +11,23 @@ layout: default
 
     <div class='backhome'><a href='{{ site.baseurl }}/{{ type }}'><i class="fas fa-arrow-left"></i> Back to {{ type }} projects</a></div>
     <div class='divider'></div>
+    <h1>{{ page.name }}</h1>
+    <p>{{ page.descript }}</p>
+    {% include youtube-gen.html id=page.ytid %}
+    <div class='divider'></div>
+    <h2>Highlights</h2>
+    {% for item in page.images %}
+        {% assign temp = item | split: '.' %}
+        {% if temp.last == 'mp4' %}
+        <video autoplay loop muted>
+            <source src='{{ site.baseurl }}/img/video/{{ page.id }}/{{ item }}' type='video/mp4'>
+        </video>
+        {% else %}
+        <img src='{{ site.baseurl }}/img/video/{{ page.id }}/{{ item }}'>
+        {% endif %}
+    {% endfor %}
     {{ content }}
+    <div class='divider'></div>
+    <h2>Other filmmaking projects</h2>
+    {% include portfolio-video.html %}
 </div>
