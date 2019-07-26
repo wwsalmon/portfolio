@@ -123,6 +123,15 @@ p.home-links{
     @include bold-serif;
 }
 
+.portfolio-container > p{
+    @include bold-serif;
+    margin-top: 48px;
+    
+    i.fas{
+        margin-right: 6px;
+    }
+}
+
 .backhome{
     font-size: 20px;
     font-weight: 700;
