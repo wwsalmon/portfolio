@@ -16,9 +16,9 @@ Camera gimbals allow filmmakers to replicate the stability and camera movement o
 
 Building a camera gimbal in a school makerspace on my own has been expectedly hard, and I’ve had limited time to work on the project. I worked out the electronics and basic design and completed a functional 2-axis prototype (seen above). When adding the third axis, the camera became out of balance and the motors couldn’t handle it. The roll arm also proved too weak to hold up the other two arms, three motors, and the camera, starting to flex and crack apart. My next steps will be coming up with a new design with adjustable arms for balance and a stronger material or more supports so the arms will remain stiff and stable.
 
-![test]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/thumb.gif)
-![test]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/3axis.jpg)
-![test]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/sketch1.jpg)
-![test]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/sketch2.jpg)
-![test]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/sketch3.jpg)
-![test]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/sketch4.jpg)
+![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/thumb.gif)
+![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/3axis.jpg)
+![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/sketch1.jpg)
+![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/sketch2.jpg)
+![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/sketch3.jpg)
+![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/sketch4.jpg)
