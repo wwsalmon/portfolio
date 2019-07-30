@@ -1,11 +1,20 @@
+{% if include.data == site.film %}
+{% assign cat = 'film' %}
+{% assign video = true %}
+{% else %}
+{% assign cat = 'projects' %}
+{% endif %}
+
 <div class='video-container'>
     <div class='video-gutter'></div>
-    {% for project in site.video reversed %}
+    {% for project in include.data reversed %}
     {% if project.id == page.id %}
     {% else %}
     <div class='video-item'>
         <div class='video-slider'>
-            <div class='thumb'><img src='{{ site.baseurl }}/img/video/{{ project.id }}/thumb.jpg'></div>
+            {% if video %}
+            <div class='thumb'><img src='{{ site.baseurl }}/img/{{ cat }}/{{ project.id }}/thumb.jpg'></div>
+            {% endif %}
             <div class='slider-inner'>
                 {% assign count = 0 %}
                 {% for item in project.images %}
@@ -15,10 +24,10 @@
                     {% assign temp = item | split: '.' %}
                     {% if temp.last == 'mp4' %}
                     <video autoplay loop muted>
-                        <source src='{{ site.baseurl }}/img/video/{{ project.id }}/{{ item }}' type='video/mp4'>
+                        <source src='{{ site.baseurl }}/img/{{ cat }}/{{ project.id }}/{{ item }}' type='video/mp4'>
                     </video>
                     {% else %}
-                    <img src='{{ site.baseurl }}/img/video/{{ project.id }}/{{ item }}'>
+                    <img src='{{ site.baseurl }}/img/{{ cat }}/{{ project.id }}/{{ item }}'>
                     {% endif %}
                 </div>
                 {% endfor %}
@@ -30,7 +39,9 @@
                     <span class='slider-total'>{{ count }}</span>
                 </div>
                 <a class='more' href='{{ site.baseurl }}/{{ project.permalink }}'>
-                    <i class="fas fa-play-circle"></i> Full Video & Story
+                    {% if video %}<i class="fas fa-play-circle"></i> Full Video &
+                    {% else %}<i class="fas fa-plus-circle"></i> Full
+                    {% endif %}Story
                 </a>
             </div>
             {% if count != 1 %}

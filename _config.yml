@@ -22,7 +22,9 @@ logo: favicon.png
 collections:
   portfolio:
     output: true
-  video:
+  film:
+    output: true
+  projects:
     output: true
 
 include:

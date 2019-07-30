@@ -8,4 +8,4 @@ permalink: film
 
 {% include youtube-gen.html id='WplYyJehtOw' %}
 
-{% include portfolio-video.html %}
+{% include portfolio-video.html data=site.film %}
