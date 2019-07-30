@@ -1,5 +1,5 @@
 ---
-permalink: camera-gimbal
+permalink: gimbal
 layout: casestudy
 name: Motorized Camera Gimbal
 ytid: c5Udwl8OnfE
