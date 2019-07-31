@@ -211,11 +211,14 @@ $selectorpadding: 20px;
         div.image-slide-small{
             height: 100%;
             flex: auto 0 0;
-            cursor: pointer;
             transition: all 0.15s ease;
 
             img, video{
                 height: 100%;
+            }
+
+            &:not(.selected){
+                cursor: pointer;
             }
 
             &.selected{
