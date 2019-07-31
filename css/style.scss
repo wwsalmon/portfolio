@@ -195,14 +195,21 @@ $selectorpadding: 20px;
         }
     }
 
+    .slider-selector-outer{
+        overflow-x: auto;
+    }
+
     .slider-selector{
         height: $selectorheight;
         box-sizing: border-box;
         padding-top: $selectorpadding;
+        position: relative;
         display: flex;
+        flex-flow: row nowrap;
 
         div.image-slide-small{
             height: 100%;
+            flex: auto 0 0;
 
             img, video{
                 height: 100%;
