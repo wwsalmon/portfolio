@@ -24,7 +24,7 @@ slider: true
 </div>
 
 
-<div class='twocol'>
+<div class='twocol flip'>
     <div>
     <p><b>Video:</b> mechanism designed for lifting, flipping, and setting down paper with wheels and arm.</p>
     </div>
@@ -47,7 +47,7 @@ slider: true
     </div>
 </div>
 
-<div class='twocol'>
+<div class='twocol flip'>
     <div>
         <h2>Week 2/3: Early Prototyping</h2>
         <p>We design our mount and grabber mechanism. We spend a lot of time and iterations figuring out the tolerances of the printer and changing our dimensions slightly to make the mechanism work.</p>
@@ -57,7 +57,7 @@ slider: true
     </div>
 </div>
 
-<div class='twocol'>
+<div class='twocol flip'>
     <div>
         <h2>Week 4: Grabber Testing, Mount Early Prototyping</h2>
     </div>
@@ -76,7 +76,7 @@ slider: true
     </div>
 </div>
 
-<div class='twocol'>
+<div class='twocol flip'>
     <div>
         <h2>Week 6: Final Prototype (for now)</h2>
         <p>We laser cut and assemble our acrylic base; the device is now one piece, without relying on pieces of cardboard taped to the stand to function. It can now be moved around and sit on a grand piano. We also build a foot pedal. The device is as you saw in the first video (again here):</p>

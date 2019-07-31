@@ -24,12 +24,31 @@
     }
 }
 
+$twocol-margin: 42px;
+
 @media (min-width: 1000px){
     .twocol{
-        display: grid;
-        grid-template-columns: 500px auto;
-        grid-column-gap: 36px;
+        display: flex;
+        align-items: center;
         margin: 96px 0;
+
+        &> div:first-of-type{
+            flex: 500px 0 0;
+            margin-right: $twocol-margin;
+        }
+
+        &> div:last-of-type{
+            flex: 1;
+        }
+
+        &.flip{
+            &> div:first-of-type{
+                order: 2;
+                margin-left: $twocol-margin;
+                margin-right: 0;
+            }
+        }
+
 
         img{
             max-width: 100%;
