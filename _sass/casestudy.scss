@@ -1,6 +1,10 @@
 .case-container{
     p{
         margin: 36px 0;
+
+        &.descript{
+            font-size: 28px;
+        }
     }
 
     h1{
@@ -23,7 +27,7 @@
 @media (min-width: 1000px){
     .twocol{
         display: grid;
-        grid-template-columns: 400px auto;
+        grid-template-columns: 500px auto;
         grid-column-gap: 36px;
         margin: 96px 0;
 

@@ -19,7 +19,7 @@ layout: default
     <div class='backhome'><a href='{{ site.baseurl }}/{{ cat }}'><i class="fas fa-arrow-left"></i> Back to {{ label }} projects</a></div>
     <div class='divider'></div>
     <h1>{{ page.name }}</h1>
-    <p>{{ page.descript }}</p>
+    <p class='descript'>{{ page.descript }}</p>
     {% if cat == 'film' %}
     {% include youtube-gen.html id=page.ytid %}
     <div class='divider'></div>
