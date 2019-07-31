@@ -156,6 +156,7 @@ p.home-links{
 }
 
 $selectorheight: 200px;
+$selectorpadding: 20px;
 
 .image-slider{
     position: relative;
@@ -175,6 +176,10 @@ $selectorheight: 200px;
         width: 100%;
         height: 100%;
 
+        img{
+            @include center-both;
+        }
+
         &:not(.selected){
             opacity: 0;
         }
@@ -192,6 +197,8 @@ $selectorheight: 200px;
 
     .slider-selector{
         height: $selectorheight;
+        box-sizing: border-box;
+        padding-top: $selectorpadding;
         display: flex;
 
         div.image-slide-small{
@@ -206,7 +213,7 @@ $selectorheight: 200px;
             }
 
             &:not(:last-of-type){
-                margin-right: 16px;
+                margin-right: $selectorpadding;
             }
         }
     }
@@ -219,12 +226,12 @@ $selectorheight: 200px;
 
     .slider-next, .slider-prev{
         position: absolute;
+        top: calc(50% - #{$selectorheight / 2});
         transform: translateY(-50%);
         width: $buttonsize * 0.7 + 2 * $buttonmargin;
         height: 72px;
         background-color: rgba(0,0,0,0.7);
         cursor: pointer;
-        top: 50%;
         opacity: 0.6;
         transition: opacity 0.15s ease;
 
