@@ -66,15 +66,15 @@
         transitionDuration: 0
     });
 
-    $('.slider-next').on('click',function(){
-        changeSlide($(this).parent(),true);
+    $('.video-slider .slider-next').on('click',function(){
+        changeVidSlide($(this).parent(),true);
     })
 
-    $('.slider-prev').on('click',function(){
-        changeSlide($(this).parent(),false);
+    $('.video-slider .slider-prev').on('click',function(){
+        changeVidSlide($(this).parent(),false);
     })
 
-    function changeSlide(thisSlider,forward){
+    function changeVidSlide(thisSlider,forward){
         selected = thisSlider.find('.selected');
         selected.removeClass('selected');
         indexEl = thisSlider.find('.slider-index');

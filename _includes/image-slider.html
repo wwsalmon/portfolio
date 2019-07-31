@@ -1,0 +1,38 @@
+{% assign list = include.data | split: ','%}
+
+<div class='image-slider'>
+    <div class='image-slides'>
+        {% for item in list %}
+        <div class='image-slide'>
+            {% assign temp = item | split: '.' %}
+            {% if temp.last == 'mp4' %}
+            <video autoplay loop muted>
+                <source src='{{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/{{ item }}' type='video/mp4'>
+            </video>
+            {% else %}
+            <img src='{{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/{{ item }}'>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+    <div class='slider-next'></div>
+    <div class='slider-prev'></div>
+    <div class='slider-selector-outer'>
+        <div class='slider-selector'>
+            {% assign count = 0 %}
+            {% for item in list %}
+            <div class='image-slide-small{% if count == 0 %} selected {% endif %}'>
+                {% assign count = count | plus: 1 %}
+                {% assign temp = item | split: '.' %}
+                {% if temp.last == 'mp4' %}
+                <video autoplay loop muted>
+                    <source src='{{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/{{ item }}' type='video/mp4'>
+                </video>
+                {% else %}
+                <img src='{{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/{{ item }}'>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

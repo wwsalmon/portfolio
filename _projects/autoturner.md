@@ -29,35 +29,24 @@ Below: mechanism designed for lifting, flipping, and setting down paper with whe
 
 Coming up with the ideas and basic design for our project.
 
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/pageturner2.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/sketch1.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/pageturner.png)
+{% include image-slider.html data="pageturner2.png,sketch1.png,pageturner.png" %}
 
 ## Week 2/3: Early Prototyping
 
 We design our mount and grabber mechanism. We spend a lot of time and iterations figuring out the tolerances of the printer and changing our dimensions slightly to make the mechanism work.
 
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/grabber-3.jpg)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-2-draw-1.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-1-draw-2.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-1-cad-2.png)
+{% include image-slider.html data="grabber-3.jpg,proto-2-draw-1.png,proto-1-draw-2.png,proto-1-cad-2.png" %}
 
 ## Week 4: Grabber Testing, Mount Early Prototyping
 
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/shooting-out.gif)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/grabbing.gif)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-4-draw-1.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-4-draw-1.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-4-draw-2.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/guardrail.jpg)
+{% include image-slider.html data="shooting-out.gif,grabbing.gif,proto-4-draw-1.png,proto-4-draw-2.png,guardrail.jpg" %}
 
 ## Week 5: First Functional Prototype, Testing
 
 After several iterations, the whole device put together finally works as we want it to. We start designing an acrylic assembly to make the whole device sturdier and more reliable.
 
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/working-model-optimized.gif)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-5-draw-1.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-5-draw-2.png)
+{% include image-slider.html data="working-model-optimized.gif,proto-5-draw-1.png,proto-5-draw-2.png" %}
+
 
 ## Week 6: Final Prototype (for now)
 
@@ -66,3 +55,7 @@ We laser cut and assemble our acrylic base; the device is now one piece, without
 ![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/thumb.gif)
 
 {% include youtube-gen.html id='bW62-upWoQY' %}
+
+<!-- CODE FOR IMAGE SLIDERS - AUTOMATICALLY ADD EVENTUALLY? other than just being extraneous code should have no side effects on pages where it's not needed -->
+
+<script src='{{ site.baseurl }}/js/slider.js'></script>
