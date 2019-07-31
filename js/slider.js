@@ -31,6 +31,7 @@ function toSlide(thisSlider,endSlide){
 
     endSlide.addClass('selected');
     thisSlider.find(".image-slide").eq(endIndex).addClass('selected');
+    scrollSelector(thisSlider);
 }
 
 function scrollSlide(thisSlider,forward){
@@ -48,6 +49,7 @@ function scrollSlide(thisSlider,forward){
     }
     toSlide1.addClass('selected');
     toSlide2.addClass('selected');
+    scrollSelector(thisSlider);
 }
 
 function getNext(thisItem){
@@ -79,5 +81,11 @@ function getPrev(thisItem){
 }
 
 function scrollSelector(container){
+    container = container.find('.slider-selector-outer');
+    selected = container.find('.selected');
+    totalWidth = container.width();
+    
+    scrollPos = selected.position().left - (totalWidth / 2) + (selected.width() / 2);
 
+    container.animate({scrollLeft: scrollPos}, 200);
 }

@@ -155,12 +155,12 @@ p.home-links{
     }
 }
 
-$selectorheight: 200px;
+$selectorheight: 180px;
 $selectorpadding: 20px;
 
 .image-slider{
     position: relative;
-    max-width: 800px; // temporary to test
+    max-width: 1000px;
 
     .image-slides{
         position: relative;
@@ -175,6 +175,7 @@ $selectorpadding: 20px;
         position: absolute;
         width: 100%;
         height: 100%;
+        transition: opacity 0.15s ease;
 
         img{
             @include center-both;
@@ -210,13 +211,15 @@ $selectorpadding: 20px;
         div.image-slide-small{
             height: 100%;
             flex: auto 0 0;
+            cursor: pointer;
+            transition: all 0.15s ease;
 
             img, video{
                 height: 100%;
             }
 
-            &:not(.selected){
-                opacity: 0.3;
+            &.selected{
+                opacity: 0.4;
             }
 
             &:not(:last-of-type){
