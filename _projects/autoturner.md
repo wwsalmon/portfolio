@@ -29,17 +29,13 @@ Below: mechanism designed for lifting, flipping, and setting down paper with whe
 
 Coming up with the ideas and basic design for our project.
 
-{% assign images = "pageturner2.png,sketch1.png,pageturner.png" | split: ',' %}
-{% include image-slider.html data=images %}
+{% include image-slider.html data="pageturner2.png,sketch1.png,pageturner.png" %}
 
 ## Week 2/3: Early Prototyping
 
 We design our mount and grabber mechanism. We spend a lot of time and iterations figuring out the tolerances of the printer and changing our dimensions slightly to make the mechanism work.
 
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/grabber-3.jpg)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-2-draw-1.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-1-draw-2.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-1-cad-2.png)
+{% include image-slider.html data="grabber-3.jpg,proto-2-draw-1.png,proto-1-draw-2.png,proto-1-cad-2.png" %}
 
 ## Week 4: Grabber Testing, Mount Early Prototyping
 
@@ -65,3 +61,71 @@ We laser cut and assemble our acrylic base; the device is now one piece, without
 ![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/thumb.gif)
 
 {% include youtube-gen.html id='bW62-upWoQY' %}
+
+<!-- CODE FOR IMAGE SLIDERS - AUTOMATICALLY ADD EVENTUALLY? other than just being extraneous code should have no side effects on pages where it's not needed -->
+
+<script>
+$('.image-slider').each(function(){
+    thisSlider = $(this);
+    firstimage = thisSlider.find("div.image-slide:first-of-type");
+    firstimage.addClass('prerender');
+    firstimage.imagesLoaded().progress(function () {
+        height = firstimage.children().height();
+        thisSlider.find(".image-slides").css('height', height);
+        firstimage.removeClass('prerender').addClass('selected');
+    });
+})
+
+$('.image-slider .slider-next').on('click', function(){
+    changeImgSlide($(this).parent(),true);
+})
+
+$('.image-slider .slider-prev').on('click', function(){
+    changeImgSlide($(this).parent(),false);
+})
+
+function changeImgSlide(thisSlider,forward){
+    selected1 = thisSlider.find('.image-slide.selected');
+    selected2 = thisSlider.find('.image-slide-small.selected');
+    selected1.removeClass('selected');
+    selected2.removeClass('selected');
+    if (forward) {
+        toSlide1 = getNext(selected1);
+        toSlide2 = getNext(selected2);
+    }
+    else{
+        toSlide1 = getPrev(selected1);
+        toSlide2 = getPrev(selected2);
+    }
+    toSlide1.addClass('selected');
+    toSlide2.addClass('selected');
+}
+
+function getNext(thisItem){
+    if (thisItem.hasClass('image-slide')){
+        search = '.image-slide';
+    }
+    else{
+        search = '.image-slide-small';
+    }
+    retval = thisItem.next();
+    if (retval.length == 0){
+        retval = thisItem.parent().find(search).first();
+    }
+    return retval;
+}
+
+function getPrev(thisItem){
+    if (thisItem.hasClass('image-slide')){
+        search = '.image-slide';
+    }
+    else{
+        search = '.image-slide-smol';
+    }
+    retval = thisItem.prev();
+    if (retval.length == 0){
+        retval = thisItem.parent().find(search).last();
+    }
+    return retval;
+}
+</script>

@@ -1,9 +1,9 @@
+{% assign list = include.data | split: ','%}
+
 <div class='image-slider'>
-    {% assign count = 0 %}
     <div class='image-slides'>
-        {% for item in include.data %}
+        {% for item in list %}
         <div class='image-slide'>
-            {% assign count = count | plus: 1 %}
             {% assign temp = item | split: '.' %}
             {% if temp.last == 'mp4' %}
             <video autoplay loop muted>
@@ -19,7 +19,7 @@
     <div class='slider-prev'></div>
     <div class='slider-selector'>
         {% assign count = 0 %}
-        {% for item in include.data %}
+        {% for item in list %}
         <div class='image-slide-small{% if count == 0 %} selected {% endif %}'>
             {% assign count = count | plus: 1 %}
             {% assign temp = item | split: '.' %}
@@ -34,66 +34,3 @@
         {% endfor %}
     </div>
 </div>
-
-<script>
-firstimage = $(".image-slider div.image-slide:first-of-type");
-firstimage.addClass('prerender');
-firstimage.imagesLoaded().progress(function(){
-    height = firstimage.children().height();
-    $(".image-slides").css('height',height);
-    firstimage.removeClass('prerender').addClass('selected');
-});
-
-$('.image-slider .slider-next').on('click', function(){
-    changeImgSlide($(this).parent(),true);
-})
-
-$('.image-slider .slider-prev').on('click', function(){
-    changeImgSlide($(this).parent(),false);
-})
-
-function changeImgSlide(thisSlider,forward){
-    selected1 = thisSlider.find('.image-slide.selected');
-    selected2 = thisSlider.find('.image-slide-small.selected');
-    selected1.removeClass('selected');
-    selected2.removeClass('selected');
-    if (forward) {
-        toSlide1 = getNext(selected1);
-        toSlide2 = getNext(selected2);
-    }
-    else{
-        toSlide1 = getPrev(selected1);
-        toSlide2 = getPrev(selected2);
-    }
-    toSlide1.addClass('selected');
-    toSlide2.addClass('selected');
-}
-
-function getNext(thisItem){
-    if (thisItem.hasClass('image-slide')){
-        search = '.image-slide';
-    }
-    else{
-        search = '.image-slide-small';
-    }
-    retval = thisItem.next();
-    if (retval.length == 0){
-        retval = thisItem.parent().find(search).first();
-    }
-    return retval;
-}
-
-function getPrev(thisItem){
-    if (thisItem.hasClass('image-slide')){
-        search = '.image-slide';
-    }
-    else{
-        search = '.image-slide-smol';
-    }
-    retval = thisItem.prev();
-    if (retval.length == 0){
-        retval = thisItem.parent().find(search).last();
-    }
-    return retval;
-}
-</script>

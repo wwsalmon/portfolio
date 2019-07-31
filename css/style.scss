@@ -180,6 +180,7 @@ $selectorheight: 200px;
         }
 
         &.prerender{
+            position: relative;
             max-height: unset;
 
             img{
