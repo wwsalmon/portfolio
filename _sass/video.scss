@@ -77,29 +77,55 @@
                 }
             }
 
-            $buttonmargin: 16px;
-            $buttonsize: 20px;
+            $buttonmargin: 12px;
+            $buttonsize: 16px;
             $buttonthick: 6px;
 
             .slider-next, .slider-prev{
-                width: $buttonsize;
-                height: $buttonsize;
                 position: absolute;
-                top: 50%;
-                border-style: solid;
-                border-color: #fff;
-                border-width: 0 0 $buttonthick $buttonthick;
+                transform: translateY(-50%);
+                width: $buttonsize * 0.7 + 2 * $buttonmargin;
+                height: 72px;
+                background-color: rgba(0,0,0,0.7);
                 cursor: pointer;
+                top: 50%;
+                opacity: 0.6;
+                transition: opacity 0.15s ease;
+
+                &:before{
+                    content: '';
+                    position: absolute;
+                    width: $buttonsize;
+                    height: $buttonsize;
+                    position: absolute;
+                    top: 50%;
+                    border-style: solid;
+                    border-color: #fff;
+                    border-width: 0 0 $buttonthick $buttonthick;
+                }
+
+                &:hover{
+                    opacity: 1.0;
+                }
             }
 
             .slider-next{
-                right: $buttonmargin;
-                transform: rotate(225deg);
+                right: 0;
+
+                &:before{
+                    transform: translateY(-50%) rotate(225deg);
+                    right: $buttonmargin;
+                }
             }
+            
 
             .slider-prev{
-                left: $buttonmargin;
-                transform: rotate(45deg);
+                left: 0;
+
+                &:before{
+                    transform: translateY(-50%) rotate(45deg);
+                    left: $buttonmargin;
+                }
             }
 
             .slider-num{
