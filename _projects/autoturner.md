@@ -39,20 +39,14 @@ We design our mount and grabber mechanism. We spend a lot of time and iterations
 
 ## Week 4: Grabber Testing, Mount Early Prototyping
 
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/shooting-out.gif)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/grabbing.gif)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-4-draw-1.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-4-draw-1.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-4-draw-2.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/guardrail.jpg)
+{% include image-slider.html data="shooting-out.gif,grabbing.gif,proto-4-draw-1.png,proto-4-draw-2.png,guardrail.jpg" %}
 
 ## Week 5: First Functional Prototype, Testing
 
 After several iterations, the whole device put together finally works as we want it to. We start designing an acrylic assembly to make the whole device sturdier and more reliable.
 
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/working-model-optimized.gif)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-5-draw-1.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/proto-5-draw-2.png)
+{% include image-slider.html data="working-model-optimized.gif,proto-5-draw-1.png,proto-5-draw-2.png" %}
+
 
 ## Week 6: Final Prototype (for now)
 
@@ -66,12 +60,13 @@ We laser cut and assemble our acrylic base; the device is now one piece, without
 
 <script>
 $('.image-slider').each(function(){
-    thisSlider = $(this);
-    firstimage = thisSlider.find("div.image-slide:first-of-type");
+    firstimage = $(this).find("div.image-slide:first-of-type");
     firstimage.addClass('prerender');
-    firstimage.imagesLoaded().progress(function () {
-        height = firstimage.children().height();
-        thisSlider.find(".image-slides").css('height', height);
+    firstimage.imagesLoaded(function(firstimage){
+        firstimage = $(firstimage.elements[0]); //annoying thing
+        height = firstimage.find('img').height();
+        console.log(height);
+        firstimage.parent().css('height', height);
         firstimage.removeClass('prerender').addClass('selected');
     });
 })
