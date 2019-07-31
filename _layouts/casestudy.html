@@ -36,6 +36,9 @@ layout: default
     {% endfor %}
     {% endif %}
     {{ content }}
+    {% if page.slider %}
+    <script src='{{ site.baseurl }}/js/slider.js'></script>
+    {% endif %}
     <div class='divider'></div>
     <h2>Other {{ label }} projects</h2>
     {% include portfolio-video.html data=collection %}

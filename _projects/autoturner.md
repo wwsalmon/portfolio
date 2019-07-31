@@ -9,6 +9,8 @@ images:
     - pageturner.png
     - proto-1-draw-1.png
     - proto-4-draw-1.png
+slider: true
+
 ---
 
 The final prototype was made with 3D printed and laser cut acrylic parts and an Arduino-driven circuit.
@@ -57,5 +59,3 @@ We laser cut and assemble our acrylic base; the device is now one piece, without
 {% include youtube-gen.html id='bW62-upWoQY' %}
 
 <!-- CODE FOR IMAGE SLIDERS - AUTOMATICALLY ADD EVENTUALLY? other than just being extraneous code should have no side effects on pages where it's not needed -->
-
-<script src='{{ site.baseurl }}/js/slider.js'></script>
