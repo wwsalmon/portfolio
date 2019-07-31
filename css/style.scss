@@ -154,3 +154,58 @@ p.home-links{
         color: #000;
     }
 }
+
+$selectorheight: 200px;
+
+.image-slider{
+    position: relative;
+
+    .image-slides{
+        position: relative;
+    }
+
+    img, video{
+        @include max-100-wh;
+        display: block;
+    }
+
+    .image-slide{
+        @include max-100-wh;
+        position: absolute;
+        width: 100%;
+
+        &:not(.selected){
+            opacity: 0;
+        }
+
+        &.prerender{
+            max-height: unset;
+
+            img{
+                width: 100%;
+                max-height: calc(100vh - #{$selectorheight + 128px})
+            }
+        }
+    }
+
+    .slider-selector{
+        height: $selectorheight;
+        display: flex;
+
+        div.image-slide-small{
+            height: 100%;
+
+            img, video{
+                height: 100%;
+            }
+
+            &:not(.selected){
+                opacity: 0.3;
+            }
+
+            &:not(:last-of-type){
+                margin-right: 16px;
+            }
+        }
+    }
+}

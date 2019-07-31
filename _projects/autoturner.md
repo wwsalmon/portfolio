@@ -29,9 +29,8 @@ Below: mechanism designed for lifting, flipping, and setting down paper with whe
 
 Coming up with the ideas and basic design for our project.
 
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/pageturner2.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/sketch1.png)
-![]({{ site.baseurl }}/img/{{ page.collection }}/{{ page.id }}/pageturner.png)
+{% assign images = "pageturner2.png,sketch1.png,pageturner.png" | split: ',' %}
+{% include image-slider.html data=images %}
 
 ## Week 2/3: Early Prototyping
 
