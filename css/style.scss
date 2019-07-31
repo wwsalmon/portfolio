@@ -159,6 +159,7 @@ $selectorheight: 200px;
 
 .image-slider{
     position: relative;
+    max-width: 800px; // temporary to test
 
     .image-slides{
         position: relative;
@@ -170,9 +171,9 @@ $selectorheight: 200px;
     }
 
     .image-slide{
-        @include max-100-wh;
         position: absolute;
         width: 100%;
+        height: 100%;
 
         &:not(.selected){
             opacity: 0;
@@ -206,6 +207,59 @@ $selectorheight: 200px;
             &:not(:last-of-type){
                 margin-right: 16px;
             }
+        }
+    }
+    
+    // FOLLOWING CODE TAKEN STRAIGHT FROM PORTFOLIO SLIDER
+
+    $buttonmargin: 12px;
+    $buttonsize: 16px;
+    $buttonthick: 6px;
+
+    .slider-next, .slider-prev{
+        position: absolute;
+        transform: translateY(-50%);
+        width: $buttonsize * 0.7 + 2 * $buttonmargin;
+        height: 72px;
+        background-color: rgba(0,0,0,0.7);
+        cursor: pointer;
+        top: 50%;
+        opacity: 0.6;
+        transition: opacity 0.15s ease;
+
+        &:before{
+            content: '';
+            position: absolute;
+            width: $buttonsize;
+            height: $buttonsize;
+            position: absolute;
+            top: 50%;
+            border-style: solid;
+            border-color: #fff;
+            border-width: 0 0 $buttonthick $buttonthick;
+        }
+
+        &:hover{
+            opacity: 1.0;
+        }
+    }
+
+    .slider-next{
+        right: 0;
+
+        &:before{
+            transform: translateY(-50%) rotate(225deg);
+            right: $buttonmargin;
+        }
+    }
+    
+
+    .slider-prev{
+        left: 0;
+
+        &:before{
+            transform: translateY(-50%) rotate(45deg);
+            left: $buttonmargin;
         }
     }
 }

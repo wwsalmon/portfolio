@@ -39,7 +39,7 @@
 firstimage = $(".image-slider div.image-slide:first-of-type");
 firstimage.addClass('prerender');
 firstimage.imagesLoaded().progress(function(){
-    height = firstimage.height();
+    height = firstimage.children().height();
     $(".image-slides").css('height',height);
     firstimage.removeClass('prerender').addClass('selected');
 });
