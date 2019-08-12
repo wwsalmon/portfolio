@@ -1,10 +1,11 @@
 nodes = [
     { "id": "Photography", "url": "/photo" },
-    { "id": "Motion Graphics", "url": "/film" },
+    { "id": "Motion Graphics"},
     { "id": "Filmmaking", "url": "/film" },
     { "id": "Graphic Design", "url": "/projects" },
-    { "id": "Web Dev" },
+    { "id": "Web Dev", "url": "/projects" },
     { "id": "UI/UX & Branding" },
+    { "id": "Design & Prototyping", "url": "/projects" },
     { "id": "Piano" },
     { "id": "Running" }
 ];
