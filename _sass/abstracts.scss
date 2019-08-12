@@ -45,3 +45,9 @@ $videogutter: 32px;
     top: 50%;
     transform: translate(-50%,-50%);
 }
+
+@mixin hover-light{
+    &:hover{
+            color: rgba(0,0,0,0.4);
+    }
+}

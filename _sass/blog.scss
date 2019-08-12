@@ -1,0 +1,34 @@
+.post{
+    margin-top: 64px;
+
+    h3{
+        font-size: 42px;
+        margin-bottom: 8px;
+        a{
+            @include hover-light;
+        }
+    }
+
+    .date{
+        @include uppercase-style;
+        margin: 0;
+    }
+
+    .more{
+        @include uppercase-style;
+        text-align: right;
+        a{
+            @include hover-light;
+        }
+    }
+
+    .categories{
+        .category{
+            display: inline-block;
+            @include uppercase-style;
+            a{
+                @include hover-light;
+            }
+        }
+    }
+}
