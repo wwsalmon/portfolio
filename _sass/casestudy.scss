@@ -3,12 +3,23 @@
         margin: 36px 0;
 
         &.descript{
+            margin: 36px auto 64px auto;
+            text-align: center;
             font-size: 28px;
         }
     }
 
+    h1, .backhome{
+        text-align: center;
+    }
+
     h1{
         font-size: 56px;
+    }
+
+     div.divider:not(.left){
+        margin-left: auto;
+        margin-right: auto;
     }
 
     h2{
