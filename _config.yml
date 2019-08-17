@@ -9,6 +9,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-admin
+  - jekyll/tagging
 
 twitter:
   username: wwsalmon
@@ -38,3 +39,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+tag_page_layout: tagpage
+tag_page_dir: tag
