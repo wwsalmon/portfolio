@@ -8,6 +8,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-admin
 
 twitter:
   username: wwsalmon
@@ -29,3 +30,11 @@ collections:
 
 include:
 - _redirects
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
