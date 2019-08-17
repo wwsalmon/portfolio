@@ -28,10 +28,17 @@
         line-height: 1.1;
     }
 
-    &> img, &> video, p img, p video{
+    &> img, p img, p video{
         margin: 16px auto;
         width: 100%;
         max-width: 700px;
+    }
+
+    .highlights{
+        img, video{
+            margin: 16px auto;
+            max-width: 100%;
+        }
     }
 }
 
@@ -69,5 +76,12 @@ $twocol-margin: 42px;
         *:first-of-type{
             margin-top: 0;
         }
+    }
+
+    .case-container .highlights{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        grid-column-gap: 16px;
     }
 }

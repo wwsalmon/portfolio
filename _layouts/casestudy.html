@@ -22,9 +22,10 @@ layout: default
     <p class='descript'>{{ page.descript }}</p>
     {% if cat == 'film' %}
     {% include youtube-gen.html id=page.ytid %}
-    <div class='divider'></div>
+    <div class='divider left'></div>
     <h2>Highlights</h2>
-    {% for item in page.images %}
+    <div class='highlights'>
+        {% for item in page.images %}
         {% assign temp = item | split: '.' %}
         {% if temp.last == 'mp4' %}
         <video autoplay loop muted>
@@ -33,7 +34,9 @@ layout: default
         {% else %}
         <img src='{{ site.baseurl }}/img/{{ cat }}/{{ page.id }}/{{ item }}'>
         {% endif %}
-    {% endfor %}
+        {% endfor %}
+    </div>
+    
     {% endif %}
     {{ content }}
     {% if page.slider %}
