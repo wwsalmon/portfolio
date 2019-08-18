@@ -21,16 +21,6 @@
             @include hover-light;
         }
     }
-
-    .categories{
-        .category{
-            display: inline-block;
-            @include uppercase-style;
-            a{
-                @include hover-light;
-            }
-        }
-    }
 }
 
 .post-container{
@@ -40,6 +30,8 @@
 
     h1{
         font-size: 72px;
+        font-family: 'DM Serif Text';
+        font-weight: 400;
     }
 
     .divider{
@@ -47,9 +39,34 @@
         margin-right: auto;
     }
 
-    p{
+    p, figure{
         font-size: 24px;
         max-width: 900px;
         margin: 36px auto;
     }
+
+    .categories{
+        justify-content: center;
+    }
 }
+
+.categories{
+        display: flex;
+        flex-flow: row wrap;
+        margin: 16px auto;
+
+        .category{
+            margin-right: 8px;
+            padding: 6px;
+            // border-radius: 4px;
+            border-bottom: 4px solid rgba(0,0,0,0.1);
+            transition: background-color 0.1s ease;
+
+            
+
+            &:hover{
+                color: #fff;
+                background-color: rgba(0,0,0,0.8);
+            }
+        }
+    }

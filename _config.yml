@@ -41,4 +41,4 @@ defaults:
       layout: "post"
 
 tag_page_layout: tagpage
-tag_page_dir: tag
+tag_page_dir: category

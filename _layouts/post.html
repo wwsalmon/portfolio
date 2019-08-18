@@ -5,8 +5,13 @@ layout: default
 <div class='post-container'>
     <div class='backhome'><a href='{{ site.baseurl }}/blog'><i class="fas fa-arrow-left"></i> All Posts</a></div>
     <div class='divider'></div>
-    
+
     <h1>{{ page.title }}</h1>
+        <div class='categories'>
+            {% for tag in page.tags %}
+            {% include category-include.html %}
+            {% endfor %}
+        </div>
     
     <p class='date'>{{ page.date | date: "%B %-d, %Y" }}</p>
     
