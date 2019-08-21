@@ -1,14 +1,10 @@
-$blogmargin: 24px;
+$blogmargin: 16px;
 
 .blog-container{
     display: flex;
     width: 100%;
     flex-flow: row nowrap;
     margin-bottom: 64px;
-
-    .blog-right{
-        width: calc(200% / 3);
-    }
 
     h2{
         font-size: 20px;
@@ -20,10 +16,13 @@ $blogmargin: 24px;
         width: $blogmargin;
     }
 
+    .blog-right{
+        flex: 1;
+    }
+
     .post-cat{
-        border-top: 1px solid rgba(0,0,0,0.1);
-        width: calc(50% - #{$blogmargin});
-        margin-right: $blogmargin;
+        width: 100%;
+        border-top: 1px solid rgba(0,0,0,0.1);        margin-right: $blogmargin;
         padding-bottom: 32px;
         
         p{
@@ -37,7 +36,7 @@ $blogmargin: 24px;
     }
 
     .blog-left{
-        width: calc(100% / 3);
+        flex-basis: 320px;
         box-sizing: border-box;
         padding-right: $blogmargin;
 
@@ -53,6 +52,29 @@ $blogmargin: 24px;
             @include hover-light;
             margin-bottom: 4px;
         }
+    }
+}
+
+@media (min-width: 1044px){
+    .blog-container{
+
+        .blog-left{
+            flex-basis: calc(100% / 3);
+        }
+    
+        .blog-right{
+            flex-basis: calc(200% / 3);
+        }
+    
+        .post-cat{
+            width: calc(50% - #{$blogmargin});
+        }
+    }
+}
+
+@media (max-width: 640px){
+    .blog-container{
+        display: block;
     }
 }
 
