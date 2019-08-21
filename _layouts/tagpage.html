@@ -3,10 +3,12 @@ layout: default
 ---
 <div class='backhome'><a href='{{ site.baseurl }}/blog'><i class="fas fa-arrow-left"></i> All Posts</a></div>
 <div class='divider'></div>
-<h1>{{ page.tag }}</h1>
-{% for post in page.posts %}
-{% include post-include.html %}
-{% endfor %}
+<h1>#{{ page.tag }}</h1>
+<div class='post-cat tag-container'>
+    {% assign cat = page.tag %}
+    {% assign maxcount = -1 %}
+    {% include post-cat-include.html %}
+</div>
 
 <div id="tag-cloud">
     {{ site | tag_cloud }}

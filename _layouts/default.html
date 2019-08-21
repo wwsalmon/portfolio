@@ -6,7 +6,12 @@
             name='viewport' />
         <title>
         {% if page.layout != "home" %}
-        {{ page.title }} |
+        {% if page.layout == "tagpage" %}
+        Blog Posts: #{{ page.tag }}
+        {% else %}
+        {{ page.title }}
+        {% endif %}
+         |
         {% endif %}
         {{ site.title }}
         </title>
