@@ -119,7 +119,7 @@ p.home-links{
     }
 }
 
-.portfolio-container > p:first-of-type{
+.portfolio-container > p:first-of-type, p.blog-hero{
     @include hero-text;
     @include bold-serif;
     a{

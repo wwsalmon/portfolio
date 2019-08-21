@@ -2,11 +2,58 @@
 layout: default
 ---
 
-<h1>Blog</h1>
-<div class='divider'></div>
+<p class='blog-hero'><b>Blog:</b> some of my ideas, thoughts, and experiences.</p>
 
-<h2>Latest Posts</h2>
-
-{% for post in site.posts %}
-{% include post-include.html %}
-{% endfor %}
+<div class='blog-container'>
+    <div class='blog-left'>
+        <div class='post-cat'>
+            <h2>Featured</h2>
+            {% assign maxcount = 5 %}
+            {% assign cat = "featured" %}
+            {% include post-cat-include.html %}
+        </div>
+        <div class='post-cat'>
+            <h2>All Categories</h2>
+            <div class='tag-list'>
+                {% for tag in site.tags %}
+                <div class='tag-item'>
+                    <a href='{{ site.baseurl }}/category/{{ tag[0] }}'>#{{ tag[0] }} ({{ tag[1].size }})</a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class='blog-right'>
+        <div class='post-gutter'></div>
+        <div class='post-cat'>
+            <h2>Latest Posts</h2>
+            {% assign cat = "all" %}
+            {% include post-cat-include.html %}
+        </div>
+        <div class='post-cat'>
+            <h2>Projects</h2>
+            <p>Ideas, updates, and behind-the-scenes for smaller or WIP projects that don't have their own case studies yet</p>
+            {% assign maxcount = 3 %}
+            {% assign cat = "projects" %}
+            {% include post-cat-include.html %}
+        </div>
+        <div class='post-cat'>
+            <h2>Musings</h2>
+            {% assign cat = "musings" %}
+            {% include post-cat-include.html %}
+        </div>
+        <div class='post-cat'>
+            <h2>Books</h2>
+            <p>Posts about books that strike me as especially beautiful, insightful, or otherwise interesting</p>
+            {% assign cat = "books" %}
+            {% include post-cat-include.html %}
+        </div>
+    </div>
+    <script>
+    $(".blog-right").masonry({
+        itemSelector: ".post-cat",
+        columnWidth: ".post-cat",
+        transitionDuration: 0
+    });
+    </script>
+</div>

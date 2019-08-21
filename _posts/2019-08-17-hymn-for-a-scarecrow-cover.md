@@ -1,6 +1,6 @@
 ---
 title: Hymn for a Scarecrow Cover
-tags: project
+tags: projects
 ---
 
 {% include youtube-gen.html id='nGZXvGalQoU' %}

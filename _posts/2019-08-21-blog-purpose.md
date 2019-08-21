@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "Purpose of this Blog"
-date: 2019-08-12 17:15:08
+title: Purpose of this Blog
+tags: featured
 ---
+
 Hurricane Nadine was the fourth longest-lived Atlantic hurricane on record. The fourteenth tropical cyclone and named storm of the 2012 Atlantic hurricane season, Nadine developed from a tropical wave west of Cape Verde on September 10. By the following day, it had strengthened into Tropical Storm Nadine. After initially tracking northwestward, Nadine turned northward, well away from any landmass. Early on September 15, Nadine reached hurricane status as it was curving eastward. Soon after, an increase in vertical wind shear weakened Nadine and by September 16 it was back to a tropical storm. On the following day, the storm began moving northeastward and threatened the Azores but late on September 19, Nadine veered east-southeastward before reaching the islands. Nonetheless, the storm produced tropical storm force winds on a few islands. On September 21, the storm curved south-southeastward while located south of the Azores. Later that day, Nadine transitioned into a non-tropical low pressure area.
