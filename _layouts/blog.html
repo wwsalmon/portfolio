@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p class='blog-hero'><b>Blog:</b> some of my ideas, thoughts, and experiences.</p>
+<p class='blog-hero'><b>Blog:</b> snippets of my ideas, thoughts, and experiences.</p>
 
 <div class='blog-container'>
     <div class='blog-left'>
@@ -17,7 +17,7 @@ layout: default
             <div class='tag-list'>
                 {% for tag in site.tags %}
                 <div class='tag-item'>
-                    <a href='{{ site.baseurl }}/category/{{ tag[0] }}'>#{{ tag[0] }} ({{ tag[1].size }})</a>
+                    <a href='{{ site.baseurl }}/blog/{{ tag[0] }}'>#{{ tag[0] }} ({{ tag[1].size }})</a>
                 </div>
                 {% endfor %}
             </div>
@@ -36,6 +36,7 @@ layout: default
             {% assign maxcount = 3 %}
             {% assign cat = "projects" %}
             {% include post-cat-include.html %}
+            <div class='more'><a href='{{ site.baseurl }}/blog/projects'></a></div>
         </div>
         <div class='post-cat'>
             <h2>Musings</h2>
