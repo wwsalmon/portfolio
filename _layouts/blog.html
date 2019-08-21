@@ -7,9 +7,9 @@ layout: default
 <div class='blog-container'>
     <div class='blog-left'>
         <div class='post-cat'>
-            <h2>Featured</h2>
-            {% assign maxcount = 5 %}
             {% assign cat = "featured" %}
+            <h2><a href='{{ site.baseurl }}/blog/{{ cat }}'>Featured</a></h2>
+            {% assign maxcount = 5 %}
             {% include post-cat-include.html %}
         </div>
         <div class='post-cat'>
@@ -31,22 +31,22 @@ layout: default
             {% include post-cat-include.html %}
         </div>
         <div class='post-cat'>
-            <h2>Projects</h2>
+            {% assign cat = "projects" %}
+            <h2><a href='{{ site.baseurl }}/blog/{{ cat }}'>Projects</a></h2>
             <p>Ideas, updates, and behind-the-scenes for smaller or WIP projects that don't have their own case studies yet</p>
             {% assign maxcount = 3 %}
-            {% assign cat = "projects" %}
             {% include post-cat-include.html %}
-            <div class='more'><a href='{{ site.baseurl }}/blog/projects'></a></div>
         </div>
         <div class='post-cat'>
-            <h2>Musings</h2>
             {% assign cat = "musings" %}
+            <h2><a href='{{ site.baseurl }}/blog/{{ cat }}'>Musings</a></h2>
+            <p>The "miscellaneous" category: quick observations and personal experiences</p>
             {% include post-cat-include.html %}
         </div>
         <div class='post-cat'>
-            <h2>Books</h2>
-            <p>Posts about books that strike me as especially beautiful, insightful, or otherwise interesting</p>
             {% assign cat = "books" %}
+            <h2><a href='{{ site.baseurl }}/blog/{{ cat }}'>Books</a></h2>
+            <p>Posts about books that strike me as especially beautiful, insightful, or otherwise interesting</p>
             {% include post-cat-include.html %}
         </div>
     </div>
