@@ -5,24 +5,6 @@ layout: default
 <p class='blog-hero'><b>Blog:</b> snippets of my ideas, thoughts, and experiences.</p>
 
 <div class='blog-container'>
-    <div class='blog-left'>
-        <div class='post-cat'>
-            {% assign cat = "featured" %}
-            <h2><a href='{{ site.baseurl }}/blog/{{ cat }}'>Featured</a></h2>
-            {% assign maxcount = 5 %}
-            {% include post-cat-include.html %}
-        </div>
-        <div class='post-cat'>
-            <h2>All Categories</h2>
-            <div class='tag-list'>
-                {% for tag in site.tags %}
-                <div class='tag-item'>
-                    <a href='{{ site.baseurl }}/blog/{{ tag[0] }}'>#{{ tag[0] }} ({{ tag[1].size }})</a>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
     <div class='blog-right'>
         <div class='post-gutter'></div>
         <div class='post-cat'>
@@ -48,6 +30,24 @@ layout: default
             <h2><a href='{{ site.baseurl }}/blog/{{ cat }}'>Books</a></h2>
             <p>Posts about books that strike me as especially beautiful, insightful, or otherwise interesting</p>
             {% include post-cat-include.html %}
+        </div>
+    </div>
+    <div class='blog-left'>
+        <div class='post-cat'>
+            {% assign cat = "featured" %}
+            <h2><a href='{{ site.baseurl }}/blog/{{ cat }}'>Featured</a></h2>
+            {% assign maxcount = 5 %}
+            {% include post-cat-include.html %}
+        </div>
+        <div class='post-cat'>
+            <h2>All Categories</h2>
+            <div class='tag-list'>
+                {% for tag in site.tags %}
+                <div class='tag-item'>
+                    <a href='{{ site.baseurl }}/blog/{{ tag[0] }}'>#{{ tag[0] }} ({{ tag[1].size }})</a>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
     <script>
