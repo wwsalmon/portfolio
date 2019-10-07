@@ -1,12 +1,13 @@
 <div class='photo-container'>
     <div class='photo-gutter'></div>
-    {% for photo in site.data.photo %}
+    {% for photo in include.data %}
+    {% assign name = photo.name | split: "." %}
     <div class='photo'>
-        <img id='{{ photo.name }}' src='{{ site.baseurl }}/img/photo/{{ photo.name }}.jpg'>
+        <img id='{{ name[0] }}' src='{{ site.baseurl }}/img/{{ include.folder }}/{{ photo.name }}{% if include.folder == "photo" %}.jpg{% endif %}'>
     </div>
-    <div class='lightbox' id='{{ photo.name }}-lightbox'>
+    <div class='lightbox' id='{{ name[0] }}-lightbox'>
         <div class='lightbox-close'><i class="fas fa-times"></i></div>
-        <img src='{{ site.baseurl }}/img/photo/{{ photo.name }}.jpg'>
+        <img src='{{ site.baseurl }}/img/{{ include.folder }}/{{ photo.name }}{% if include.folder == "photo" %}.jpg{% endif %}'>
         <div class='caption'>
             <div class='controls container'>
                 <div>
