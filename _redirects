@@ -15,8 +15,12 @@
 /cyclist            /film
 
 # eng
-/simplestform       /projects
-/sff-ryzen-pc       /projects
-/rl-timeline        /projects
+/simplestform       /design
+/sff-ryzen-pc       /design
+/rl-timeline        /design
 
 /contact            /about
+
+# stanford goof
+
+/projects           /

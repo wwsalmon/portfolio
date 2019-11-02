@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: Design & Building
-permalink: projects
+permalink: design
 ---
 
 **Design & Building:** other things I've made, whether in Illustrator, Javascript, or a makerspace.
