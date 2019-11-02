@@ -4,7 +4,7 @@ nodes = [
     { "id": "Filmmaking", "url": "/film" },
     { "id": "Graphic Design", "url": "/design" },
     { "id": "Web Dev", "url": "/design" },
-    { "id": "UI/UX & Branding" },
+    { "id": "UI/UX & Branding", "url": "/design" },
     { "id": "Design & Prototyping", "url": "/design" },
     { "id": "Piano" },
     { "id": "Running" }
