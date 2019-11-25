@@ -16,7 +16,7 @@ layout: default
     {% assign label = '(type not specified)' %}
     {% endif %}
 
-    <div class='backhome'><a href='{{ site.baseurl }}/{{ cat }}'><i class="fas fa-arrow-left"></i> Back to {{ label }} projects</a></div>
+    <div class='backhome'><a href='{{ site.baseurl }}/{% if cat == "projects" %}design{% else %}{{ cat }}{% endif %}'><i class="fas fa-arrow-left"></i> Back to {{ label }} projects</a></div>
     <div class='divider'></div>
     <h1>{{ page.name }}</h1>
     <p class='descript'>{{ page.descript }}</p>

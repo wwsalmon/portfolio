@@ -2,10 +2,10 @@ nodes = [
     { "id": "Photography", "url": "/photo" },
     { "id": "Motion Graphics"},
     { "id": "Filmmaking", "url": "/film" },
-    { "id": "Graphic Design", "url": "/projects" },
-    { "id": "Web Dev", "url": "/projects" },
-    { "id": "UI/UX & Branding" },
-    { "id": "Design & Prototyping", "url": "/projects" },
+    { "id": "Graphic Design", "url": "/design" },
+    { "id": "Web Dev", "url": "/design" },
+    { "id": "UI/UX & Branding", "url": "/design" },
+    { "id": "Design & Prototyping", "url": "/design" },
     { "id": "Piano" },
     { "id": "Running" }
 ];

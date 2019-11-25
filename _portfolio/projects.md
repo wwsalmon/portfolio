@@ -1,9 +1,10 @@
 ---
 layout: portfolio
 title: Design & Building
-permalink: projects
+permalink: design
 ---
 
-**Design & Building:** other things I've made, whether in Photoshop, Javascript, or a makerspace. (Coming soon! See my [Behance portfolio](https://www.behance.net/wwsalmon) in the meantime)
+**Design & Building:** other things I've made, whether in Illustrator, Javascript, or a makerspace.
 
 {% include portfolio-video.html data=site.projects %}
+{% include portfolio-photo.html data=site.data.design folder="design" %}

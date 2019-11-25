@@ -1,11 +1,15 @@
 .case-container{
-    p{
-        margin: 36px 0;
+    p, ul{
+        margin: 36px auto;
 
         &.descript{
             margin: 36px auto 64px auto;
             text-align: center;
             font-size: 28px;
+        }
+
+        a{
+            color: #0026FF;
         }
     }
 
