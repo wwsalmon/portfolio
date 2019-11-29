@@ -1,6 +1,8 @@
+{% assign yesimage = false %}
 {% assign images = post.content | split:"<img " %}
 {% for image in images %}
     {% if image contains 'src' %}
+        {% assign yesimage = true %}
         {% assign html = image | split:"/>" | first %}
         {% if html contains 'yt-container' %}
         {{ html }}
