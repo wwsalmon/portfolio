@@ -15,17 +15,18 @@ $blogmargin: 32px;
     }
 }
 
-@media (min-width: 1200px){
-    .posts-container{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
+.posts-container{
+    width: 100%;
 }
 
 .post{
     border-bottom: 1px solid rgba(0,0,0,0.2);
     padding-bottom: $blogmargin;
     margin-bottom: $blogmargin;
+
+    img{
+        max-width: 100%;
+    }
 
     .post-date, .category{
         font-size: 16px;
@@ -43,5 +44,25 @@ $blogmargin: 32px;
 
     h3{
         margin: 0 0 8px 0;
+    }
+
+    .post-image{
+        margin: 16px 0;
+    }
+}
+
+@media (min-width: 900px){
+    .post{
+        width: calc(100% - #{$blogmargin});
+    }
+}
+
+@media (min-width: 1200px){
+    .post-spacer{
+        width: 50%;
+    }
+
+    .post{
+        width: calc(50% - #{$blogmargin});
     }
 }
