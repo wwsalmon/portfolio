@@ -1,4 +1,4 @@
-$blogmargin: 32px;
+$blogmargin: 48px;
 
 .posts-container{
     width: 100%;
@@ -29,7 +29,7 @@ $blogmargin: 32px;
     }
 
     h3{
-        font-size: 28px;
+        font-size: 20px;
         margin: 0 0 8px 0;
     }
     
@@ -40,6 +40,7 @@ $blogmargin: 32px;
             @include def-light-hover-heavy;
         }
         p{
+            font-size: 16px;
             margin: 0;
             opacity: 0.4;
         }
@@ -83,5 +84,17 @@ $blogmargin: 32px;
 
     .post{
         width: calc(50% - #{$blogmargin});
+    }
+}
+
+.post-container{
+    h1, .categories, .date, .backhome{
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p, ul, figure{
+        margin: 32px auto;
     }
 }
