@@ -1,204 +1,23 @@
-$blogmargin: 24px;
+$blogmargin: 32px;
 
-.blog-container{
-    display: flex;
-    width: 100%;
-    flex-flow: row nowrap;
-    margin-bottom: 64px;
-
-    h2{
-        font-size: 20px;
-        color: rgba(0,0,0,0.4);
-        margin-bottom: 8px;
-        a{
-            color: rgba(0,0,0,0.6);
-            @include hover-light;
-        }
-    }
-
-    .post-gutter{
-        width: $blogmargin;
-    }
-
-    .blog-right{
-        flex: 1;
-    }
-
-    .divider{
-        margin: 48px 0 24px 0;
-    }
-
-    .blog-left{
-        flex-basis: 320px;
-        box-sizing: border-box;
-        padding-right: $blogmargin;
-
-        .post-cat{
-            width: unset;
-        }
-    }
-
-    .tag-list{
-        margin-top: 24px;
-
-        .tag-item{
-            @include hover-light;
-            margin-bottom: 4px;
-        }
-    }
-}
-
-.post-cat{
-    width: 100%;
-    border-top: 1px solid rgba(0,0,0,0.1);        margin-right: $blogmargin;
-    padding-bottom: 32px;
-    
-    p{
-        margin: 8px 0;
-        color: rgba(0,0,0,0.4);
-    }
-}
-
-@media (min-width: 1044px){
+@media (min-width: 900px){
     .blog-container{
-
-        .blog-left{
-            flex-basis: calc(100% / 3);
-        }
-    
-        .blog-right{
-            flex-basis: calc(200% / 3);
-        }
+        display: flex;
     }
-    
-    .post-cat{
-        width: calc(50% - #{$blogmargin});
 
-        .post h3{
-            font-size: 30px;
-        }
+    .blog-rightbar{
+        flex: 0 0 400px;
+        background-color: #eee;
+    }
+
+    .post{
+        margin-left: $blogmargin;
     }
 }
 
-@media (max-width: 640px){
-    .blog-container{
-        display: block;
-    }
-}
-
-.post, .blog-container{
-    .more{
-        @include uppercase-style;
-        text-align: right;
-        a{
-            @include hover-light;
-        }
-    }
-}
-
-.blog-container .more{
-    margin-top: 16px;
-    // text-align: center;
-    color: rgba(0,0,0,0.2);
-}
-
-.post{
-    margin-top: 32px;
-
-    h3{
-        font-family: 'DM Serif Text';
-        font-weight: 400;
-        font-size: 22px;
-        margin: 4px 0 8px 0;
-        line-height: 1.0;
-        a{
-            @include hover-light;
-        }
-    }
-
-    .date{
-        @include uppercase-style;
-        color: rgba(0,0,0,0.5);
-        margin: 0;
-    }
-
-    .categories{
-        margin-bottom: 2px;
-        color: rgba(0,0,0,0.6);
-        font-size: 16px;
-        .category{
-            padding: 0;
-            border: 0;
-            @include hover-light;
-        }
-    }
-}
-
-.post-container{
-    h1, .backhome, .date{
-        text-align: center;
-    }
-
-    h1{
-        font-size: 64px;
-        font-family: 'DM Serif Text';
-        font-weight: 400;
-        margin: 0 auto;
-        line-height: 1.1;
-    }
-
-    .divider{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    p, figure, ul{
-        font-size: 20px;
-        max-width: 800px;
-        margin: 36px auto;
-    }
-
-    .categories{
-        justify-content: center;
-        margin: 16px auto;
-
-        .category{
-            padding: 6px;
-            border-bottom: 4px solid rgba(0,0,0,0.1);
-
-            &:hover{
-                color: #fff;
-                background-color: rgba(0,0,0,0.8);
-            }
-        }
-    }
-}
-
-.categories{
-    display: flex;
-    flex-flow: row wrap;
-
-    .category{
-        margin-right: 8px;
-    }
-}
-
-.post-cat.tag-container{
-    border: 0;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 24px;
-}
-
-@media (min-width: 1044px){
-    .post-cat.tag-container{
-        grid-template-columns: repeat(3,1fr);
-    }
-}
-
-@media (max-width: 640px){
-    .post-cat.tag-container{
-        grid-template-columns: 1fr;
+@media (min-width: 1200px){
+    .posts-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
 }
