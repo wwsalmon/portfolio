@@ -42,5 +42,8 @@
             {{ content }}
         </div>
         {% include footer.html %}
+        {% if jekyll.environment == 'production' %}
+        {% include ganalytics.html %}
+        {% endif %}
     </body>
 </html>
