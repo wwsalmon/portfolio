@@ -137,6 +137,7 @@ $blogmargin: 48px;
         color: rgba(0,0,0,0.5);
         font-size: 16px;
         background-color: rgba(0,0,0,0.05);
+        overflow-x: auto;
     }
 
     .yt-container{
@@ -152,6 +153,11 @@ $blogmargin: 48px;
             display: block;
             text-align: center;
         }
+    }
+
+    .category{
+        display: inline-block;
+        margin-right: 16px;
     }
 }
 
