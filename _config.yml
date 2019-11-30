@@ -28,6 +28,8 @@ collections:
     output: true
   projects:
     output: true
+  design:
+    output: true
 
 include:
 - _redirects
