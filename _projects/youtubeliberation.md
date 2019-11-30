@@ -2,6 +2,7 @@
 permalink: youtubeliberation
 layout: casestudy
 name: YouTube Liberation
+title: YouTube Liberation
 descript: Chrome extension to liberate you from the infinite distraction cycle of YouTube.
 images:
     - thumb.jpg
@@ -11,3 +12,23 @@ images:
     - 3.jpg
 slider: true
 ---
+
+![]({{ site.baseurl }}/img/projects/{{ page.id }}/thumb.jpg)
+
+Like other social media platforms, YouTube is very good at showing you content that you want to watch but weren't planning to or looking for, making it super easy to get distracted and get sucked into one video after another and suddenly lose an hour of your day. Yet there are so many valuable resources and videos that you can't find elsewhere: tutorials, event coverage, specific creators you subscribe to who you know always publish high-quality content worth watching. For many of us, the value of YouTube makes it worth the sacrifice of even its most distracting possibilities, and it's impossible to just cut away.
+
+What if it didn't have to be this way? What if you could have the good of YouTube, see the content you want to see, without the platform constantly trying to drag your attention through an endless stream of productivity-draining drudgery?
+
+This is the philosophy behind YouTube Liberation. It's time to rise up, lose your chains, and join us as we march our way towards a better YouTube!
+
+The extension works by injecting CSS and Javascript code to block certain elements from displaying or rendering and inserting more minimally-designed ones. Get the extension through the [Chrome Web Store](https://chrome.google.com/webstore/detail/youtube-liberation-anti-d/akmmhbokbfhghenajahbcmogcbghiamg).
+
+<div class='highlights'>
+    {% assign firstimg = page.images | first %}
+    {% for item in page.images %}
+    {% if item == firstimg %}
+    {% continue %}
+    {% endif %}
+    <img src='{{ site.baseurl }}/img/projects/{{ page.id }}/{{ item }}'>
+    {% endfor %}
+</div>
