@@ -8,7 +8,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-admin
+  # - jekyll-manager
   - jekyll/tagging
 
 twitter:

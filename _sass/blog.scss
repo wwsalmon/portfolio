@@ -154,10 +154,12 @@ $blogmargin: 48px;
             text-align: center;
         }
     }
+}
 
+.post-container, .post-categories{
     .category{
         display: inline-block;
-        margin-right: 16px;
+        margin-right: 8px;
     }
 }
 

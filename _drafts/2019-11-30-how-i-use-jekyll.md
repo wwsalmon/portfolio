@@ -1,6 +1,6 @@
 ---
-title: How I Use Jekyll for my Portfolio and Blog
 layout: post
+title: How I Use Jekyll for my Portfolio and Blog
 tags: projects jekyll webdev
 ---
 
@@ -8,10 +8,12 @@ tags: projects jekyll webdev
 
 All code and content is contained in a [GitHub repo](https://github.com/wwsalmon/portfolio). The site is hosted on [Netlify](https://www.netlify.com/), which connects to the GitHub repo and automatically rebuilds and deploys an updated site whenever a commit is pushed. Netlify is connected to a domain registered through Google Domains.
 
-In Jekyll, I use a pretty bare build without many plugins. My blog uses Jekyll's blogging feature, and my portfolio case studies are stored in collections and data files. I use [jekyll-admin](https://github.com/jekyll/jekyll-admin) to make creating posts easier (a visual interface is a lot nicer than filling in the front matter myself manually), though it's slightly sluggish and I draft outside of my repo using a Markdown editor called [Caret](https://caret.io/). I use Google Analytics for tracking page views ([here's an excellent tutorial on how to set up GAnalytics with Jekyll](https://michaelsoolee.com/google-analytics-jekyll/)).
+In Jekyll, I use a pretty bare build without many plugins. My blog uses Jekyll's blogging feature, and my portfolio case studies are stored in collections and data files. I use [jekyll-admin](https://github.com/jekyll/jekyll-admin)* to make creating posts easier (a visual interface is a lot nicer than filling in the front matter myself manually), though it's slightly sluggish and I draft outside of my repo using a Markdown editor called [Caret](https://caret.io/). I use Google Analytics for tracking page views ([here's an excellent tutorial on how to set up GAnalytics with Jekyll](https://michaelsoolee.com/google-analytics-jekyll/)).
 
 ![jekyll-admin interface](/img/blog/2019-11/admin-final.png)
 *jekyll-admin interface*
+
+*update: I now use [jekyll-manager](https://github.com/ashmaroli/jekyll-manager), a fork of jekyll-admin, that supports editing drafts as well as posts
 
 File structure:
 
