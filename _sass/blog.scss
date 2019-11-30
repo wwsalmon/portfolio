@@ -108,14 +108,19 @@ $blogmargin: 48px;
 }
 
 .post-container{
-    h1, .categories, .date, .backhome{
+    h1, h2, h3, h4, h5, h6, .categories, .date, .backhome{
         max-width: 700px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    p, ul, figure{
+    p, ul, figure, blockquote{
+        max-width: 700px;
         margin: 32px auto;
+    }
+
+    .yt-container{
+        margin: 32px 0;
     }
 }
 
