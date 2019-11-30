@@ -6,13 +6,15 @@ layout: default
     <div class='backhome'><a href='{{ site.baseurl }}/blog'><i class="fas fa-arrow-left"></i> All Blog Posts</a></div>
 
     <h1>{{ page.title }}</h1>
-        <div class='categories'>
-            {% for tag in page.tags %}
-            {% include category-include.html %}
-            {% endfor %}
-        </div>
+    <div class='categories'>
+        {% for tag in page.tags %}
+        {% include category-include.html %}
+        {% endfor %}
+    </div>
     
     <div class='date'><span>{{ page.date | date: "%B %-d, %Y" }}</span></div>
+
+    <div class='readingtime'><span>{% assign words = content | number_of_words %}{% include readingtime.html %}</span></div>
     
     {{ content }}
 </div>

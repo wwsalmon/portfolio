@@ -21,7 +21,7 @@ layout: default
             </a></div>
             <div class='post-bottom'>
                 <div class='post-bottom-left'>
-                    <div class='post-date'><span>{{ post.date | date: "%B %-d, %Y" }}</span></div>
+                    <div class='post-date'><span>{% assign words = post.content | number_of_words %}{{ post.date | date: "%B %-d, %Y" }}</span></div>
                     <div class='post-categories'>
                         {% for tag in post.tags %}
                         {% if tag != cat %}
@@ -30,7 +30,7 @@ layout: default
                         {% endfor %}
                     </div>
                 </div>
-                <div class='post-more'><span><a href='{{ post.url }}'>More ></a></span></div>
+                <div class='post-more'><span><a href='{{ post.url }}'>{% include readingtime.html %} ></a></span></div>
             </div>
         </div>
         {% endfor %}
