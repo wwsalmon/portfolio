@@ -122,7 +122,7 @@ $blogmargin: 48px;
         margin-top: 32px;
     }
 
-    p, ul, figure, blockquote{
+    p, ul, figure, blockquote, .highlight{
         max-width: 700px;
         margin: 32px auto;
         
@@ -132,8 +132,26 @@ $blogmargin: 48px;
         }
     }
 
+    pre.highlight{
+        padding: 16px;
+        color: rgba(0,0,0,0.5);
+        font-size: 16px;
+        background-color: rgba(0,0,0,0.05);
+    }
+
     .yt-container{
         margin: 32px 0;
+    }
+
+    img{
+        max-width: 100%;
+
+        + em{
+            margin-top: 16px;
+            font-size: 16px;
+            display: block;
+            text-align: center;
+        }
     }
 }
 
