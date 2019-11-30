@@ -1,15 +1,51 @@
 ---
 layout: default
 ---
-<div class='backhome'><a href='{{ site.baseurl }}/blog'><i class="fas fa-arrow-left"></i> All Posts</a></div>
-<div class='divider'></div>
-<h1>#{{ page.tag }}</h1>
-<div class='post-cat tag-container'>
-    {% assign cat = page.tag %}
-    {% assign maxcount = -1 %}
-    {% include post-cat-include.html %}
+<div class='blog-container'>
+    <div class='blog-rightbar'>
+        <div class='backhome'><a href='{{ site.baseurl }}/blog'><i class="fas fa-arrow-left"></i> All Posts</a></div>
+        <p class='blog-hero tag-hero'>Blog tag: <b>#{{ page.tag }}</b></p>
+        {% include alltags.html %}
+    </div>
+    <div class='posts-container'>
+        <div class='post-spacer'></div>
+        {% for post in site.posts %}
+        {% if post.tags contains page.tag %}
+        <div class='post'>
+            <h3><a href='{{ post.url }}'>{{ post.title }}</a></h3>
+            <div class='post-image'><a href='{{ post.url }}'>
+                    {% include post-firstimage-include.html %}
+                    {% if yesimage != true %}
+                    <p>{{ post.excerpt | truncate: 156 }}</p>
+                    {% endif %}
+                </a></div>
+            <div class='post-bottom'>
+                <div class='post-bottom-left'>
+                    <div class='post-date'><span>{{ post.date | date: "%B %-d, %Y" }}</span></div>
+                    <div class='post-categories'>
+                        {% for tag in post.tags %}
+                        {% if tag != cat %}
+                        {% include category-include.html %}
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class='post-more'><span><a href='{{ post.url }}'>More ></a></span></div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
 </div>
 
-<div id="tag-cloud">
-    {{ site | tag_cloud }}
-</div>
+<script>
+    var $grid = $('.posts-container').masonry({
+        itemSelector: '.post',
+        columnWidth: '.post-spacer',
+        transitionDuration: 0
+    });
+
+    $grid.imagesLoaded().progress(function () {
+        $grid.masonry('layout');
+    });
+</script>

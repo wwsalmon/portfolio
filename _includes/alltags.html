@@ -1,0 +1,6 @@
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+    <div class='tag'>
+        <a href='{{ site.baseurl }}/blog/{{ tag[0] }}'><span>#{{ tag[0] }} ({{ tag | last | size }})</span></a>
+    </div>
+{% endfor %}
