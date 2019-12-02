@@ -10,10 +10,12 @@
         {% assign tags = html | split:" " %}
         {% for tag in tags %}
         {% if tag contains 'src' %}
-            <img {{ tag }} />
-            {% break %}
+            <img {{ tag }} >
         {% endif %}
         {% endfor %}
         {% endif %}
+    {% endif %}
+    {% if yesimage %}
+        {% break %}
     {% endif %}
 {% endfor %}

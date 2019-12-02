@@ -114,6 +114,21 @@ $blogmargin: 48px;
         margin-right: auto;
     }
 
+    h1, h2, h3{
+        margin-top: 48px;
+        margin-bottom: 12px;
+        + p{
+            margin-top: 12px;
+            img{
+                margin-top: 12px;
+            }
+        }
+    }
+
+    h1 + h2, h2 + h3{
+        margin-top: 24px;
+    }
+
     .readingtime{
         font-size: 16px;
         text-transform: uppercase;
@@ -122,9 +137,13 @@ $blogmargin: 48px;
         margin-top: 32px;
     }
 
-    p, ul, figure, blockquote, .highlight{
+    p img{
+        margin: 0;
+    }
+
+    p, ul, figure, blockquote, img, .highlight{
         max-width: 700px;
-        margin: 32px auto;
+        margin: 24px auto;
         
         a{
             border-bottom: 1px solid #0026FF;
@@ -145,7 +164,7 @@ $blogmargin: 48px;
     }
 
     img{
-        max-width: 100%;
+        box-shadow: 8px 8px 24px 3px rgba(0,0,0,0.4);
 
         + em{
             margin-top: 16px;

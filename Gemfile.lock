@@ -28,14 +28,12 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.12.1)
-      jekyll (>= 3.7, < 5.0)
-    jekyll-manager (0.1.1)
-      addressable (~> 2.4)
-      jekyll (~> 3.5)
-      oj (~> 3.3, >= 3.3.2)
+    jekyll-admin (0.9.0)
+      jekyll (>= 3.3, < 5.0)
       sinatra (~> 1.4)
       sinatra-contrib (~> 1.4)
+    jekyll-feed (0.12.1)
+      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.6.1)
@@ -57,7 +55,6 @@ GEM
       jekyll-seo-tag (~> 2.1)
     multi_json (1.14.1)
     nuggets (1.6.0)
-    oj (3.10.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.1.1)
@@ -100,8 +97,8 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.8.6)
+  jekyll-admin
   jekyll-feed (~> 0.6)
-  jekyll-manager
   jekyll-tagging
   minima (~> 2.0)
   tzinfo-data
