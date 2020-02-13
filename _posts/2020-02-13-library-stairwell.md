@@ -2,7 +2,7 @@
 title: library stairwell
 layout: post
 date: '2020-02-13 10:14:24'
-tags: moment
+tags: moments
 ---
 
 Searching for a study space with sight of the clear afternoon sun, Maxwell and I end up in the back stairwell of the library. Tucked between the furthest back study rooms, the stairwell is rarely trafficked, its solid marble steps rising through the square cutout that rises up and down through the building. On the top floor, a window to the left, slightly offset, lets in beams of sunlight that travel to the wall we are sitting against, forming a glowing pattern. When clouds pass over the sun, the light turns to a pale glow, drowned out by the warm-pink artificial light overhead. We sit on the hard marble floor, our backpacks to our sides, me with my laptop on my legs crossed and out straight, Maxwell with a small book of Shakespeare between his tucked legs, quietly and steadily filling it with underlines and annotations.
