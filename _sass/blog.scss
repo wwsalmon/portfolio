@@ -52,12 +52,15 @@ $blogmargin: 48px;
         margin: 24px 0;
         img{
             transition: opacity 0.2s ease;
-            @include def-light-hover-heavy;
+            opacity: 0.8;
+
+            &:hover{
+                opacity: 1.0;
+            }
         }
         p{
             font-size: 16px;
             margin: 0;
-            opacity: 0.4;
         }
     }
 
