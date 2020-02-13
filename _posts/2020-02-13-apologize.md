@@ -1,7 +1,7 @@
 ---
-title: Apologize
+title: apology
 layout: post
-tags: rambling
+tags: moment
 date: '2020-02-13 08:15:23'
 ---
 
@@ -14,3 +14,5 @@ As soon as you apologize, it's over.
 I spent the whole time fighting. I didn't apologize because I believed in what I was fighting for, believed I was in the right. Every statement was carefully considered.
 
 "Sorry," I texted tonight.
+
+*Originally written on February 11, 2020.*
