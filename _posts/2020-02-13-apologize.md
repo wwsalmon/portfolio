@@ -15,4 +15,6 @@ I spent the whole time fighting. I didn't apologize because I believed in what I
 
 "Sorry," I texted tonight.
 
-*Originally written on February 11, 2020.*
+Now judgement lay in the hands of history, the hands of time.
+
+*Originally written on February 11, 2020. Edited on February 17, 2020.*
