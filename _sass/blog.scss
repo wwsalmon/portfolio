@@ -141,10 +141,12 @@ $blogmargin: 48px;
     }
 
     p img{
-        margin: 0;
+        margin: 24px 0;
+        max-width: 100%;
     }
 
-    p, ul, figure, blockquote, img, .highlight{
+    p, ul, ol, figure, blockquote, img, .highlight{
+        box-sizing: border-box;
         max-width: 700px;
         margin: 24px auto;
         
@@ -152,6 +154,27 @@ $blogmargin: 48px;
             border-bottom: 1px solid #0026FF;
             color: #0026FF;
         }
+    }
+
+    sup a{
+        border-bottom: none;
+    }
+
+    .footnotes ol{
+        margin-top: 48px;
+        padding-top: 48px;
+        border-top: 1px solid #000;
+
+        li{
+            @include def-light-hover-heavy;
+        }
+    }
+
+    blockquote{
+        margin: 32px auto;
+        padding-left: 32px;
+        border-left: 1px solid #000;
+        font-style: italic;
     }
 
     pre.highlight{
@@ -167,7 +190,7 @@ $blogmargin: 48px;
     }
 
     img{
-        box-shadow: 8px 8px 24px 3px rgba(0,0,0,0.4);
+        box-shadow: 6px 6px 24px 1px rgba(0,0,0,0.4);
 
         + em{
             margin-top: 16px;

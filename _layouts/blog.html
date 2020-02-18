@@ -14,10 +14,12 @@ layout: default
         <div class='post'>
             <h3><a href='{{ post.url }}'>{{ post.title }}</a></h3>
             <div class='post-image'><a href='{{ post.url }}'>
-                {% if post.showImg %}
+                {% if post.noimage != true %}
                 {% include post-firstimage-include.html %}
                 {% endif %}
-                <p>{{ post.excerpt | truncate: 156 }}</p>
+                {% if yesimage != true %}
+                <p>{{ post.excerpt | strip_html | truncate: 156 }}</p>
+                {% endif %}
             </a></div>
             <div class='post-bottom'>
                 <div class='post-bottom-left'>
