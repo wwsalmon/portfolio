@@ -1,7 +1,7 @@
 ---
 title: apology
 layout: post
-tags: moments
+tags: moments musing
 date: '2020-02-13 08:15:23'
 ---
 

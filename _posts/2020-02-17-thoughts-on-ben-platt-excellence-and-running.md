@@ -1,7 +1,7 @@
 ---
 title: Thoughts on Ben Platt, Excellence, and Running
 layout: post
-tags: personal
+tags: personal essay
 date: '2020-02-17 20:00:27'
 noimage: true
 ---
