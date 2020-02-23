@@ -19,11 +19,11 @@ In the past few days, I realized just how many people this applied to. Teammates
 
 I enjoy good conversations with good people more than anything else, often setting aside work or sleep in pursuit of it. During Phillipian, I went on for hours every single night; over breaks and now without Phillipian, I rotate through friends old and new on Messenger. I flaunt my platonic promiscuity and always seek it, push every comment and conversation towards an earnest, meaningful, personal, vulnerable one. In group settings, in loud, shallow conversations, I am frustrated and seek more. I never get tired of it, I always hunger for more. Am I a platonic sex addict?
 
-It feels weirdly validating, to have a label that people think about and then enthusiastically assign to me. Being a slut implies having power, however twistedly. I had really wanted to get better at reaching out to people, getting people to trust me. I wanted to be like Arno, the person everyone could go to for advice and support. At times I felt like I had done it — though for sure with plenty left to learn from his charisma and power to reassure — except Arno had had a rock solid, explosively vibrant friend group. I don’t. I’m just a platonic slut.[^arno]
+It feels weirdly validating, to have a label that people think about and then enthusiastically assign to me. Being a slut implies having power, however twistedly.[^caveat] I had really wanted to get better at reaching out to people, getting people to trust me. I wanted to be like Arno, the person everyone could go to for advice and support. At times I felt like I had done it — though for sure with plenty left to learn from his charisma and power to reassure — except Arno had had a rock solid, explosively vibrant friend group. I don’t. I’m just a platonic slut.[^arno]
 
 “I’d be down to make it a two night stand,” a friend tells me.
 
-Maybe being a platonic slut isn’t so bad.[^caveat]
+Maybe being a platonic slut isn’t so bad.
 
 [^def]: The root of this parallel is conflict of social expectation vs. what the actual intense part is/what is actually valued. In romance, we're traditionally pressured to enter long-term relationships, marry someone, and start a family.  Hookups avert all this and just go straight to sex/physical affection. Similarly, the social norm is to be part of a friend group, have best friends to confide everything in, etc. My method of just seeking connections with anyone skips all this and gets straight to emotional vulnerability and trust — thus, platonic hookups, and me often seeking these instead of normal social relationships making me a platonic slut.
 
