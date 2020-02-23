@@ -29,4 +29,4 @@ Maybe being a platonic slut isn’t so bad.[^caveat]
 
 [^arno]: Arno is like...healthy platonic polyamority with a main family?
 
-[^caveat]: A friend pointed out that the label "slut," in addition to declaring prosmicuity, traditionally also connotes uncleanliness and is rooted in/perpetuates misogny. It's important to acknowledge that my friends came up with "platonic slut" as a label for me and I've been able to embrace it only because "slut" has been reclaimed from its negative connotations and purpose by movements for sex positivity, women's empowerment, etc.
+[^caveat]: A friend pointed out that the label "slut," in addition to declaring prosmicuity, traditionally also connotes uncleanliness, immorality, etc., and is rooted in/perpetuates misogny. It's important to acknowledge that my friends came up with "platonic slut" as a label for me and I've been able to embrace it only because "slut" has been reclaimed from its derogatory nature by movements for sex positivity, women's empowerment, etc.
