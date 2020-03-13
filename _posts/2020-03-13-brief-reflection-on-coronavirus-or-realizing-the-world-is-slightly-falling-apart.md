@@ -2,7 +2,7 @@
 title: 'Brief Reflection on Coronavirus, or: Realizing The World Is (Slightly) Falling
   Apart'
 layout: post
-date: '2020-03-13 01:04:22'
+date: '2020-03-13 01:30:00'
 tags: musing personal
 ---
 
