@@ -24,4 +24,4 @@ I wrote at one point in my doc of musings:
 
 > The city doesn’t start for you, and it doesn’t stop for you; it goes on, as urgent as ever, as cynical and dismissive of any threats as ever. This is the spirit I want in my own life. The world moves continually forward. You can hide from it, try to ignore it, but you will be falling behind. Maybe that’s not such a bad thing. Take it slow, spread out your interactions across a longer time period, take in less and live for yourself more. But for now, the city is nice. Churning forwards. Dangerous, sprinting down a tightrope above a pit of chaos, but resilient, never stopping, never doubting.
 
-But maybe it can choke. Maybe we can fall off the tightrope, and have to climb back up. Stop for a second. Doubt a little.
+But maybe it can choke. Maybe we can fall off the tightrope, and have to climb back up. Stop for a second. Doubt a little. Maybe that’s where we’re at, or headed, now.
