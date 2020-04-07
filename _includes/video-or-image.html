@@ -1,0 +1,8 @@
+{% assign name = include.data | split: '.' %}
+{% if name.last == 'mp4' %}
+<video class='portfolio-item' id='{{ name[0] }}' autoplay loop muted>
+    <source src='{{ site.baseurl }}/img/{{ include.folder }}/{{ include.data }}' type='video/mp4'>
+</video>
+{% else %}
+<img class='portfolio-item' id='{{ name[0] }}' src='{{ site.baseurl }}/img/{{ include.folder }}/{{ include.data }}{% if include.folder == "photo" %}.jpg{% endif %}'>
+{% endif %}

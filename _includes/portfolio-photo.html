@@ -3,11 +3,11 @@
     {% for photo in include.data %}
     {% assign name = photo.name | split: "." %}
     <div class='photo'>
-        <img id='{{ name[0] }}' src='{{ site.baseurl }}/img/{{ include.folder }}/{{ photo.name }}{% if include.folder == "photo" %}.jpg{% endif %}'>
+        {% include video-or-image.html data=photo.name folder=include.folder %}
     </div>
     <div class='lightbox' id='{{ name[0] }}-lightbox'>
         <div class='lightbox-close'><i class="fas fa-times"></i></div>
-        <img src='{{ site.baseurl }}/img/{{ include.folder }}/{{ photo.name }}{% if include.folder == "photo" %}.jpg{% endif %}'>
+        {% include video-or-image.html data=photo.name folder=include.folder %}
         <div class='caption'>
             <div class='controls container'>
                 <div>
@@ -39,9 +39,13 @@
         $grid.masonry('layout');
     });
 
-    $(".photo img").on('click', function(){
+    $(".photo .portfolio-item").on('click', function(){
         imageID = $(this).attr('id');
         lightbox = $("#" + imageID + "-lightbox");
+        if ($(this).is("video")){
+            console.log(lightbox.find("video")[0]);
+            lightbox.find("video")[0].currentTime = $(this)[0].currentTime;
+        }
         lightbox.addClass("active");
         lightbox.find(".caption").css("bottom",0);
         lightbox.find(".close").removeClass("hidden");

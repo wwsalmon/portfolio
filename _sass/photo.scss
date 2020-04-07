@@ -13,7 +13,7 @@
     cursor: pointer;
     @include shadow-hover;
 
-    img{
+    img, video{
         width: 100%;
         display: block;
     }
@@ -44,7 +44,7 @@
     background-color: rgba(0,0,0,0.9);
     cursor: pointer;
 
-    img{
+    img, video{
         width: unset;
         max-width: 90%;
         max-height: 90%;
