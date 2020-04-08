@@ -28,7 +28,7 @@ Essentially, Gestalt principles are a set of ideas from psychology about how the
 
 Gestalt principles are most powerful not when used in isolation to achieve a specific effect, but when you can understand them and bake them into your intuition. More accurately, these understandings are already in your brain; that’s how they were identified in the first place. The use of these fancy names and theories is to bring these understandings up to the consciousness, and apply them to your designs, to make them feel “right.” When you do that, they become prettier, more readable, and more engaging. This is the connection that I’ve observed tons of new designers missing; it’s hard to realize and hone without it being pointed out to you, so that’s what I hope this blog post and any further readings will do for anybody reading.
 
-How do you apply these principles? Let my examples for The Phillipian’s Graphic Style Guide demonstrate:
+How do you apply these principles? Let my examples for *The Phillipian*’s Graphic Style Guide demonstrate:
 
 ![]({{ site.baseurl }}/img/blog/2020-04/gestalt1.png)
 
