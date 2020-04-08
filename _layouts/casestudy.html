@@ -29,10 +29,10 @@ layout: default
         {% assign temp = item | split: '.' %}
         {% if temp.last == 'mp4' %}
         <video autoplay loop muted>
-            <source src='{{ site.baseurl }}/img/{{ cat }}/{{ page.id }}/{{ item }}' type='video/mp4'>
+            <source src='{{ site.baseurl }}/img/{{ cat }}/{{ page.permalink }}/{{ item }}' type='video/mp4'>
         </video>
         {% else %}
-        <img src='{{ site.baseurl }}/img/{{ cat }}/{{ page.id }}/{{ item }}'>
+        <img src='{{ site.baseurl }}/img/{{ cat }}/{{ page.permalink }}/{{ item }}'>
         {% endif %}
         {% endfor %}
     </div>

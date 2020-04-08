@@ -7,13 +7,13 @@
 
 <div class='video-container'>
     <div class='video-gutter'></div>
-    {% for project in include.data reversed %}
-    {% if project.id == page.id %}
+    {% for project in include.data %}
+    {% if project.permalink == page.id %}
     {% else %}
     <div class='video-item'>
         <div class='video-slider'>
             {% if video %}
-            <div class='thumb'><img src='{{ site.baseurl }}/img/{{ cat }}/{{ project.id }}/thumb.jpg'></div>
+            <div class='thumb'><img src='{{ site.baseurl }}/img/{{ cat }}/{{ project.permalink }}/thumb.jpg'></div>
             {% endif %}
             <div class='slider-inner'>
                 {% assign count = 0 %}
@@ -24,10 +24,10 @@
                     {% assign temp = item | split: '.' %}
                     {% if temp.last == 'mp4' %}
                     <video autoplay loop muted>
-                        <source src='{{ site.baseurl }}/img/{{ cat }}/{{ project.id }}/{{ item }}' type='video/mp4'>
+                        <source src='{{ site.baseurl }}/img/{{ cat }}/{{ project.permalink }}/{{ item }}' type='video/mp4'>
                     </video>
                     {% else %}
-                    <img src='{{ site.baseurl }}/img/{{ cat }}/{{ project.id }}/{{ item }}'>
+                    <img src='{{ site.baseurl }}/img/{{ cat }}/{{ project.permalink }}/{{ item }}'>
                     {% endif %}
                 </div>
                 {% endfor %}
