@@ -145,7 +145,7 @@ $blogmargin: 48px;
         max-width: 100%;
     }
 
-    p, ul, ol, figure, blockquote, img, .highlight{
+    p, ul, ol, figure, blockquote, img, .highlight, hr{
         box-sizing: border-box;
         max-width: 700px;
         margin: 24px auto;
@@ -154,6 +154,10 @@ $blogmargin: 48px;
             border-bottom: 1px solid #0026FF;
             color: #0026FF;
         }
+    }
+
+    hr{
+        margin: 48px auto;
     }
 
     sup a{
