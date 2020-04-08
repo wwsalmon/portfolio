@@ -6,9 +6,7 @@ date: '2020-04-07 22:15:27'
 noimage: true
 ---
 
-or, How To Break Through And Create Amazing Graphics
-or, intuition derived from my jank design journey that many designer friends don’t have
-or, Gesalt Principles, Purpose-Based Design, or Function over Form
+or, How To Break Through And Create Amazing Graphics / or, intuition derived from my jank design journey that many designer friends don’t have / or, Gesalt Principles, Purpose-Based Design, or Function over Form
 
 <hr/>
 
