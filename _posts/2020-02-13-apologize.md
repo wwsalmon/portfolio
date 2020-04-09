@@ -5,8 +5,6 @@ tags: moments musing
 date: '2020-02-13 08:15:23'
 ---
 
-![May 21, 2019]({{ site.baseurl }}/img/blog/2020-02/newsroom.jpg)
-
 An apology through email holds up as an admission of guilt in a court of law.
 
 As soon as you apologize, it's over.
