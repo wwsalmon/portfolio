@@ -3,7 +3,7 @@ title: 'Brief Reflection on Coronavirus, or: Realizing The World Is (Slightly) F
   Apart'
 layout: post
 date: '2020-03-13 01:30:00'
-tags: musing personal
+tags: musing personal coronavirus
 ---
 
 Talking with a friend about how things are falling apart, how we might not be able to return to campus for the rest of the term; me realizing just how many opportunities are vanishing — again, me suffering the absolute least of it, everyone below really having their trajectories blown into turbulent chaos. It just feels bad now. Maybe even worse that I’m not the one taking the hit. I’ve escaped. Some of my friends have escaped. But many of them, most of them, the ones I maybe viscerally wanted to do better than me and do what I couldn’t, who I was invested in as someone attempting to be a mentor and who I looked to with awe and admiration, are the ones suffering most.

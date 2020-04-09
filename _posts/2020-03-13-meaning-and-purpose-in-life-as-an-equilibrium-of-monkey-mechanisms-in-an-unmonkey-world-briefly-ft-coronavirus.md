@@ -3,7 +3,7 @@ title: Meaning and Purpose in Life as an Equilibrium of Monkey Mechanisms in an 
   World (briefly ft. Coronavirus)
 layout: post
 date: '2020-03-13 01:04:22'
-tags: musing purpose
+tags: musing purpose coronavirus
 ---
 
 Talking about Coronavirus, confrontation with the possibility of death or the death of a loved one, and the emotional pain caused by having higher desires and ambitions ripped away by this newfound sense of perspective, a friend complains:
