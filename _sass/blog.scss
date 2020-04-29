@@ -156,6 +156,31 @@ $blogmargin: 48px;
         }
     }
 
+    pre, code{
+        font-family: "Consolas";
+        font-size: 18px;
+    }
+
+    .highlight{
+        code{
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        pre{
+            font-size: 14px;            
+        }
+
+        .lineno{
+            opacity: 0.1;
+            text-align: right;
+            padding: 0 12px 0 8px;
+        }
+
+        color: #fff;
+    }
+
     hr{
         margin: 48px auto;
     }
@@ -194,7 +219,7 @@ $blogmargin: 48px;
     }
 
     img{
-        box-shadow: 6px 6px 24px 1px rgba(0,0,0,0.4);
+        // box-shadow: 6px 6px 24px 1px rgba(0,0,0,0.4);
 
         + em{
             margin-top: 16px;
