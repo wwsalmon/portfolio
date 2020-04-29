@@ -14,7 +14,7 @@ layout: default
     
     <div class='date'><span>{{ page.date | date: "%B %-d, %Y" }}</span></div>
 
-    <div class='readingtime'><span>{% assign words = content | number_of_words %}{% include readingtime.html %}</span></div>
+    <div class='readingtime'><span>{% assign words = content | strip_html | number_of_words %}{% include readingtime.html %}</span></div>
     
     {{ content }}
 </div>
