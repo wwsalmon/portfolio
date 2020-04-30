@@ -6,8 +6,7 @@ tags: project code
 date: '2020-04-29 13:46:45'
 ---
 
-![]({{ site.baseurl }}/img/blog/2020-04/recurse-cover.png)
-
+![]({{ site.baseurl }}/img/blog/2020-04/raise3.png)
 
 What is recursion? Simply a function that calls itself. As an example, here’s a recursive algorithm for calculating factorials:
 
@@ -157,7 +156,7 @@ Iterating from front to back is nice because previous right boundary shifts are 
 
 To make the heights work, you’d have to iterate from last to first label, raising each one a successive step higher if necessary; but then you wouldn’t be able to account for rightward shifts causing overlap, which propagate from first to last label. To solve this problem we’d have to iterate both forwards and backwards.
 
-One solution is to do just that — loop over everything twice: once first-to-last to apply rightward shifts, and again last-to-first to apply height shifts. But before I could get to that, a different idea took hold. Recursion!
+One solution is to do just that — loop over everything twice: once first-to-last to apply rightward shifts, and again last-to-first to apply height shifts. But before I could get to that, a different idea took hold. **Recursion!**
 
 Let’s take a look at the final implementation — just the recursive part replacing the for loop, as the rendering code didn’t really change.
 
