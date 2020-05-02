@@ -17,7 +17,7 @@ layout: default
                 {% if post.noimage != true %}
                 {% include post-firstimage-include.html %}
                 {% endif %}
-                {% if yesimage != true %}
+                {% if yesimage != true or post.noimage == true %}
                 <p>{{ post.content | strip_html | truncate: 180 }}</p>
                 {% endif %}
             </a></div>
