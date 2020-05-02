@@ -1,6 +1,6 @@
 ---
-title: "“What do you truly want to accomplish before you die?” A love letter to an
-  app that shares my life philosophy"
+title: "“What do you truly want to accomplish before you die?” A goal-setting app
+  that shares my life philosophy"
 layout: post
 tags: personal musing essay
 date: '2020-05-02 14:21:06'
