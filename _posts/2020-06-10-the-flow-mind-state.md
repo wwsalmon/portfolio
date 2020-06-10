@@ -6,7 +6,7 @@ date: '2020-06-10 15:40:56'
 forceimage: true
 ---
 
-I first learned about the idea of "flow" in a NYT article about happiness, given to me during an "Empathy, Balance, and Inclusion" class at Andover. At the time, I didn't think much of it. The article talked about college classes on happiness, managing what's within control and what's not, books expert opinions: people care about happiness, and some of them have found frameworks for it, the article essentially tells us, without painting any sort of meaningful picture of what these frameworks were.
+I first learned about the idea of "flow" in a NYT article about happiness, given to me during an "Empathy, Balance, and Inclusion" class at Andover. At the time, I didn't think much of it. The article talked about college classes on happiness, managing what's within control and what's not, books and expert opinions. People care about happiness and some have found frameworks for it, the article tells us, without painting any sort of meaningful picture of what these frameworks were.
 
 Once I had heard of it, though, the idea kept coming up. A friend sent me this video:
 
