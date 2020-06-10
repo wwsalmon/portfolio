@@ -40,13 +40,33 @@ layout: default
 </div>
 
 <script>
+    // a bizarre mix of JQuery and not, lol...current and past me clashing
+
     var $grid = $('.posts-container').masonry({
         itemSelector: '.post',
         columnWidth: '.post-spacer',
         transitionDuration: 0
     });
 
+    const videos = document.querySelectorAll(".posts-container video");
+    let imagesLoaded = false;
+    let videosLoaded = 0;
+
+    for (video of videos){
+        video.onloadeddata = () => {
+            videosLoaded += 1;
+            tryMasonry();
+        }
+    }
+
     $grid.imagesLoaded().progress(function () {
-        $grid.masonry('layout');
+        imagesLoaded = true;
+        tryMasonry();
     });
+
+    function tryMasonry(){
+        if (videosLoaded === videos.length && imagesLoaded === true){
+            $grid.masonry('layout');
+        }
+    }
 </script>

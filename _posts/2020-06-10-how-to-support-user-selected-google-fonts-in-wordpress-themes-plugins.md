@@ -3,6 +3,7 @@ title: How to Support User-Selected Google Fonts in WordPress Themes & Plugins
 layout: post
 tags: code wordpress
 date: '2020-06-10 18:03:08'
+forcevideo: true
 ---
 
 ## Introduction
