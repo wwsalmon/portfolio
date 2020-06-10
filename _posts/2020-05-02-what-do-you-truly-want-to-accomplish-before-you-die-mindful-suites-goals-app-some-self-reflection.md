@@ -2,7 +2,7 @@
 title: "“What do you truly want to accomplish before you die?” A goal-setting app
   that shares my life philosophy"
 layout: post
-tags: personal musing essay
+tags: personal musing purpose
 date: '2020-05-02 14:21:06'
 ---
 

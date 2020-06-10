@@ -1,20 +1,32 @@
 {% assign yesimage = false %}
 {% assign images = post.content | split:"<img " %}
 {% for image in images %}
-    {% if image contains 'src' %}
+
+    {% comment %}if no "<img" found, images will just be the entire post content{% endcomment %}
+
+    {% if image contains 'src="/img' %}
         {% assign yesimage = true %}
         {% assign html = image | split:"/>" | first %}
-        {% if html contains 'yt-container' %}
-        {{ html }}
-        {% else %}
         {% assign tags = html | split:" " %}
         {% for tag in tags %}
         {% if tag contains 'src' %}
             <img {{ tag }} >
         {% endif %}
         {% endfor %}
+    {% elsif image contains "yt-container" %}
+        {% if post.forceimage %}
+            {% continue %}
         {% endif %}
+        {% assign yt-container-splits = image | split: '<div class="yt-container">' %}
+        {% for yt-container-split in yt-container-splits %}
+            {% if yt-container-split contains "iframe" %}
+                {% assign yesimage = true %}
+                {% assign html = yt-container-split | split:"</div>" | first %}
+                <div class="yt-container">{{ html }}</div>
+            {% endif %}
+        {% endfor %}
     {% endif %}
+
     {% if yesimage %}
         {% break %}
     {% endif %}
