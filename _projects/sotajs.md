@@ -3,6 +3,8 @@ permalink: sotajs
 layout: casestudy
 name: sota.js
 descript: An easy-to-use, beautiful, d3.js-based charting library. Originally built for The Phillipian's State of the Academy 2020 survey
+tags: d3.js js npm
+date: June 2020
 images:
     - thumb.jpg
 slider: true

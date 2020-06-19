@@ -12,6 +12,8 @@ images:
     - 2.jpg
     - 3.jpg
 slider: true
+tags: js chrome-extension
+date: April 2020
 ---
 
 <iframe style="border: none; margin: 32px auto; display: block; height: 500px; max-width: 800px; width: 100%;" src="https://cards.producthunt.com/cards/posts/191296?v=1" frameborder="0" scrolling="no" allowfullscreen></iframe>

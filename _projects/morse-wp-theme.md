@@ -8,6 +8,8 @@ images:
     - morse-two-fonts.jpg
     - morse-fonts-demo.mp4
 slider: true
+date: June 2020
+tags: wordpress php css
 ---
 <div><img src="{{ site.baseurl }}/img/projects/{{ page.permalink }}/thumb-highdpi.jpg"></div>
 
