@@ -22,3 +22,7 @@
 # stanford goof
 
 /projects           /
+
+# sota redirect
+
+/sotajs             https://wwsalmon.github.io/sota.js/
