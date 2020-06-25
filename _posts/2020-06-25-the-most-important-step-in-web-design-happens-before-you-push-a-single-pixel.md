@@ -11,7 +11,7 @@ This post's claim: **client research is the most important step to take when des
 
 That's the actionable, practical form of the advice that I'm attempting to give. The underlying idea is the importance of design thinking. More than building pretty websites or graphics, design is about knowing as well as you can the problem that you want to solve or the message that you want to communicate. Only knowing this can your hands-on skills in Illustrator or CSS really come into use, producing valuable and ultimately visually appealing designs.
 
-This was a realization I've come to with a few recent web design/development projects, notably redesigning and rebuilding *The Phillipian*'s website, phillipian.net; in this post, I'll be using the simple website I built for food-rescue non-profit Stem4Free as an example.
+This was a realization I've come to with a few recent web design/development projects, notably redesigning and rebuilding *The Phillipian*'s website, [phillipian.net](https://phillipian.net/); in this post, I'll be using the simple website I built for food-rescue non-profit [Stem4Free](http://stem4free.org/) as an example.
 
 ## Doing it wrong
 
@@ -99,4 +99,4 @@ Requests for changes didn't stop, of course. This is a growing, changing student
 
 What allowed this to happen — as promised, making the second version of the website prettier, the client more happy, and me more sane — was that client research in the middle. That's because good design isn't about being able to make the prettiest things by magic; it's about making well-thought out things, asking the right questions and doing the work to get there. Design processes can get much more involved beyond client research: rounds of workshops and design sprints, for example. If you're a seasoned designer or developer who has worked with tons of clients, you already know these truths, but if you're just getting started or still figuring things out, it's never too early to strive to put design thinking at the center of your process.[^ref]
 
-[^ref]: This post was also posted on DEV.to.
+[^ref]: This post was also posted on [DEV.to](https://dev.to/wwsalmon/the-most-important-step-in-web-design-happens-before-you-push-a-single-pixel-575p).
