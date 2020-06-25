@@ -17,4 +17,14 @@ layout: default
     <div class='readingtime'><span>{% assign words = content | strip_html | number_of_words %}{% include readingtime.html %}</span></div>
     
     {{ content }}
+
+    <div id="hyvor-talk-view" class="margin-center width-700-important border-top pt-6 mt-6"></div>
+    <script type="text/javascript">
+        var HYVOR_TALK_WEBSITE = 1008; // DO NOT CHANGE THIS
+        var HYVOR_TALK_CONFIG = {
+            url: false,
+            id: false
+        };
+    </script>
+    <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
 </div>
