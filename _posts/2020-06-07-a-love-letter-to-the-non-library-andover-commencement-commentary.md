@@ -1,8 +1,8 @@
 ---
+title: A Love Letter to the Non-Library (Andover Commencement Commentary)
 layout: post
 date: '2020-06-07 22:58:51'
 tags: personal essay
-title: A Love Letter to the Non-Library (Andover Commencement Commentary)
 ---
 
 “How are you feeling?” I asked a senior friend around this time last year. “Everything has an added weight to it,” he replied. “Heavy with the thought that everything I do might be the last time I do it.”
@@ -25,6 +25,8 @@ But, separated from my Andover self, from the mythic bliss of senior spring and 
 
 Yet, nine days past the submission deadline, I continue trying to bash out this article. I owe this to Tessa, who urged me to keep going and alleviated my guilt by being even further behind on her article than me; to Junah, who humbled me down into the ground with her endlessly confident, thoughtful article; and to Kelly, who guided my final realization: that it’s okay not to have a grand, profound revelation to share. It’s okay to accept my understanding of my Andover experience as what it’s become, to appreciate my three years here without feeling the need to unpack every bit of it. It’s okay to let myself have faith in myself, faith that I’ll eventually find myself again, that things will be okay.
 
-Instead of the warmth, the loving sorrow, the bittersweet nostalgia I thought this article would contain, it ends up being a simple expression of gratitude — not for a unified whole, but for a patchwork of people, places, and memories that I don’t know how to fit together (Junah’s the puzzle master, after all). Maybe in a bit of time, after classes really, truly, finally, end, or while listening to commencement speeches on Zoom, or when the class of ’21 walks down the vista with a new Head of School that we first interviewed but who will never be ours; maybe then a greater semblance of Andover will come together. Maybe then the full force of three of the most transformative, meaningful years of my life so far will crash through the wall of separation and down onto me. But I’m not going to chase this. For now, I am grateful for the Andover that I have. I will hold these big blue fragments deep in my heart and cherish them in whatever shape they take, however much space they take up, whatever direction or lack thereof that they steer me in.[^org]
+Instead of the warmth, the loving sorrow, the bittersweet nostalgia I thought this article would contain, it ends up being a simple expression of gratitude — not for a unified whole, but for a patchwork of people, places, and memories that I don’t know how to fit together (Junah’s the puzzle master, after all). Maybe in a bit of time, after classes really, truly, finally, end, or while listening to commencement speeches on Zoom, or when the class of ’21 walks down the vista with a new Head of School that we first interviewed but who will never be ours; maybe then a greater semblance of Andover will come together. Maybe then the full force of three of the most transformative, meaningful years of my life so far will crash through the wall of separation and down onto me. But I’m not going to chase this. For now, I am grateful for the Andover that I have. I will hold these big blue fragments deep in my heart and cherish them in whatever shape they take, however much space they take up, whatever direction or lack thereof that they steer me in.[^org] [^title]
 
 [^org]: Originally published in the [Commencement issue](http://pdf.phillipian.net/2020/06072020.pdf) of *[The Phillipian](https://phillipian.net/)* on June 7, 2020.
+
+[^title]: About the title: during my upper (11th grade) year, the campus library was closed for renovations, scattering the large amount of students who normally worked there across temporary replacement locations across campus. So many of my memories, especially fleeting ones, were made in this non-library; this article is a love letter to these fleeting memories, a love letter to the non-library.
