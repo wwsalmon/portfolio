@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
-        postCssPlugins: [require(`postcss-apply`)],
+        postCssPlugins: [require(`postcss-apply`), require(`postcss-nested`)],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
