@@ -1,5 +1,5 @@
 ---
-title: 'Rebuilding personal website, Jekyll => Gatsby: Day 1'
+title: 'Rebuilding my personal website, Jekyll => Gatsby: Day 1'
 layout: post
 date: '2020-08-17 12:26:38'
 ---
@@ -424,4 +424,6 @@ In terms of my impressions of Gatsby — at the end of the day, it's good old Re
 
 Compared to Jekyll, though, I am somewhat glad that I didn't try to jump into Gatsby when I was just getting started. It took me a months-long, slow ease, from d3.js to React to Next.js, before I found my way here. At the end of the day, Gatsby is a React framework; it takes a solid React foundation to make use of it well.
 
-In terms of this redesign project, I now have the tools to build nearly any purely static part of my website, my familiar CSS and React at my fingertips. There's plenty more Gatsby-specific work to be done with setting up the blog and connecting it up to a CMS, and then actually designing and building out the site beyond that, but it's exciting to build and learn! I probably won't work on my website every day, with a bunch of other projects to juggle, but I'll keep sharing my progress as I go. Learn, build, share, repeat.
+In terms of this redesign project, I now have the tools to build nearly any purely static part of my website, my familiar CSS and React at my fingertips. There's plenty more Gatsby-specific work to be done with setting up the blog and connecting it up to a CMS, and then actually designing and building out the site beyond that, but it's exciting to build and learn! I probably won't work on my website every day, with a bunch of other projects to juggle, but I'll keep sharing my progress as I go. Learn, build, share, repeat.[^ref]
+
+[^ref]: Also published on [DEV.to](https://dev.to/wwsalmon/rebuilding-my-personal-website-jekyll-gatsby-day-1-pol)
