@@ -34,9 +34,9 @@ export default function Navbar() {
         >
             <Link to="/" className="hover-light">
                 {scrolled ? (
-                    <span className="font-display line-075 name-sm relative">s.zhang</span>
+                    <span className="font-display name-sm relative">s.zhang</span>
                 ) : (
-                    <span className="font-display line-075 name-lg relative">
+                    <span className="font-display name-lg relative">
                         samson<br/>zhang
                     </span>
                 )}

@@ -33,6 +33,17 @@ module.exports = {
         postCssPlugins: [require(`postcss-apply`), require(`postcss-nested`)],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `DM Sans\:400,400i,500,500i,700,700i`,
+          `DM Serif Display\:400,400i`,
+          `DM Serif Text\:400,400i`
+        ],
+        display: 'swap'
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

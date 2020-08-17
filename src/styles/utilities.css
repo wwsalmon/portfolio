@@ -92,6 +92,7 @@ a{
 
 .name-lg{
     font-size: 42px;
+    line-height: 0.53;
 }
 
 .name-sm{
@@ -108,10 +109,6 @@ a{
     .name-sm{
         font-size: 36px;
     }
-}
-
-.line-075{
-    line-height: 0.75;
 }
 
 .bg-white{
