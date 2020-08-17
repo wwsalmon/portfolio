@@ -63,10 +63,16 @@ a{
     }
 }
 
-p, ul, figure, h3, hr{
+p, ul, ol, figure, h3, hr{
     max-width: 700px;
     line-height: 1.6;
     box-sizing: border-box;
+
+    &> code {
+        background-color: rgba(0,0,30,0.05);
+        border-radius: 4px;
+        font-size: 18px;
+    }
 }
 
 .home-hero-section{

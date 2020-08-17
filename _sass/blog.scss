@@ -158,7 +158,6 @@ $blogmargin: 48px;
 
     pre, code{
         font-family: "Consolas";
-        font-size: 18px;
     }
 
     .highlight{
@@ -207,10 +206,7 @@ $blogmargin: 48px;
     }
 
     pre.highlight{
-        padding: 16px;
-        color: rgba(0,0,0,0.5);
-        font-size: 16px;
-        background-color: rgba(0,0,0,0.05);
+        padding: 32px;
         overflow-x: auto;
     }
 
