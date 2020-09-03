@@ -28,6 +28,11 @@ a{
     @apply --px-4;
 }
 
+.container-small{
+    max-width: 40rem;
+    @apply --mx-auto;
+}
+
 /* positioning & flexbox */
 
 .absolute{
@@ -76,6 +81,22 @@ a{
     width: 12rem;
 }
 
+.w-full{
+    width: 100%;
+}
+
+.z-0{
+    z-index: 0;
+}
+
+.z-10{
+    z-index: 10;
+}
+
+.z-20{
+    z-index: 20;
+}
+
 /* other */
 
 .hover-light:hover{
@@ -102,6 +123,19 @@ a{
 
 .heading{
     font-size: 32px;
+}
+
+.wordcloud{
+    font-size: 72px;
+    font-family: "DM Serif Display", Georgia, serif;
+}
+
+.opacity-25{
+    opacity: 0.25;
+}
+
+.opacity-50{
+    opacity: 0.5;
 }
 
 @media (min-width: 640px){

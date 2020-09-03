@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "name": "Fullstack web dev",
+      "category": "tech",
+      "text": "Testing"
+    },
+    {
+      "name": "UI/UX & Product",
+      "category": "tech",
+      "text": "Testing"
+    },
+    {
+      "name": "AI/Machine Learning",
+      "category": "tech",
+      "text": "Testing"
+    },
+    {
+      "name": "Quantum Computing",
+      "category": "tech",
+      "text": "Testing"
+    },
+    {
+      "name": "Filmmaking",
+      "category": "media",
+      "text": "Testing"
+    },
+    {
+      "name": "Branding & Graphics",
+      "category": "media",
+      "text": "Testing"
+    },
+    {
+      "name": "Journalism & Media Studies",
+      "category": "other",
+      "text": "Testing"
+    },
+    {
+      "name": "Art & Literature",
+      "category": "other",
+      "text": "Testing"
+    },
+    {
+      "name": "Piano & Music",
+      "category": "other",
+      "text": "Testing"
+    },
+    {
+      "name": "Running",
+      "category": "other",
+      "text": "Testing"
+    }
+  ]
+}
