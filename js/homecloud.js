@@ -1,20 +1,19 @@
 nodes = [
     { "id": "Photography", "url": "/photo" },
-    { "id": "Motion Graphics"},
     { "id": "Filmmaking", "url": "/film" },
-    { "id": "Graphic Design", "url": "/design" },
-    { "id": "Web Dev", "url": "/building" },
-    { "id": "UI/UX & Branding", "url": "/design" },
-    { "id": "Design & Prototyping", "url": "/building" },
-    { "id": "Piano" },
-    { "id": "Running" }
+    { "id": "Branding & Graphics", "url": "/design" },
+    { "id": "Fullstack web dev", "url": "/building" },
+    { "id": "UI/UX & Product", "url": "/design" },
+    { "id": "AI & Machine Learning" },
+    { "id": "Quantum Computing" },
+    { "id": "Piano & Music" },
+    { "id": "Running" },
+    { "id": "Art & Literature" }
 ];
 
 const width = $("svg").width();
 const height = $("svg").height();
 selectedID = null;
-// const svg = d3.select('svg')
-//     .attr("height", height);
 
 var simulation = d3.forceSimulation(nodes)
     .force('charge', d3.forceManyBody().strength(function(){
@@ -62,60 +61,6 @@ function ticked(){
         })
         .attr('y', function (d) {
             return Math.max(55, Math.min(height - 55, d.y));
-        })
-        .on("click", function (d) {
-            thingID = $(this).attr("id");
-            if (thingID == selectedID || d.url) return;
-            selectedID = thingID;
-            $(".thing-label").removeClass("selected");
-            $(this).addClass("selected");
-
-            if (thingID == 'Filmmaking') {
-                thingText = `
-                I grew up in Niskayuna, a small town in upstate New York. One day, I was at my friend’s house, and we found a strobelight in a room in his basement. Every flash would last a tiny fraction of a second, and in between flashes everything was completely black. It was like seeing the world one freeze frame at a time. All motion seemed choppy and the world felt completely surreal.
-                `
-            }
-
-            // else if (thingID == 'Management') {
-            //     thingText = "Harness people's individual talents and skills to get a collective task done; how to do this best for each individual and for the whole.";
-            // }
-
-            // else if (thingID == 'Running') {
-            //     thingText = "Running is sick!";
-            // }
-
-            // else if (thingID == 'Photography') {
-            //     thingText = "Photography is sick!";
-            // }
-
-            // else if (thingID == 'Engineering') {
-            //     thingText = "Make a real, direct impact on the world and humanity. Solve problems.";
-            // }
-
-            // else if (thingID == 'Journalism') {
-            //     thingText = "Storytelling held to a higher bar of accuracy, thoroughness, and imapct. Also plip";
-            // }
-
-            // else if (thingID == 'UX Design') {
-            //     thingText = "UX Design is cool";
-            // }
-
-            // else if (thingID == 'Piano') {
-            //     thingText = "Expressiveness. I like romantic pieces best";
-            // }
-            else {
-                thingText = "Working on content! Check out the other pages in the meantime.";
-            }
-
-            thingText = "<b>" + thingID + "</b><br/>" + thingText;
-
-            $(".thing-text").html(thingText);
-
-            windowHeight = $(window).height();
-
-            $([document.documentElement, document.body]).animate({
-                scrollTop: $(".thing-text").offset().top - windowHeight * 2 / 3
-            }, 200);
         })
     u.exit().remove();
 }

@@ -2,7 +2,7 @@
 title: 'How Excel calculates trendlines, and how you can too: an introduction to gradient
   descent, the most important Machine Learning algorithm'
 layout: post
-image: /img/blog/2020-09/gd-cover.png
+image: "/img/blog/2020-09/gd-cover.png"
 ---
 
 ![]({{ site.baseurl }}/img/blog/2020-09/gd-cover.png)
@@ -120,19 +120,21 @@ b := b - \alpha \frac{\delta J}{\delta b}
 
 \}$$
 
-It might look a little confusing, but all we're doing here is what we said earlier: nudging b an amount proportional to the steepness, or gradient, of the graph of the cost function at that point. $\alpha$, or alpha, is called the "learning rate" — it's a multiplier on how much you slide down the hill, something like the strength of gravity or the slipperiness of the hill. If alpha is big, you'll slide down the hill quickly. If it's small, you'll slide down it bit by bit. As you slide towards the bottom of the valley, the gradient will flatten out and steps will become smaller. The value that you're optimizing will then converge to the value that results in the lowest error — the best fit b for your data, in this case.
+It might look a little confusing, but all we're doing here is what we said earlier: nudging b an amount proportional to the steepness, or gradient, of the graph of the cost function at that point. $$\alpha$$, or alpha, is called the "learning rate" — it's a multiplier on how much you slide down the hill, something like the strength of gravity or the slipperiness of the hill. If alpha is big, you'll slide down the hill quickly. If it's small, you'll slide down it bit by bit. As you slide towards the bottom of the valley, the gradient will flatten out and steps will become smaller. The value that you're optimizing will then converge to the value that results in the lowest error — the best fit b for your data, in this case.
 
 With a learning rate of 0.5, we roughly converge to a b value around 99 in less than ten steps:
 
 ![]({{ site.baseurl }}/img/blog/2020-09/Untitled%209.png)
 
-We've only found the optimal value for b, however. Our MSE is still above 800, more than double that of our initial best-guess line, 2x + 50. We could now set b to be 103 and optimize for m, but that wouldn't get us the best answer either. To get the actual line of best fit, we have to optimize for both m and b at the same time.
+We've only found the optimal value for b, however. Our MSE is still above 800, more than double that of our initial best-guess line, 2x + 50. We could now set b to be 99 and optimize for m, but that wouldn't get us the best answer either. To get the actual line of best fit, we have to optimize for both m and b at the same time.
 
 To do this, we can plot J against both m and b using a contour map:
 
 ![]({{ site.baseurl }}/img/blog/2020-09/Untitled%2010.png)
 
 ![]({{ site.baseurl }}/img/blog/2020-09/Untitled%2011.png)
+
+You may have seen contour maps of a mountain or particular region before. Such a map shows the land elevation at a given point. The contour map above does a very similar thing: it shows the mean squared error for every pair of $$m$$ and $$b$$ values. By finding the $$m$$ and $$b$$ values that give us the lowest possible mean squared error, then, we'll have found our line of best fit.
 
 The intuition here — and the math — is the same as before: we find the slope (gradient) at a given point, and roll down the hill (change our parameters) an amount proportional to how steep the slope is. When we calculate the gradient at a certain point, we no longer have just one value, but two values, corresponding to how the cost function changes when you nudge either m or b.
 
@@ -141,7 +143,7 @@ The formula for calculating these two gradient values at a given point are as fo
 $$\frac{\delta J}{\delta b} = \frac{1}{\text{# examples}}\sum_{i = 1}^\text{# examples} ((mx^{(i)}+b) - y^{(i)}) \\
 \frac{\delta J}{\delta m} = \frac{1}{\text{# examples}}\sum_{i = 1}^\text{# examples} ((mx^{(i)}+b) - y^{(i)})x$$
 
-Before, we subtracted the gradient with respect to b, times a learning rate, from b to get our new value. We'll do that again here, and we'll do the same separately for m:
+Before, we subtracted the gradient with respect to b, times a learning rate, from b to get our new value. We'll do that again here, and we'll do the same separately for m, *at the same time*:
 
 $$\text{repeat } i \text{ times }\\\{\\
 b := b - \alpha \frac{\delta J}{\delta b} \\
@@ -152,9 +154,9 @@ Just as before, we can illustrate this two-variable gradient descent visually on
 
 ![]({{ site.baseurl }}/img/blog/2020-09/Untitled%2012.png)
 
-Following the gradient, they all end up at an approximate global minimum of m = 2 and b = 49.
+As you can see, it doesn't matter where you start — gradient descent will eventually lead you to the right answer. In fact, standard practice when training machine learning models is to use small random values for your starting points.
 
-Translating back from the world of equations and graphs, this means that the line (approximately) $$y = 2x + 49$$ results in the lowest mean squared error when measured against our dataset, and consequently is the **line of best fit for the dataset**[^theorem], what we've been looking for all along.
+In this case, following the gradient, we find an approximate global minimum at m = 2 and b = 49. Translating back from the world of equations and graphs, this means that the line (approximately) $$y = 2x + 49$$ results in the lowest mean squared error when measured against our dataset, and consequently is the **line of best fit for the dataset**[^theorem], what we've been looking for all along.
 
 Phew! After all that hard work, we're finally done. Let's do a quick recap of what just went down.
 

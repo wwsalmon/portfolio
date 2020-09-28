@@ -8,22 +8,18 @@
 
     .thing-label{
         font-weight: 700;
-        font-size: 72px;
+        font-size: 64px;
         opacity: 0.5;
         font-family: 'DM Serif Text';
         transition: all 0.2s ease;
         user-select: none;
 
-        &.selected{
-            font-size: 76px;
-        }
-
-        &:hover, &.selected{
+        &:hover{
             opacity: 1.0;
         }
 
         &.thing-link{
-            font-size: 80px;
+            font-size: 72px;
             cursor: pointer;
 
             &:hover{

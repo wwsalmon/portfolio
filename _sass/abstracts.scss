@@ -60,3 +60,12 @@ $videogutter: 32px;
         opacity: 1.0;
     }
 }
+
+@mixin colored-link{
+    border-bottom: 1px solid #0026FF;
+    color: #0026FF;
+}
+
+.colored-link{
+    @include colored-link;
+}

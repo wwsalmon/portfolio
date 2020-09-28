@@ -18,4 +18,4 @@ I care about being impactful and making things better. It's why I want to study 
 - Management, to take individual people with their own talents, ambition, and goals, and effectively lead and have everyone work together to do bigger and better things. 
 - Journalism, filmmaking, photography, and other forms of storytelling, because stories are the most effective way we communicate with and impact people.
 
-I live in New York City and am currently a senior at Phillips Academy in Andover, MA, looking to study some of the above things or whatever lies ahead.
+I live in New York City, and I'm currently on a gap year before attending Georgia Tech.

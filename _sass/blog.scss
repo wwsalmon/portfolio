@@ -151,8 +151,7 @@ $blogmargin: 48px;
         margin: 24px auto;
         
         a{
-            border-bottom: 1px solid #0026FF;
-            color: #0026FF;
+            @include colored-link;
         }
     }
 
