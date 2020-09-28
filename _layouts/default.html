@@ -39,6 +39,25 @@
         <script type="text/javascript" async
             src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
             </script>
+
+        <!-- Twitter cards -->
+        <meta name="twitter:site" content="@wwsalmon">
+        <meta name="twitter:creator" content="@wwsalmon">
+        <meta name="twitter:title" content="{{ page.title }}">
+        
+        {% if page.content %}
+        <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape
+              | truncate: 200 }}">
+        {% else %}
+        <meta name="twitter:description" content="{{ site.description }}">
+        {% endif %}
+        
+        <meta name="twitter:card" content="summary_large_image">
+        
+        {% if page.image %}
+        <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+        {% endif %}
+        <!-- end of Twitter cards -->
     </head>
     <body>
         {% include homeheader.html %}
