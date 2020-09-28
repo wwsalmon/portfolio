@@ -4,7 +4,7 @@ title: 'How Excel calculates trendlines, and how you can too: an introduction to
 layout: post
 ---
 
-![]({{ site.baseurl }}/img/blog/2020-09/Untitled%2012.png)
+![]({{ site.baseurl }}/img/blog/2020-09/gd-cover.png)
 
 If you've taken a lab science class in school, you've probably had to fit a line of best fit to experimental data: whether it's to experimentally determine the acceleration of gravity, calculate the results of a chemical reaction, or prove that two variables are correlated. You plug your numbers into a spreadsheet, hit "fit trendline," and out pops a nice linear or exponential equation. But how does Excel or Google Sheets come up with this equation?
 
