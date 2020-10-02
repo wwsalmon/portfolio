@@ -3,6 +3,7 @@ title: 'How Excel calculates trendlines, and how you can too: an introduction to
   descent, the most important Machine Learning algorithm'
 layout: post
 image: "/img/blog/2020-09/gd-cover.png"
+tags: code project machine-learning
 ---
 
 ![]({{ site.baseurl }}/img/blog/2020-09/gd-cover.png)
