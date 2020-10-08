@@ -50,15 +50,15 @@ We can use a simple loop in Python to calculate the mean squared error of the th
 
 ```python
 def mean_squared_error(m, b, x_data, y_data):
-num_examples = x_data.size
-J = 0
+	num_examples = x_data.size
+	J = 0
 
-for i in range(num_examples):
-J += ((m * x_data[i] + b) - y_data[i]) ** 2
+	for i in range(num_examples):
+		J += ((m * x_data[i] + b) - y_data[i]) ** 2
 
-J = J / (2 * num_examples)
+	J = J / (2 * num_examples)
 
-return J
+	return J
 
 print(mean_squared_error(1, 50, x_data, y_data))
 print(mean_squared_error(2, 50, x_data, y_data))
@@ -107,7 +107,7 @@ Let's go back to our starting point at b = 50. Let's plot the slope of our b vs.
 
 We can find the slope at a given point using this formula:
 
-$$\frac{\delta J}{\delta b} = \frac{1}{m} \sum_{i = 1}^\text{# examples} ((mx^{(i)}+b) - y^{(i)})$$
+$$\frac{\delta J}{\delta b} = \frac{1}{\text{# examples}} \sum_{i = 1}^\text{# examples} ((mx^{(i)}+b) - y^{(i)})$$
 
 If you've taken calculus, you can take the derivative of our earlier mean squared error function (J) with respect to b yourself and see if your answer matches. If you don't know calculus, just accept that this equation accurately gives us the slope at a given point. Look into derivatives separately if you want.
 
