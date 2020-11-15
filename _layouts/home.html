@@ -25,6 +25,7 @@ layout: default
         <script src='{{ site.baseurl }}/js/homecloud.js'></script>
         
     </div>
+     
     <!-- <div class='work-experience'>
         <div class='work-item'>
             <div class='orgname'><span>The Phillipian</span></div>
@@ -37,6 +38,39 @@ layout: default
         {% include youtube-gen.html id='WplYyJehtOw' %}
     </div> -->
 </div>
-<div class='work-section photo'>
-    
+<div class="width-700 margin-center">
+    <div class="pb-5">
+        <h1 class="font-serif">Latest updates</h1>
+        <p>In addition to <a class="colored-link" href="/blog">my blog</a>, <b>my newsletter</b> is the best place to
+            find my
+            updates and thoughts. Here are the latest ones:</p>
+    </div>
+    {% assign sortedNewsletters = site.data.newsletters | sort: "date" | reverse %}
+    {% for newsletter in sortedNewsletters %}
+    <a href="{{ newsletter.link }}" target="_blank">
+        <h3 class="mb-1">{{ newsletter.subject }}</h3>
+        <p class="mt-1">{{ newsletter.date | date: "%B %d, %Y" }}</p>
+    </a>
+    {% if forloop.last == true %}
+    {% else %}
+    <hr class="ml-0 mr-0 mt-4 mb-4" />
+    {% endif %}
+    {% endfor %}
+</div>
+<div class="margin-center">
+    <div class="ml-form-embed pt-4" data-account="2453216:q5e6g8e3n9" data-form="2824079:h5b8h7"></div>
+    <!-- MailerLite Universal -->
+    <script>
+        (function (m, a, i, l, e, r) {
+            m['MailerLiteObject'] = e; function f() {
+                var c = { a: arguments, q: [] }; var r = this.push(c); return "number" != typeof r ? r : f.bind(c.q);
+            }
+            f.q = f.q || []; m[e] = m[e] || f.bind(f.q); m[e].q = m[e].q || f.q; r = a.createElement(i);
+            var _ = a.getElementsByTagName(i)[0]; r.async = 1; r.src = l + '?v' + (~~(new Date().getTime() / 1000000));
+            _.parentNode.insertBefore(r, _);
+        })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+        var ml_account = ml('accounts', '2453216', 'q5e6g8e3n9', 'load');
+    </script>
+    <!-- End MailerLite Universal -->
 </div>
