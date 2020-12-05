@@ -112,7 +112,7 @@ The key ingredient was Next.js. A React framework in name, using Next.js really 
 
 For the first reason — basic dev things feeling just 10x easier — I fell in love with Next.js as soon as I started using it:
 
-[https://twitter.com/wwsalmon/status/1283256503307296770](https://twitter.com/wwsalmon/status/1283256503307296770)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ran through <a href="https://twitter.com/vercel?ref_src=twsrc%5Etfw">@vercel</a> Next.js&#39;s excellent basic tutorial today, ♥ it so far. It&#39;s React but so much cleaner, easier, and just a little template-y, like Jekyll felt coming from hard-coding. Look forward to using it on a client project! Begone, react-router-dom... <a href="https://t.co/u1wF6RetAY">pic.twitter.com/u1wF6RetAY</a></p>&mdash; Samson Zhang (@wwsalmon) <a href="https://twitter.com/wwsalmon/status/1283256503307296770?ref_src=twsrc%5Etfw">July 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 For Updately, though, it was the latter two points that became game-changers.
 
@@ -122,7 +122,7 @@ React and Express are great, already making frontend and backend production 10x 
 
 Adam Watham, creator of TailwindCSS, recently had this to say about Next.js:
 
-[https://twitter.com/adamwathan/status/1333179422975864834](https://twitter.com/adamwathan/status/1333179422975864834)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Next.js is as close as I’ve ever seen to a “one true way to build all websites” super tool. It’s incredible how well it fits for completely different use cases, all while feeling very light and simple.<br><br>Definitely where I’d be developing expertise if I was early in my career.</p>&mdash; Adam Wathan (@adamwathan) <a href="https://twitter.com/adamwathan/status/1333179422975864834?ref_src=twsrc%5Etfw">November 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 That super tool approach is exactly how I used Next.js for Updately, building out both the frontend and backend in Next.js, and I can show you that "right next to your frontend code" is in no way an exaggeration:
 
@@ -136,7 +136,9 @@ In these realms, the only tool that I had worked with directly before was AWS, i
 
 Since building Life Changing School's application portal, though, I knew that I was dissatisfied with AWS. It felt convoluted to use, not something that I could whip out without reservation like React or Next.js.
 
-[https://twitter.com/wwsalmon/status/1296282223444992000](https://twitter.com/wwsalmon/status/1296282223444992000)
+<div style="margin-left: auto, margin-right: auto">
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Took me four hours to go from nothing to nicely styled, fully functional auth with Next.js and AWS Amplify, on second time working with these tools. Conceptual clarity and code quality def higher, but this is basically an identical interface and code to past projects 😓 <a href="https://t.co/izIIrGxS3Y">pic.twitter.com/izIIrGxS3Y</a></p>&mdash; Samson Zhang (@wwsalmon) <a href="https://twitter.com/wwsalmon/status/1296282223444992000?ref_src=twsrc%5Etfw">August 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
 
 This dissatisfaction pushed me to find better tools for auth and data handling. I was also inspired by the backends I had worked with, but not on.
 
