@@ -3,6 +3,7 @@ title: Understanding the math behind neural networks by building one from scratc
   (no TF/Keras, just numpy)
 layout: post
 date: '2020-11-24 17:24:40'
+tags: project machine-learning code
 ---
 
 {% include youtube-gen.html id='w8yWXqWQYmU' %}

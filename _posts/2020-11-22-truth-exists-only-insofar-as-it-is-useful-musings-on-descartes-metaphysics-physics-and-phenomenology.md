@@ -1,9 +1,8 @@
 ---
-title: 'Truth exists only insofar as it is useful: musings on Descartes, metaphysics/physics,
-  and phenomenology'
+title: 'The line between physics and metaphysics: musings on Descartes and phenomenology'
 layout: post
 date: '2020-11-22 01:47:40'
-tags: musings
+tags: musing
 ---
 
 ![Descartes' Tree of Knowledge]({{ site.baseurl }}/img/blog/2020-11/descartes-tree.jpg)
