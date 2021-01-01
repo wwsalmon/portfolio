@@ -2,7 +2,7 @@
 title: 'The line between physics and metaphysics: musings on Descartes and phenomenology'
 layout: post
 date: '2020-11-22 01:47:40'
-tags: musing
+tags: philosophy
 ---
 
 ![Descartes' Tree of Knowledge]({{ site.baseurl }}/img/blog/2020-11/descartes-tree.jpg)
