@@ -3,6 +3,7 @@ title: 'Democratizing high-quality parenting: Brennan Colberg''s vision for radi
   education reform'
 layout: post
 date: '2021-01-07 15:35:37'
+tags: edyfi
 ---
 
 Brennan's vision for a reformed education system: teach kids the skills and mindsets they need to succeed in life -- finances, networking, exponential growth, and other basic knowledge -- until they're 13 or 14. Then, allow them to pursue what they care about.
