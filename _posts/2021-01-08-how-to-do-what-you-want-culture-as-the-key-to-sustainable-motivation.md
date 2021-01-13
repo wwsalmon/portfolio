@@ -44,27 +44,3 @@ For example, TKS kids started writing daily updates because their Directors requ
 "If you want to do something, surround yourself with other people who do it," says Saurav. "That's the biggest hack."
 
 In summary: culture is powerful because it provides an auxiliary force that keeps you in motion, working against dynamic rather than static friction. Staying in motion and *acting* is how you overcome internal inhibitions and find sustainable internal motivations for the things you want to do.
-
----
-
-How are we acting upon this at Edyfi? We'll attempt to create a culture that keeps us in motion, that keeps us writing, we agree. My habit of publishing posts whenever they come to mind, without even editing them, is an attempt to keep myself in writing and publishing motion. I pushed Davide to as well, and I believe he wrote something quickly.
-
-There are three additional footnotes I'd like to leave.
-
-One is that auxiliary force can also be found by attaching yourself to some sort of tradition. I find it much easier to write about my philosophical ideas when I frame them as reflecting off of those of Hume or Kierkegaard, for example, attaching myself to the Humean or Existentialist tradition, and the larger tradition of formal western philosophy. This is an appeal to culture in its very broad form. We might establish a writing culture at Edyfi by creating a blog or a publication, for example, attaching ourselves to the tradition of public blogging or publishing.
-
-Two is another useful thing to latch onto to fuel writing: transfer the momentum of conversation into writing. After Davide and I's call a week ago, I wrote three blog posts. After this conversation tonight, I wrote this blog post, and intend to write another.
-
-Three: why write in the first place? Our discussion about writing came from a discussion about conversations and thoughts. We should consume as much content as we can, Brennan argues, along with his explanation that most of his learning came from books, pushing back on Davide's idea that reading philosophy is a distraction from pursuing human longevity. Intelligence is simply connecting ideas together, there are no new ideas, so you just have to consume as much, as intentionally, as possible (Not Reddit, that's "DDoSing your brain").
-
-But how are new ideas actually constructed? Brennan points to conversations as the method of maximum productivity. When he pitched his vision for education reform to someone this morning, he borrowed the wording of a leader at Astra Nova. When he pitched to me, he updated his wording, and if he were to pitch again, it'd be further updated. Conversations provide instant feedback in a way that a static book could never. "It's like idea sex," says Saurav. And, unrelated to that, "an interviewee sometimes learns more about themselves than the interviewer in an interview."
-
-I bring up the idea of a conversation with yourself, something that I sometimes experience when I write. In day-to-day life, we naturally shut out conversation and confrontation with ourselves. It's much more useful to continually move forwards, to be productive, rather than just ruminate. Our experiences and the knowledge we soak in, then, is far more vast than what we've been able to process and connect the dots of (I'm reminded of the sheer amount of *stuff* Joyce represented in *Ulysses*, in an attempt to capture the totality of the human experience over the course of a day. I really appreciate this book more and more with time). Thus, if we take the time to converse with ourselves, i.e. through writing, we will often be able to synthesize thought after thought after thought.
-
-Is this an ideal way to construct thoughts? Perhaps not. One would have to find a balance between this going deeper and deeper vs. gathering new experiences and ideas from external sources, i.e. exploitation vs. exploration tradeoff, with self-conversation and conversation as forms of exploitation and conversation (again, it fits both categories) and reading as forms of exploration.
-
-There are many attempts at a system with an optimal balance. Zettelkasten is one that I bring up. Brennan adds the idea of BCIs or streaming to capture all thoughts and interactions, but then there's the issue of having too much data and it not being useful. It's like the Laffer curve of optimal tax rate, where 0% and 100% tax rate alike result in zero tax revenue (Brennan brought this up, I believe).
-
-Writing, I believe, is a highly pragmatic numerical solution to an otherwise infeasibly complex analytical problem. This stems from my mentor Phil Liao's philosophy: "I haven't learned something unless I've published a blog post about it." (Similar thinking as Sartre's "man is nothing but what he makes of himself," "the genius of Proust is the totality of the works of Proust," and the idea that principles are meaningless unless they are acted upon.) Writing turns thoughts into action, tethers them to reality and Existentialist meaning.
-
-That's why write. And in this post, a discussion of how to write (or do anything else). Keep reading this blog to find out what we'll write 😁
