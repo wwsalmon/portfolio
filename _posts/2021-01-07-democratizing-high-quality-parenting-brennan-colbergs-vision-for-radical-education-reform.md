@@ -1,6 +1,6 @@
 ---
-title: 'Democratizing high-quality parenting: Brennan Colberg''s vision for radical
-  education reform'
+title: 'Democratizing High-quality Parenting: Brennan Colberg''s Vision for Radical
+  Education Reform'
 layout: post
 date: '2021-01-07 15:35:37'
 tags: edyfi

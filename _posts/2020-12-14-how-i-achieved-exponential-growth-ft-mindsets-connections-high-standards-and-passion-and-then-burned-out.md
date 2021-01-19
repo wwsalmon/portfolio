@@ -3,7 +3,7 @@ title: How I achieved exponential growth (ft. mindsets, connections, high standa
   and passion) and then burned out
 layout: post
 date: '2020-12-14 02:58:16'
-tags: essay personal
+tags: musing personal
 ---
 
 ![]({{ site.baseurl }}/img/blog/2020-12/exponential.png)

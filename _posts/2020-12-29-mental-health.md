@@ -1,7 +1,7 @@
 ---
-layout: post
-tags: personal musing
 title: mental health
+layout: post
+tags: personal essay
 ---
 
 I didn't understand mental health until this year.

@@ -1,11 +1,9 @@
 ---
-title: 'How to do what you want: culture as the key to sustainable motivation'
+title: Culture Is the Key to Sustainable Motivation
 layout: post
 date: '2021-01-08 01:11:45'
-tags: musing edyfi
+tags: essay edyfi leadership
 ---
-
-...and musings on intelligent thought and the value of writing.
 
 Brennan struggles to turn his beautiful tangles of thoughts into writing. Why? we inquire.
 

@@ -1,8 +1,7 @@
 ---
+title: 'The Sync Gap: How to Be Creative in Conversation, Writing, and Work'
 layout: post
-title: 'The Sync Gap: a framework for good conversation, writing, learning, and all
-  other creative dialogues internal and external'
-tags: essay musing
+tags: essay edyfi
 date: '2021-01-13 13:45:41'
 ---
 

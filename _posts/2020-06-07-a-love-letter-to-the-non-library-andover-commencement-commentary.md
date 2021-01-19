@@ -2,7 +2,7 @@
 title: A Love Letter to the Non-Library (Andover Commencement Commentary)
 layout: post
 date: '2020-06-07 22:58:51'
-tags: personal essay
+tags: personal musing
 ---
 
 “How are you feeling?” I asked a senior friend around this time last year. “Everything has an added weight to it,” he replied. “Heavy with the thought that everything I do might be the last time I do it.”

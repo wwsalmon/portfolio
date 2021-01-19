@@ -1,7 +1,7 @@
 ---
 title: my childhood tech obsession is beautiful
 layout: post
-tags: essay personal moments
+tags: personal moments musing
 date: '2020-12-08 14:07:59'
 ---
 

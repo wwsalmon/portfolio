@@ -1,8 +1,8 @@
 ---
-layout: post
 title: David Hume, the radical empiricist who knocked on Existentialism's door
+layout: post
 date: '2020-12-25 01:43:53'
-tags: philosophy
+tags: philosophy essay
 ---
 
 Physical space doesn't exist; it is only a construct of the mind, created out of experience.
