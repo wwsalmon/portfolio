@@ -6,6 +6,8 @@ tags: personal musing
 date: '2021-01-01 11:35:40'
 ---
 
+![]({{ site.baseurl }}/img/blog/2021-01/fireworks.png)
+
 *a journal entry I wrote on NYE*[^rough]
 
 A few minutes ago, as I sat at my desk scribbling away on the tablet in front of me, I heard the countdown from a group of people somewhere in the vicinity: "five, four, three, two, one. Happy new year!" Fireworks cracked and rumble in the distance. They're still going now.
