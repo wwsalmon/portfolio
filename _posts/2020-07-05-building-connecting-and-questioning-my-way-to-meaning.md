@@ -2,7 +2,7 @@
 title: Building, connecting, and questioning my way to meaning
 layout: post
 date: '2020-07-05 01:13:05'
-tags: musing personal framework
+tags: musing personal
 ---
 
 Recently, I've been thinking a lot about how I should think and act to steer my life in a purposeful direction — "maximize the potential of your life," as TKS co-founder Nadeem Nathoo puts it.

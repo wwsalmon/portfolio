@@ -1,9 +1,9 @@
 ---
-title: What does it mean to be good at something? A framework for excellence, ft.
+title: What Does It Mean to Be Good at Something? A Framework for Excellence, Ft.
   Jeff Bezos and Ira Glass
 layout: post
 date: '2020-10-02 15:27:09'
-tags: essay framework personal
+tags: essay personal
 image: "/img/blog/2020-10/excellence-cover.png"
 ---
 

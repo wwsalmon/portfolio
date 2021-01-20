@@ -1,7 +1,7 @@
 ---
-title: The "flow" mind state
+title: The "Flow" Mind State
 layout: post
-tags: framework productivity
+tags: productivity
 date: '2020-06-10 15:40:56'
 forceimage: true
 ---
