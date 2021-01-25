@@ -1,7 +1,7 @@
 ---
-layout: post
 title: How Attacking Racial Political Identities Perpetuates White Supremacy
-tags: essay
+layout: post
+tags: essay society
 date: '2021-01-20 10:54:52'
 ---
 
