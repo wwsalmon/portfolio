@@ -5,6 +5,8 @@ tags: productivity
 date: '2021-01-20 12:09:10'
 ---
 
+![]({{ site.baseurl }}/img/blog/2021-01/ruleofthree.png)
+
 "Most people can handle one or two priorities at a time. A TKS kid can handle three," says Nadeem.
 
 TKS elitism aside -- take it as a proxy for basic intentionality -- I find this thought pretty interesting.
@@ -16,6 +18,10 @@ My life changed when Boston director Michael Raspuzzi responded to my questions 
 3. Make an impact at StartupTree, the company I was about to start working at as a PM
 
 Priorities weren't new to me, but having only three was. Over the summer, I drew up a priority list/map that looked like this:
+
+![]({{ site.baseurl }}/img/blog/2021-01/mindmap-5-26.jpg)
+
+(You can see that I actually ended up highlighting three priorities amidst the mess...)
 
 Having three clear priorites in mind was hugely refreshing. I realized that many of the commitments I had weren't contributing to my goals, and I would be better off dropping them, so I did. The next month, I put a complete pause on my ML learning, swapping it out for a consulting competition that was happening in TKS, able to do everything I tackled fairly well with ample time and energy.
 

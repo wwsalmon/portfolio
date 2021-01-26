@@ -51,7 +51,7 @@ Mukundh brings up the idea of flow state, a state of mind in which one accumulat
 
 The achievement of flow state is a function of your existing skill in and novel challenge provided by the task at hand. If you're good at doing something and there's nothing new to learn, you'll get bored of doing it. If you're bad at doing something and it's very difficult to grasp, you'll get anxious or frustrated and give up. With the appropriate balance of existing skill and novel challenge, though, one can enter a flow state, in which there is a continuous feedback cycle of curiosity and confidence that drives one forwards.
 
-The goldilocks ratio of challenge to skill is 104%, Mukundh tells me.[^104perc] That is, you'll be at your most energized and productive doing something 4% harder than what you've done before.
+The goldilocks ratio of challenge to skill is 104%, Mukundh tells me. That is, you'll be at your most energized and productive doing something 4% harder than what you've done before.
 
 Meaningful problems -- say, growing your first startup, or doing high-impact biotech research -- are usually far more than 4% harder than what you've done before. Ambitious people and initiatives regularly strive to "10x" themselves or their industries, after all.
 

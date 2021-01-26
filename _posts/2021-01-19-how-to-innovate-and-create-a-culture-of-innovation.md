@@ -5,6 +5,8 @@ tags: essay leadership
 date: '2021-01-19 15:52:43'
 ---
 
+![]({{ site.baseurl }}/img/blog/2021-01/innovation.png)
+
 The CEO of a startup I worked for as a Product Manager asked me for one last contribution in the last week of my job: a write-up on how to make the team a high-performance one.
 
 For privacy's sake I won't get too much into the specifics of this company's situation, but the gist of it is that they're a SaaS company that's been around for several years, dominated their market, and growing steadily, but not innovating. If you've seen a few SaaS companies, you know the type: a product that has no competition, whose dominance is cemented by the relationships they have with customers, with customer success and engineering efforts alike devoted to making existing and potential customers happy without higher ambitions.

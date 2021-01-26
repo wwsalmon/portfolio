@@ -1,5 +1,5 @@
 ---
-title: memory as an array of locked doors
+title: Memory as an Array of Locked Doors
 layout: post
 date: '2021-01-02 16:51:57'
 ---

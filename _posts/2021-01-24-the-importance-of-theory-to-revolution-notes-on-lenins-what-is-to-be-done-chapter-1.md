@@ -1,5 +1,5 @@
 ---
-title: The importance of theory to revolution | Notes on Lenin's "What Is To Be Done?",
+title: The Importance of Theory to Revolution | Notes on Lenin's "What Is to Be Done?",
   Chapter 1
 layout: post
 date: '2021-01-24 23:15:26'
