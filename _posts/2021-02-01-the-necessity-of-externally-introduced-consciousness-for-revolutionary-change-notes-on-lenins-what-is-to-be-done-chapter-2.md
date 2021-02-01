@@ -88,6 +88,6 @@ Yet, I find it thrilling that I can even start to grasp at an opinion, or link p
 
 [^blackpanther]: This isn't to invalidate spontaneity or immediate needs, though. A member of the reading club referenced this quote from Black Panther Party leader Huey Newton:
 
-> We recognized that in order to bring the people to the level of consciousness where they would seize the time, it would be necessary to serve their interests in survival by developing programs which would help them to meet their daily needs...these programs satisfy the deep needs of the community but they are not solutions to our problem. That is why we call them survival programs, meaning survival pending revolution.
+	> We recognized that in order to bring the people to the level of consciousness where they would seize the time, it would be necessary to serve their interests in survival by developing programs which would help them to meet their daily needs...these programs satisfy the deep needs of the community but they are not solutions to our problem. That is why we call them survival programs, meaning survival pending revolution.
 
-The conditions for revolution don't necessarily coincide with repressed people needing help. "People don't have the luxury of waiting for revolution," my friend in the reading club puts it.
+	The conditions for revolution don't necessarily coincide with repressed people needing help. "People don't have the luxury of waiting for revolution," my friend in the reading club puts it.
