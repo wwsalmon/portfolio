@@ -1,5 +1,5 @@
 ---
-title: 'Play a Team Sport and Live in the Future: Shafin Diamond''s  Advice to Young
+title: 'Play Team Sports and Live in the Future: Shafin Diamond''s  Advice to Young
   Entrepreneurs'
 layout: post
 ---
