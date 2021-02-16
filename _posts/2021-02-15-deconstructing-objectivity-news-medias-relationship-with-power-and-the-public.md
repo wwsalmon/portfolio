@@ -1,0 +1,55 @@
+---
+layout: post
+title: 'Deconstructing Objectivity: News Media''s Relationship with Power and the
+  Public'
+tags: society essay
+date: '2021-02-15 17:24:16'
+---
+
+The purpose of journalism is to disseminate a rigorously objective documentation of what happens in the world, without inserting the journalists' or any institution's biases, leaving the reader to form their opinion on the events about which they are reading.
+
+This is the thesis I wholeheartedly believed, and enforced, as an Executive Editor of [*The Phillipian*](https://phillipian.net/) a year ago. In the newsroom, we called out every instance of possible editorialization: in phrasing, interview selection, what have you. Objectivity was *the* principle we operated by. Reporting on politics and international affairs are more complicated than reporting on the happenings of a school campus, of course, but I believed that the same principles, and expectation of operational excellence among journalists and editors, fully carried over. Attacks on news media organizations for biased reporting are fierce and frequent, but I had faith that every self-respecting news organization strove for objectivity, and were simply at varying distances and directions away from it.
+
+Yet, as I read coverage of Trump's presidency, the Hong Kong protests, and the 2020 election, this faith began to break down. Institutional reporting on Trump's presidency seemed to legitimize his actions and rhetoric rather than present it directly; political comedy shows became the most accurate channel for information, some joked, perhaps only half-jokingly. Entire chunks of information about the Hong Kong protests I heard from friends in Hong Kong, and me being in mainland China at the time of the protests, were nowhere to be found in *any* of the intensive American reporting on the topic. In the last months of the 2020 election, I began to read Fox News alongside NYT, only to find that what aspects of events, and what events at all, were reported on were wildly different.
+
+It's often convenient to chalk these inconsistencies up to deliberate pushing of a partisan agenda, sensationalism spurred by the pressure to up readership and profit, or whatever other reasons you can think of. It seemed to me, though, that there was something more deeply wrong with my understanding -- and the popular understanding -- of the nature and value of journalism. The distortions of journalism did not seem to arise from external influences, but from the very process of sourcing and delivering information to the public.
+
+Eventually, a friend of mine sent me an article entitled ["Partisan News, the Myth of Objectivity, and the Standards of Responsible Journalism"](https://www.tandfonline.com/doi/abs/10.1080/23736992.2020.1780131?journalCode=hmme21) by California State University professor Christopher Meyers, published in the Journal of Media Ethics in June 2020. The article presents a clear framework for the intuition that I had began to develop: that objectivity is a construction, not anything core to the nature of journalism. "I argue that responsible reporting can also be partisan," Meyers writes in his abstract. "The proper standard is not (putative) objectivity, but a commitment to fulfill the public’s right to know through accurate and comprehensive reporting."
+
+With much inspiration from the above article, I've since built a rudimentary understanding of the nature and role of journalism in our society centered not around the striving towards the abstract ideal of objectivity, but rather around journalism's relationship with the public and with other societal institutions. More specifically, **I argue that the true mission of journalism is to hold those in power accountable to the public, and objectivity is only a secondary construction created to support this mission.**
+
+## Objective Journalism Cannot Exist
+
+My first point is that objectivity in journalism is a construction that does not, and cannot, actually exist.
+
+The truth of this point comes intuitively from an examination of the nature of journalism. It is impossible to capture every bit of detail about a story, and furthermore impossible to capture every story that could be reported on. "The map is not the territory," as the saying goes: for reporting to be useful, it must be a reduction of the complete reality. In other words, it is inherently selective.
+
+This selection is carried out by both the journalist and the consumer of journalism: the editor must select what stories are "newsworthy" and worth sharing with consumers, the journalist must select what figures are relevant enough to be interviewed for the story and what facts to include, and the consumer selects what information to consume when browsing through a newspaper's homepage or printed folds.
+
+For journalism to be vlauable to the consumer, there must be a shared set of vlaues and understandings between the consumer and the journalist, starting with agreement on what sort of information is valuable to report on and consume. Thus, by its very nature as a reflection of only a subset of reality, public journalism is inherently biased and opinionated.
+
+To critique journalism **solely** on the basis of *not telling the whole story* or emphasizing certain facts over others is absurd: it is impossible not to do so. *The New York Times* must decide what subset of political and worldly happenings to put on its front page, as does Fox News; the question of what deserves to go there is by no means a clear-cut one, making "objectivity" a highly complex and ambiguous construction rather than a straightforward and overarching ideal.
+
+## The Mission of Journalism Is to Hold Those in Power Accountable to the Public
+
+How do we understand the purpose of journalism, then, after rejecting objectivity as its root ideal?
+
+The key is in understanding that **journalism is a societal institution**, with relationships with other societal institutions, **and especially with the public.**
+
+The purpose of journalism is one of public service: journalists provide a vital service to the public, or their targeted subset of the public, by providing them information. Furthermore, the unique value of this service is in **holding those in power accountable to the public**.
+
+The specifics of the nature of the service vary by what is valued by the public. In present-day America, democracy and liberalism are broadly valued; thus, these are the topics with which the news media engages with, regarding our own government and happenings abroad. As Meyers points out, Partisan leanings do not necessarily detract from a publication's ability to fulfill its purpose, but can in fact boost the health of the overall journalistic ecosystem. *The New York Times* reports harshly on Trump and conservative politicians, while Fox News often avoids such coverage, not to carry out a deliberate agenda but simply because of value differences that lead to assessments of certain attacks as less interesting to cover. On the flip side, Fox News today is filled with critical coverage of Biden's press secretary, cabinet picks, and other progressive politicians, while most of this coverage has been absent from *The New York Times*, again not because of a deliberate agenda, but because of differences in what seems valuable to cover.
+
+Today's [frontpage story about the DCCC's recent appointment of Dyjuan Tatro as an advisor](https://www.foxnews.com/politics/dccc-dyjuan-tatro-capitol-police-white-supremacists), for example, seems thoroughly unremarkable to me: nothing in the article stood out to me as newsworthy or extraordinary. Yet, conservative readers might find plenty to critique and pay attention to due to conflict with their own values.  In reverse, coverage on conservative happenings in *The New York Times*, like a certain speech or effort by Mitch McConnell or some other lawmaker, might appear totally unremarkable to a conservative reader, but stand out to a progressive one as alarming and worthy of attention.
+
+The combined effect of these competing publications, though, is that people and institutions in power, progressive or conservative, **will be held accountable to the values of the represented public**, whether they objectively deserve it or not. Objectivity is not core to the role of journalism, but rather an ideal constructed to give journalists credibility to both their journalistic subjects and consumers; **it is not in and of itself journalism's mission, but rather supports journalism's mission of holding those in power accountable to the public by lending the instituion of journalism, and by relation the public, more power to exercise against other powerful institutions.**
+
+## Considerations For Ethical Journalism
+
+At the end of his article, Christopher Meyers emphasizes that the constructed nature of objectivity does not at all relieve journalists of pressure to pursue fairness and accuracy in their reporting. "Responsible journalism seeks accuracy always. Just because knowledge is filtered through normative and ideological frames does not mean one should not still endeavor to get the facts as much right as possible," he writes; and furthermore, "acknowledging one’s biases does not excuse one from being critically independent of power brokers, even those with whom one is politically sympathetic."
+
+Like other critical social frameworks, Meyers' exhibits a humanist bent. "Good journalism is competent journalism, completed by reporters, editors, and producers...knowledgeable enough to be able to situate the story within its historical and political context," he writes. "Ethical journalists treat persons – subjects, sources, consumers, and colleagues – with respect. They do not treat others as mere objects for the sake of a story or to advance a career. They also recognize that while good reporting often necessarily entails causing harm to story subjects, they reduce it to the extent possible."
+
+This understanding of journalistic ethics, then, demands thorough, intersectional social analysis when conducting, consuming, and assessing journalism. The contrapositive of the thesis that journalism holds those in power accountable to those who are represented in journalistic publications, is that journalism does not hold those in power accountable to those who are not represented in journalistic publications. As an obvious example, this is why state-run media, or a media ecosystem far from representative of its constituent public's views, fails to fulfill its mission of enforcing public accountability. At a more nuanced level, consider how day-to-day news reporting reinforces any societal structure or construction not actively countered by the public at large's expectations for fair and valuable journalism.
+
+Deconstructing the idea that journalism should strive towards objectivity is the first step in critically understanding journalism's role in society, and towards the practice of ethical journalism.
