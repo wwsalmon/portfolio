@@ -1,9 +1,9 @@
 ---
-title: The Importance of Theory to Revolution | Notes on Lenin's "What Is to Be Done?",
-  Chapter 1
+title: The Importance of Theory to Revolution | Notes on Chapter 1 of Lenin's "What
+  Is to Be Done?"
 layout: post
 date: '2021-01-24 23:15:26'
-tags: book society
+tags: book society lenin
 ---
 
 At the turn of the 20th century, while Western Europe had industrialized and instituted democratic or constitutional governments, Russian peasants labored as serfs under the rule of an autocratic Tsar. Alexander II abolished serfdom in 1861, but conditions for the newly emancipated Russian peasants were just as bad as before, only with landowning capitalists keeping them in poverty rather than feudal lords.

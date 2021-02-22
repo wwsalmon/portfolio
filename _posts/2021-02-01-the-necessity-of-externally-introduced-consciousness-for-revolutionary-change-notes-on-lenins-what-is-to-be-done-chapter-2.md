@@ -1,12 +1,10 @@
 ---
-title: 'The Necessity of Theoretical Consciousness for Revolutionary Change: Notes
-  on Lenin''s "What Is to Be Done?", Chapter 2'
+title: 'Working-class Spontaneity and Revolutionary Consciousness: Notes on Chapter
+  2 of Lenin''s "What Is to Be Done?"'
 layout: post
 date: '2021-02-01 01:10:50'
-tags: book society
+tags: book society lenin
 ---
-
-The title I came up with for [my summary of Chapter 1](https://www.samsonzhang.com/2021/01/24/the-importance-of-theory-to-revolution-notes-on-lenins-what-is-to-be-done-chapter-1.html) of *What Is to Be Done?* reads: "The Importance of Theory to Revolution". In comparison, the title for this second chapter summary elaborates on "Theory" -- like the chapter itself.
 
 ## Spontaneity and Consciousness
 
@@ -59,32 +57,6 @@ What individualistic understandings of racism ignore and deliberately mask, of c
 The use of individualistic understandings of racism to avoid confrontation with the systemic nature of the problem is not just used by conservatives, but very often by the leaders of American progressivism too. "In one month, we begin to heal," tweeted now-President Joe Biden on December 20, 2020. Though there are many inflictions for America to heal from, it's impossible not to read unrest about racial injustice in 2020 as one of them.
 
 The dominant progressive rhetoric, subtly or otherwise, seems to view the unrest itself as the fracture from which to heal, and not the injustice it rose up in response to. This is indeed the case, if we take no issue with white supremacy! And it's easy to see, with conversation about police defunding and prison abolition having lost its momentum just months after the mass protests of the summer, that spontaneous movements -- or movements taken as such -- will not result in structural change. It's easy to see that, in a society where non-anti-racist ideology means white supremacist ideology, a successful movement must be charged with consciousness of the entire system of white supremacy, rather than only the spontaneous energy of singular events.[^blackpanther]
-
-## A New Global Perspective
-
-A last, half-formed closing reflection:
-
-Just from these two 15-page chapters of Lenin, I feel like my worldview has greatly expanded. A few months ago, I didn't understand the difference between liberalism and leftism. I sought to understand social issues and politics, but constrained myself to an American scope, viewing radical anti-racist and feminist activism and politics against the singular ideology of American liberalism.
-
-Skipping halfway around the world and a century back, I encountered a struggle at once highly familiar and entirely foreign. Gone was the familiar liberalist progressive-and-conservative backdrop, replaced by an autocratic Tsardom and the various other monarchies and Republics of Europe. Instead of abstract notions of egalitarian justice, concrete conceptions of Socialist and Democratic ideology gradually formed in my head.
-
-A member of the reading club sent a passage from [a 1938 interview with Trotsky](https://www.marxists.org/archive/trotsky/1938/09/liberation.htm) to our group chat today:
-
-> In Brazil there now reigns a semifascist regime that every revolutionary can only view with hatred. Let us assume, however, that on the morrow England enters into a military conflict with Brazil. I ask you on whose side of the conflict will the working class be? I will answer for myself personally—in this case I will be on the side of "fascist" Brazil against "democratic" Great Britain. Why? Because in the conflict between them it will not be a question of democracy or fascism. If England should be victorious, she will put another fascist in Rio de Janeiro and will place double chains on Brazil. If Brazil on the contrary should be victorious, it will give a mighty impulse to national and democratic consciousness of the country and will lead to the overthrow of the Vargas dictatorship. The defeat of England will at the same time deliver a blow to British imperialism and will give an impulse to the revolutionary movement of the British proletariat.
-
-After reading only Lenin's urgent 1903 writing, it surprises me that the ideas I've been studying can be applied so broadly as to a hypothetical war between Brazil and England. There are countless more complexities to be understood, of course; to struggle for socialism or democracy is to continually adapt and advance theoretical understandings.
-
-Protests in Russia sparked by Alexei Navalny's arrest have been unfolding in the past few days. I spent some time reading through New York Times' coverage of the protests today, and stumbled upon [the following passage](https://www.nytimes.com/2021/01/30/world/europe/russia-protests-navalny-putin.html):
-
-> Vladimir Milov, a former deputy energy minister and now an adviser to Mr. Navalny, said the opposition leader’s team did not view ideology as an important factor in mobilizing protesters.
-> 
-> "The vast majority of people who come out are not partisans of any ideology or have specific views — they just want change in the country," Mr. Milov said. "Most people who participate in protest movements are just tired of corruption."
-
-I sent the passage to the reading club group chat, noting "protests driven by spontaneity," and asking, "to what extent does this limit its ability to cause real structural change?"
-
-One friend -- an International Relations and Russian major who spent several weeks working as a journalist in Moscow, and who had talked to several Russian friends about the protests -- quickly reminded me that there are much more complex political conditions than I have an understanding of. The protests are against corruption and oligarchy, for one, which I've read and thought very little about.
-
-Yet, I find it thrilling that I can even start to grasp at an opinion, or link present-day events to much larger historical and theoretical ideas I've learned about only in the past few weeks. If nothing else, it demonstrates the power of theory, and good writing. It's crazy how far two weeks of a reading club I started on a whim has gotten me; I don't know when I would otherwise have first read Lenin. Here's looking forward to the next few weeks of *What Is To Be Done?* and potentially more readings after that!
 
 [^blackpanther]: This isn't to invalidate spontaneity or immediate needs, though. A member of the reading club referenced this quote from Black Panther Party leader Huey Newton:
 
