@@ -1,15 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.6.0)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     backports (3.15.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
+    ffi (1.11.1)
     ffi (1.11.1-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -57,7 +59,7 @@ GEM
     nuggets (1.6.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (3.1.1)
+    public_suffix (5.0.0)
     rack (1.6.11)
     rack-protection (1.5.5)
       rack
@@ -90,9 +92,9 @@ GEM
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2019.2)
       tzinfo (>= 1.0.0)
-    wdm (0.1.1)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
@@ -102,7 +104,6 @@ DEPENDENCIES
   jekyll-tagging
   minima (~> 2.0)
   tzinfo-data
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.16.3
